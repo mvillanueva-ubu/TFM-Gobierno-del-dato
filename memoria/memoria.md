@@ -48,6 +48,30 @@ Los objetivos de este proyecto para alcanzar los definidos en el anterior aparta
 
 8. Definir los procesos de revisión y mejoras del proyecto
 
+## Alcance
+
+### Contexto
+
+El gobierno del dato es un aspecto clave en cualquier organización, pero tiene un carácter especialmente importante en el ámbito de el IOT (Internet de las Cosas). No solo se parte desde una situación en la que los dispositivos IoT son cada vez más, sino que cuenta con bastantes retos que son claves desde una perspectiva de fobierno del dato. Por ejemplo la generación masiva de datos que estos dispositivos conllevan, o la heterogeneidad de las fuentes. A esto se le añaden agravantes como la necesidad de procesamiento de los datos en tiempo real y la necesidad de una mayor seguridad.
+
+### Actores implicados
+
+El gobierno del dato ha de implicar no sólo a los actores directos del proyecto, sino que es algo en lo que toda la organización ha de aportar y concienciarse. Sin embargo, sí que hay ciertos departamentos que son de vital importancia:
+
+- Dirección, dado que han de mostrar su apoyo para que el proyecto cuente con los recursos necesarios
+
+- Departamento de las tecnologías de la información, por su conocimiento técnico
+
+  - Especial mención a el área de la seguridad como expertos de la protección de datos
+
+- Departamento legal, por su conocimiento de las leyes y normativas pertinentes
+
+- Responsables de operaciones y producto, por su conocimiento del negocio y el uso de los datos en el día a día
+
+- Equipos de desarrollo, ya que son los encargados de construir las soluciones que hacen uso de los datos
+
+De la misma manera, se definirá un equipo del gobierno del dato en un apartado posterior. Estas serán las personas principales encargadas de llevar a cabo el proyecto. Para ello se definirán roles especificos y se acotarán las responsabilidades de cada uno.
+
 ## Referencias
 
 [1] ¿Qué es la gobernanza de datos? | Definición, importancia y tipos | SAP. (n.d.). SAP. https://www.sap.com/latinamerica/products/data-cloud/master-data-governance/what-is-data-governance.html
