@@ -72,6 +72,76 @@ El gobierno del dato ha de implicar no sólo a los actores directos del proyecto
 
 De la misma manera, se definirá un equipo del gobierno del dato en un apartado posterior. Estas serán las personas principales encargadas de llevar a cabo el proyecto. Para ello se definirán roles especificos y se acotarán las responsabilidades de cada uno.
 
+## Equipo
+
+El equipo de gobierno del dato se puede separar en 3 grupos principales: el consejo de gobernanza del dato que tomará las decisiones a alto nivel, el grupo de coordinación y luego un grupo reducido por cada área de negocio[2].
+
+### Consejo de gobierno del dato
+
+El consejop ha de ser formado por miembros de la organización con capacidades para asignarle tanto recursos como los fondos necesarios y miembros que vayan a ser los encargados de tomar las decisiones sobre políticas y procesos. Como tercer grupo minoritario también se contará con gente relacionada a los procesos de negocio, aunque no sean miembros principales aportarán su conocimiento sobre el negocio en momentos en los que se necesite.
+
+Sus principales responsabilidades son las siguientes[3]:
+
+- Definir los estándares, como puede ser para las definiciones, formatos, o nomenclaturas
+
+- Definir las métricas de monitorización y los procesos de correcciones en caso de incumplimientos
+
+- Definir las políticas de acceso a datos y seguridad
+
+En aspectos generales, el rol principal consiste en decidir cuales son los objetivos y metodologías principales a utilizar.
+
+### Grupo de coordinación
+
+Este grupo contará con miembros que también participan en el consejo, quienes se encargan de definir las políticas a seguir han de definir los requisitos específicos que se han de lograr para lograr los objetivos a alto nivel decididos en el consejo. Funcionará como un intermediario entre la dirección de alto nivel del consejo y los grupos de áreas especificos, marcando las acciones que los grupos de áreas han de realizar y retransmitiendo al consejo los resultados y comentarios de las áreas al consejo.
+
+### Grupos de áreas
+
+Formando parte de cada área de negocio, este grupo une a ciertos miembros de el grupo de coordinación con interesados y personal técnico de las áreas de negocio. Estos serán los encargados de implementar las órdenes de trabajo específicas que lleven al cumplimiento de los requisitos definidos.
+
+### Roles
+
+La la formación de estos grupos definiremos varios roles, cada persona implicada en el proyecto contará con un rol, y formará parte de uno o varios grupos [4].
+
+#### Patrocinador ejecutivo
+
+Será el líder del proyecto, encargado de asignar los suficientes fondos y recursos que se acuerden en el consejo. Toma carácter de guía de la estrategia que ha de seguir el proyecto.
+
+#### Lider del gobierno del dato
+
+Es el responsable máximo de que se lleve adelante la implementación del proyecto. Por lo tanto sus responsabilidades son de coordinar y guiar al equipo, como jefe de proyecto.
+
+#### Propietario del dato
+
+El propietario del dato es quien tien autoridad para realizar las decisiones sobre las definiciones de términos de negocios y requerimientos que el negocio tiene sobre el dato
+
+#### Data steward
+
+Los data steward son los encargados de trasladar los requerimientos específicos y actuan como sus representantes en la reuniones del día a día. Son gente de los diferentes departamentos que trabajan bajo la coordinación del propietario del dato.
+
+#### Interesados
+
+Son los representantes de los afectados por las políticas y acciones que se definen y realizan a causa del proyecto. Por un lado se encargan de transmitir la información pertinente a los usuarios y consumidores de los datos, y también se encargan de recoger todas las dudas, comentarios y opiniones de éstos.
+
+#### Custodios
+
+Se trata de un rol técnico que consiste en el mantenimiento de los datos, por lo tanto la implementación técnica de todas las políticas y procesos que se definen, así como de los arreglos y mejoras que se necesiten según se especifique en la monitorización
+
+### Organización de los roles en los equipos
+
+Ya definidos tanto los grupos como los roles, se especifica la organización de la siguiente manera
+
+| Grupo                         | Roles                                                                                                                       |
+| ----------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| Consejo del gobierno del dato | Patrocinador ejecutivo<br/>Lider de gobierno del dato<br/>Propietario del dato<br/>Personas claves de entre los interesados |
+| Grupo de coordinación         | Lider de gobierno del dato<br/>Propietario del dato<br/>Data stewards<br/>Personas claves de entre los interesados          |
+| Grupos de áreas               | Data stewards<br/>Custodios<br/>Interesados                                                                                 |
+
 ## Referencias
 
 [1] ¿Qué es la gobernanza de datos? | Definición, importancia y tipos | SAP. (n.d.). SAP. https://www.sap.com/latinamerica/products/data-cloud/master-data-governance/what-is-data-governance.html
+
+[2] EWSolutions. (2025, March 20). Data Governance Program Team structure. EWSolutions. https://www.ewsolutions.com/data-governance-program-team-structure/
+
+[3] Kazlow, D. (2024, September 18). The definitive guide to Data Governance Councils - The Data Governance. The Data Governance. https://thedatagovernance.com/data-governance-council/
+
+[4] Firican, G. (2021, November 22). The complete guide to data governance roles and responsibilities | LightsOnData. LightsOnData. https://www.lightsondata.com/the-complete-guide-to-data-governance-roles-and-responsibilities/
