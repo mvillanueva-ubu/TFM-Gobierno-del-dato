@@ -136,6 +136,46 @@ Ya definidos tanto los grupos como los roles, se especifica la organización de 
 | Grupo de coordinación         | Lider de gobierno del dato<br/>Propietario del dato<br/>Data stewards<br/>Personas claves de entre los interesados          |
 | Grupos de áreas               | Data stewards<br/>Custodios<br/>Interesados                                                                                 |
 
+## Estándares
+
+De cara a crear un glosario de términos, es una buena práctica no intentar partir de 0, sino utilizar estándares ya existentes como base. Para ello, se ha realizado un estudio de diferentes estándares para ver sus diferentes características y poder decidirse por uno de ellos
+
+### Ontología dedicada a campos específicos
+
+No se consideran como soluciones a nuestras necesidades, dado que no tienen uso directo fuera de sus campos. Algunos ejemplos a continuación:
+
+| Nombre                   | Dominio      | Documentación                                          |
+| ------------------------ | ------------ | ------------------------------------------------------ |
+| Agronomy Ontology (AgrO) | Agronomía    | https://bigdata.cgiar.org/resources/agronomy-ontology/ |
+| Brick                    | Construcción | https://brickschema.org/                               |
+
+### Ontology Modeling for Intelligent Domotic Environments
+
+Es un sistema ontológico principalmente orientado al entorno de la domótica, pero que también es utilizado como estándar genérico. 
+
+| Alcance       | Orientado a redes locales de dispositivos IoT |
+| ------------- | --------------------------------------------- |
+| Documentación | https://iot-ontologies.github.io/dogont/      |
+| Licencia      | Apache License, Version 2.0                   |
+
+### IoT-Lite
+
+IoT-Lite es un sistema de representación de recursos de IoT con el objetivo de ser de amplio alcance y al mismo tiempo ligero. Por lo que puede ser de utilidad cuando se quieren mezclar conceptos de diferentes ámbitos de las IoT.
+
+| Alcance       | Lo más amplio posible, aplicable a cualquier ámbito         |
+| ------------- | ----------------------------------------------------------- |
+| Documentación | https://www.w3.org/submissions/2015/SUBM-iot-lite-20151126/ |
+| Licencia      | Creative Commons Attribution 3.0 Unported License           |
+
+### Web of Things (WoT) Thing Description
+
+Otro estándar orientado a uso general para cualquier ámbito de las IoT
+
+| Alcance       |                                                          |
+| ------------- | -------------------------------------------------------- |
+| Documentación | https://wot-td-ontology.github.io/wot-thing-description/ |
+| Licencia      | W3C Software and Document License                        |
+
 ## Referencias
 
 [1] ¿Qué es la gobernanza de datos? | Definición, importancia y tipos | SAP. (n.d.). SAP. https://www.sap.com/latinamerica/products/data-cloud/master-data-governance/what-is-data-governance.html
