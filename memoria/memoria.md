@@ -208,15 +208,45 @@ Para realizar una selección de qué estándar utilizar, se ha decidido utilizar
 
 - Utilizado en el marco europeo: la cualidad más subjetiva de las 4, aunque sí se considera útil el saber que proyectos y empresas en un marco europeo similar al nuestro lo están ya utilizando
 
-|            | Aplicamble a un ámbito general                                                              | Suficientemente desarrollado                   | Licencia permisiva        | Utilizado en el marco europeo                       |
-| ---------- | ------------------------------------------------------------------------------------------- | ---------------------------------------------- | ------------------------- | --------------------------------------------------- |
-| DogOnt     | En proceso de expandirse del ámbito de la domótica                                          | En proceso de desarrollo de su segunda versión | Sí                        | No extendido                                        |
-| IoT-Lite   | Sí                                                                                          | Sí                                             | Sí                        | Sí, desarrollado como parte de la iniciativa EU FP7 |
-| WoT-TD     | Sí                                                                                          | Sí                                             | No                        | Presencia en entidades europeas                     |
-| FIESTA-IoT | Sí                                                                                          | Sí                                             | Sólo bajo previa petición | Sí                                                  |
-| M3         | Sí, aunque utiliza definiciones más específicas, por lo que puede no cubrir todos los casos | Sí                                             | Sí                        | Sí                                                  |
+|            | Aplicamble a un ámbito general                     | Suficientemente desarrollado                   | Licencia permisiva        | Utilizado en el marco europeo                       |
+| ---------- | -------------------------------------------------- | ---------------------------------------------- | ------------------------- | --------------------------------------------------- |
+| DogOnt     | En proceso de expandirse del ámbito de la domótica | En proceso de desarrollo de su segunda versión | Sí                        | No extendido                                        |
+| IoT-Lite   | Sí                                                 | Sí                                             | Sí                        | Sí, desarrollado como parte de la iniciativa EU FP7 |
+| WoT-TD     | Sí                                                 | Sí                                             | No                        | Presencia en entidades europeas                     |
+| FIESTA-IoT | Sí                                                 | Sí                                             | Sólo bajo previa petición | Sí                                                  |
+| M3         | Sí, aunque tiene una estructura muy rígida         | Sí                                             | Sí                        | Sí                                                  |
 
 Como conclusión, IoT-Lite es la que mejor balancea las 4 cualidades que buscamos, por lo que sería nuestra primera opción. De carácter abierto a todos los dominios y sin limitaciopnes con ningún dispositivo que nos vayamos a encontrar, cuenta con una licencia que no nos limita en ningún aspecto y sabemos que ha sido desarrollado y se está utilizando en un marco como el nuestro.
+
+### Funcionamiento de IoT-Lite
+
+IoT-Lite es una extensión de Semantic Sensor Network Ontology (SSN) y utiliza qu-taxo (herramienta de taxonomía) para definir unidades y cantidades[5]. Categoriza los 3 elementos en 3 clases fundamentales:
+
+- Objetos, entidades IoT
+
+  - Pueden tener ubicaciones (puntos en el espacio físico)
+
+  - Pueden tener atributos y estos esta asociados con dispositivos
+
+- Sistemas, abstracción que representa infraestructura. Puede tener componentes y al mismo tiempo subsistemas (que a su vez son de tipo sistema)
+
+  - Estos componentes o dispositivos a su vez pueden ser de diferentyes tipos:  dispositivos sensores, dispositivos de etiqueta (como puede ser un código QR o chip RFID)
+
+  - Los dispositivos sensores son a su vez también elementos de tipo "sensor" que pueden contener sub-sensores. Lo que estos dispositivos captan se define mediante objetos de tipo unidad y cantidad
+
+  - Los dispositivos también pueden tener covertura (define su rango de actuación) y esta se define mediante utilizando lo siguiente
+
+    - Puntos, que representan puntos en el espacio físico
+
+    - El sub-tipo de el elemento covertura nos indica como utilizar los puntos para dibujar el alcance
+
+      - Círculo
+
+      - Rectángulo
+
+      - Polígono
+
+- Servicios, que son proporcionados por dispositivos IoT
 
 ## Referencias
 
@@ -227,3 +257,5 @@ Como conclusión, IoT-Lite es la que mejor balancea las 4 cualidades que buscamo
 [3] Kazlow, D. (2024, September 18). The definitive guide to Data Governance Councils - The Data Governance. The Data Governance. https://thedatagovernance.com/data-governance-council/
 
 [4] Firican, G. (2021, November 22). The complete guide to data governance roles and responsibilities | LightsOnData. LightsOnData. https://www.lightsondata.com/the-complete-guide-to-data-governance-roles-and-responsibilities/
+
+[5] IoT-Lite Ontology. (n.d.). https://www.w3.org/submissions/2015/SUBM-iot-lite-20151126/
