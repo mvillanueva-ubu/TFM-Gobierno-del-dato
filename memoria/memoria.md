@@ -196,6 +196,28 @@ Creado con el objetivo de utilizar un lenguaje unificado que compartan todos los
 | Documentación | http://www.eurecom.fr/fr/publication/4553/download/cm-publi-4553.pdf |
 | Licencia      | GNU GPLv3 license                                                    |
 
+### Comparativa
+
+Para realizar una selección de qué estándar utilizar, se ha decidido utilizar 4 cualidades. No todas necesariamente de obligatorio cumplimiento al 100%:
+
+- Aplicamble a un ámbito general: en este contexto significa que no está diseñado para un ámbito específico, y se considerará mejor segun más tipos de elementos, propiedades y valores sea capaz de modelar. En este caso sólo DogOnt no es del todo aplicable a todos lo dominios, aunque sigue su desarrollo para que en algún momento lo sea. Y por otro lado M3 tiene un diseño que modela ciertas unidades, sensores y dominios, por lo que podría darse el caso de que no cumpliera todas nuestras necesidades.
+
+- Suficientemente desarrollado: implica que está listo para ser utilizado en aplicaciones productivas ya. En el caso de los estándares propuestos, todos están ya lo suficientemente desarrollados, exceptuando a DogOnt que sigue en el desarrollo previamente mencionado de pasar de un dominio específico a un ámbito genérico.
+
+- Licencia permisiva: se valorará que cuente con una licencia que no nos vaya a limitar en su uso, ni condicione ser parte de ninguna organización.
+
+- Utilizado en el marco europeo: la cualidad más subjetiva de las 4, aunque sí se considera útil el saber que proyectos y empresas en un marco europeo similar al nuestro lo están ya utilizando
+
+|            | Aplicamble a un ámbito general                                                              | Suficientemente desarrollado                   | Licencia permisiva        | Utilizado en el marco europeo                       |
+| ---------- | ------------------------------------------------------------------------------------------- | ---------------------------------------------- | ------------------------- | --------------------------------------------------- |
+| DogOnt     | En proceso de expandirse del ámbito de la domótica                                          | En proceso de desarrollo de su segunda versión | Sí                        | No extendido                                        |
+| IoT-Lite   | Sí                                                                                          | Sí                                             | Sí                        | Sí, desarrollado como parte de la iniciativa EU FP7 |
+| WoT-TD     | Sí                                                                                          | Sí                                             | No                        | Presencia en entidades europeas                     |
+| FIESTA-IoT | Sí                                                                                          | Sí                                             | Sólo bajo previa petición | Sí                                                  |
+| M3         | Sí, aunque utiliza definiciones más específicas, por lo que puede no cubrir todos los casos | Sí                                             | Sí                        | Sí                                                  |
+
+Como conclusión, IoT-Lite es la que mejor balancea las 4 cualidades que buscamos, por lo que sería nuestra primera opción. De carácter abierto a todos los dominios y sin limitaciopnes con ningún dispositivo que nos vayamos a encontrar, cuenta con una licencia que no nos limita en ningún aspecto y sabemos que ha sido desarrollado y se está utilizando en un marco como el nuestro.
+
 ## Referencias
 
 [1] ¿Qué es la gobernanza de datos? | Definición, importancia y tipos | SAP. (n.d.). SAP. https://www.sap.com/latinamerica/products/data-cloud/master-data-governance/what-is-data-governance.html
