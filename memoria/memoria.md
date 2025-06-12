@@ -144,14 +144,16 @@ De cara a crear un glosario de términos, es una buena práctica no intentar par
 
 No se consideran como soluciones a nuestras necesidades, dado que no tienen uso directo fuera de sus campos. Algunos ejemplos a continuación:
 
-| Nombre                   | Dominio      | Documentación                                          |
-| ------------------------ | ------------ | ------------------------------------------------------ |
-| Agronomy Ontology (AgrO) | Agronomía    | https://bigdata.cgiar.org/resources/agronomy-ontology/ |
-| Brick                    | Construcción | https://brickschema.org/                               |
+| Nombre                   | Dominio                                                                                                                                          | Documentación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Agronomy Ontology (AgrO) | Agronomía                                                                                                                                        | https://bigdata.cgiar.org/resources/agronomy-ontology/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Brick                    | Construcción                                                                                                                                     | https://brickschema.org/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| ExtruOnt                 | Industria , concretamente máquinas de extrusión                                                                                                  | https://arxiv.org/pdf/2401.11848                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| SAREF                    | Es un gropo de varios proyectos cada uno con su dominio: Automobilismo, construcción, ciudades, salud, energía, medio ambiente, industria, aguas | https://www.etsi.org/deliver/etsi_ts/103400_103499/10341007/01.01.01_60/ts_10341007v010101p.pdf<br/>https://www.etsi.org/deliver/etsi_ts/103400_103499/10341003/01.01.02_60/ts_10341003v010102p.pdf<br/>https://www.etsi.org/deliver/etsi_ts/103400_103499/10341004/01.01.02_60/ts_10341004v010102p.pdf<br/>https://www.etsi.org/deliver/etsi_ts/103400_103499/10341001/01.01.02_60/ts_10341001v010102p.pdf<br/>https://www.etsi.org/deliver/etsi_ts/103400_103499/10341002/01.01.02_60/ts_10341002v010102p.pdf<br/>https://www.etsi.org/deliver/etsi_ts/103400_103499/10341005/01.01.02_60/ts_10341005v010102p.pdf<br/>https://www.etsi.org/deliver/etsi_ts/103400_103499/10341010/01.01.01_60/ts_10341010v010101p.pdf<br/> |
 
-### Ontology Modeling for Intelligent Domotic Environments
+### Ontology Modeling for Intelligent Domotic Environments (DogOnt)
 
-Es un sistema ontológico principalmente orientado al entorno de la domótica, pero que también es utilizado como estándar genérico. 
+Es un sistema ontológico principalmente orientado al entorno de la domótica, pero que también es utilizado como estándar genérico.
 
 | Alcance       | Orientado a redes locales de dispositivos IoT |
 | ------------- | --------------------------------------------- |
@@ -167,14 +169,32 @@ IoT-Lite es un sistema de representación de recursos de IoT con el objetivo de 
 | Documentación | https://www.w3.org/submissions/2015/SUBM-iot-lite-20151126/ |
 | Licencia      | Creative Commons Attribution 3.0 Unported License           |
 
-### Web of Things (WoT) Thing Description
+### Web of Things Thing Description (WoT-TD)
 
-Otro estándar orientado a uso general para cualquier ámbito de las IoT
+Otro estándar orientado a uso general para cualquier ámbito de las IoT, con el objetivo específico de integrar los dispositivos IoT en un contexto Web of Things. Es decir dispositivos accesibles desde internet.
 
-| Alcance       |                                                          |
+| Alcance       | General, Web of Things                                   |
 | ------------- | -------------------------------------------------------- |
 | Documentación | https://wot-td-ontology.github.io/wot-thing-description/ |
 | Licencia      | W3C Software and Document License                        |
+
+### FIESTA-IoT
+
+Centrado en la privacidad, y en soportar los frameworks de pruebas de los dispositivos IoT. Pero sin dejar de lado el modelar las IoT de forma amplia y genérica.
+
+| Alcance       | General, aunque con especial énfasis en privacidad y testbeds. |
+| ------------- | -------------------------------------------------------------- |
+| Documentación | https://ieeexplore.ieee.org/abstract/document/7845470          |
+| Licencia      | Copyright EU H2020 FIESTA-IoT                                  |
+
+### Machine-to-Machine Measurement (M3)
+
+Creado con el objetivo de utilizar un lenguaje unificado que compartan todos los sensores de despositivos de todos los ámbitos.
+
+| Alcance       | General                                                              |
+| ------------- | -------------------------------------------------------------------- |
+| Documentación | http://www.eurecom.fr/fr/publication/4553/download/cm-publi-4553.pdf |
+| Licencia      | GNU GPLv3 license                                                    |
 
 ## Referencias
 
