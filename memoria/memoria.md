@@ -248,6 +248,34 @@ IoT-Lite es una extensión de Semantic Sensor Network Ontology (SSN) y utiliza 
 
 - Servicios, que son proporcionados por dispositivos IoT
 
+## Políticas
+
+A continuación definimos las políticas que se han definido, organizadas en las siguientes categorías [6]:
+
+- Políticas de calidad
+
+- Políticas de privacidad
+
+- Políticas de seguridad
+
+- Políticas de la vida del dato
+
+- Políticas éticas
+
+- Polñíticas de definiciones
+
+### Políticas de calidad
+
+El reto principal de la calidad en el contexto de IoT viene dada la alta cantidad de datos y los heterogeneidad. Para ello es vital definir políticas que por un lado minimicen los posibles problemas de origen, y también realizar validaciones periódicas: A continuación se definen algunas de las políticas de este aspecto:
+
+| Política                                                                                                                                                                                                                                                                                                  | Responsable                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Momento de aplicación                                                                                            |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| Comparación de la información de los sensores con datos de referencia. Por ejemplo si tenemos sensores de lluvia comprobar que coincida con información meteorológica de referencia.                                                                                                                      | Proceso automatizado, los márgenes de diferencias serán marcados por el data steward, mientras que la implancación será de mano del custodio.                                                                                                                                                                                                                                                                                                                          | Periódica, diario como proceso automatizado fuera del hortario laboral.                                          |
+| Validación de las unidades utilizadas por los nuevos orígenes de datos.                                                                                                                                                                                                                                   | EL custodio es el encargado de validar que cada nuevo origen que añada al sistema utilice las mismas unidades que los demás. Dichos estándares son los especificados por el data steward. Indican por ejemplo que los pesos han de especificarse en gramos, el tiempo en milisegundos y la temperatura en grados celsius. En caso de que el orignen no cumpla por defecto, el custodio habrá de implementar la conversión de los datos antes de empezar a almacenarlos | Al momento de incorporar un nuevo origen de datos al sistema                                                     |
+| Inspección visual de la información. No de forma exhaustiva, pero sí que ha de combinarse con las validaciones automáticas para poder encontrar casos que no se estén validando bien                                                                                                                      | El encargado es el data steward del área, ya que cuenta tanto con los conocimientos del negocio como de los estándares que se han marcado.                                                                                                                                                                                                                                                                                                                             | Periódica, semanal                                                                                               |
+| Calibración de los sensores                                                                                                                                                                                                                                                                               | Personal técnico                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Periódico, segun las especificaciones del fabricante                                                             |
+| Impklementación de redundancia en los sensores. En los casos que sea posible, utilizar sensores redundantes para la validación del correcto funcionamiento de cada uno de ellos. No sólo para la validación, sino el poder continuar con la recolección de datos en caso de fallo de uno de los sensores. | Custodios del dato, personal téncico                                                                                                                                                                                                                                                                                                                                                                                                                                   | Crear la redundancia en cuanto sea posible, después una vez esté implementada la validación ha de ser automática |
+
 ## Referencias
 
 [1] ¿Qué es la gobernanza de datos? | Definición, importancia y tipos | SAP. (n.d.). SAP. https://www.sap.com/latinamerica/products/data-cloud/master-data-governance/what-is-data-governance.html
@@ -259,3 +287,5 @@ IoT-Lite es una extensión de Semantic Sensor Network Ontology (SSN) y utiliza 
 [4] Firican, G. (2021, November 22). The complete guide to data governance roles and responsibilities | LightsOnData. LightsOnData. https://www.lightsondata.com/the-complete-guide-to-data-governance-roles-and-responsibilities/
 
 [5] IoT-Lite Ontology. (n.d.). https://www.w3.org/submissions/2015/SUBM-iot-lite-20151126/
+
+[6] Atlan, T. (2024, December 18). Data Governance Policy: Comprehensive Guide with Examples for 2025. Atlan. https://atlan.com/data-governance-policy/
