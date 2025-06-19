@@ -362,6 +362,13 @@ En lo relacionado a la ética, principalmente atañe a un cumplimiento correcto 
 
 ### Políticas de definiciones
 
+Implican principalmente la creación de los estándares de nomenclatura que ha de seguir todo el mundo, y el uso de dicha nomenclatura por todos los usuarios de la información.
+
+| Política                                                                                                                                          | Responsable               | Momento de aplicación |
+| ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- | --------------------- |
+| Creación y mantenimiento de un catálogo de datos. En el se definirán las nomenclaturas a utilizar.                                                | Data stewards             | Contínua              |
+| Utilización de las nomenclaturas especificadas en el catálogo de datos. No será permisible utilizar nomenclaturas que no estén definidas en este. | Custodios<br/>Interesados | Contínua              |
+
 ## Referencias
 
 [1] ¿Qué es la gobernanza de datos? | Definición, importancia y tipos | SAP. (n.d.). SAP. https://www.sap.com/latinamerica/products/data-cloud/master-data-governance/what-is-data-governance.html
