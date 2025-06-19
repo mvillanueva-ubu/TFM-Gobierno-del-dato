@@ -262,7 +262,7 @@ A continuación definimos las políticas que se han definido, organizadas en las
 
 - Políticas éticas
 
-- Polñíticas de definiciones
+- Políticas de definiciones
 
 ### Políticas de calidad
 
@@ -351,6 +351,16 @@ Como ejemplo de alguna política no considerada en el apartado anterior:
 | Política                                                                                                                                                                                                                           | Responsable                 | Momento de aplicación       |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------- | --------------------------- |
 | Purga de datos innecesarios. Ha de ser una decisión tomada entre los data stewards correspondientes y los custodios, para realizar la decisión de qué datos han dejado de ser relevantes para el negocio y  pueden ser eliminados. | Data stewards<br/>Custodios | Periódica de caracter anual |
+
+### Políticas éticas
+
+En lo relacionado a la ética, principalmente atañe a un cumplimiento correcto de la privacidad y seguridad anteriormente especificadas. Sin embargo es correcto también la revisión periódica de los usos y captura de los datos para revaluar estos procesos, tanto de cara a tener un trato más justo hacia las personas a las que atañe la información como para intentar adelantarnos a posibles regulaciones futuras.
+
+| Política                                                                                                             | Responsable                                 | Momento de aplicación       |
+| -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------- | --------------------------- |
+| Reuniones periódicas para la creación de directrices éticas que expandan los requisitos mínimos exigidos legalmente. | Lider de gobierno del dato<br/>Data steward | Periódica de caracter anual |
+
+### Políticas de definiciones
 
 ## Referencias
 
