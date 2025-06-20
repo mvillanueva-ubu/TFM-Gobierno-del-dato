@@ -345,7 +345,6 @@ Algunas fases del ciclo de vida que ya se cubren en anteriores políticas:
 
 - Retención: Se aplican las políticas de privacidad. Estas especifican los datos que no se pueden retener, por ejemplo alguien que solicita su eliminación según lo especificado en el GDPR
 
-
 Como ejemplo de alguna política no considerada en el apartado anterior:
 
 | Política                                                                                                                                                                                                                           | Responsable                 | Momento de aplicación       |
@@ -368,6 +367,30 @@ Implican principalmente la creación de los estándares de nomenclatura que ha d
 | ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- | --------------------- |
 | Creación y mantenimiento de un catálogo de datos. En el se definirán las nomenclaturas a utilizar.                                                | Data stewards             | Contínua              |
 | Utilización de las nomenclaturas especificadas en el catálogo de datos. No será permisible utilizar nomenclaturas que no estén definidas en este. | Custodios<br/>Interesados | Contínua              |
+
+## Regulaciones
+
+La ley principal en España que regula el dato es la "Ley Orgánica de Protección de Datos Personales y garantía de los derechos digitales"[12], que así mismo se trata de una adaptación al ámbito nacional de la ley de ámbito de la Unión Europea "Reglamento General de Protección de Datos"[7] (GDPR por sus siglas en inglés).
+
+Este marco define mushos de los aspectos quye ya hemos tratado, como son:
+
+- Qué se considera un dato privado
+
+- Necesidad de información al usuario sobre qué datos suyos se utilizan y cómo se utilizan.
+
+- Necesidad de consentimiento para recopilar información no estrictamente necesaria para el funcionamiento básico de los servicios aportados
+
+- Limitaciones a la hora de compartir datos personales con otras organizaciones
+
+- "El derecho al olvido" o el poder de las personas a exigir que sus datos sean eliminados
+
+- Aplicación de medidas de seguridad suficientes, como puede ser la anonimización o seudonimización de los datos
+
+- Sanciones en caso de incumplimiento
+
+- Exenciones, como puede ser para cumplimiento de otra ley, uso personal o seguridad nacional
+
+Al ser una ley se trata por lo tanto de algo con un cumplimiento obligatorio, no pautas a usar de referencia sino  unos estándares mínimos que han de ser cumplidos en todos los casos menos en las exenciones contempladas.
 
 ## Referencias
 
@@ -392,3 +415,7 @@ Implican principalmente la creación de los estándares de nomenclatura que ha d
 [10] Internet Society (2020). Policy Toolkit on IoT Security and Privacy : https://www.internetsociety.org/wp-content/uploads/2020/08/IoTtoolkit-August-2020.pdf
 
 [11] Vinod V. Nair, R. Nanda Kishor. (2017). Getting the Most out of IoT with an Effective Data Lifecycle Management Strategy. https://www.tcs.com/content/dam/global-tcs/en/pdfs/insights/whitepapers/getting-the-most-of-iot-data-effective-lifecycle-management-strategy.pdf
+
+[12] BOE-A-2018-16673 Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales. (n.d.). https://www.boe.es/buscar/doc.php?id=BOE-A-2018-16673
+
+[13] datos.gob.es. (2025b, March 10). Especificaciones UNE – Gobierno, gestión y calidad del dato. datos.gob.es. Retrieved from https://datos.gob.es
