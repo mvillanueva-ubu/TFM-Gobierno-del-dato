@@ -392,6 +392,23 @@ Este marco define mushos de los aspectos quye ya hemos tratado, como son:
 
 Al ser una ley se trata por lo tanto de algo con un cumplimiento obligatorio, no pautas a usar de referencia sino  unos estándares mínimos que han de ser cumplidos en todos los casos menos en las exenciones contempladas.
 
+## Especificaciones
+
+Las especificaciones a diferencia de las leyes, no son de aplicación obligatoria, pero siempre es una buena práctica el utilizar estándares de referencia. En españa los estándares de referencia son las especificaciones UNE [13] (Una Norma Española). En particular en el ambiente de gobierno del dato las aplicables son las siguientes:
+
+- UNE 0077:2023 Gobierno del dato
+
+- UNE 0078:2023 Gestión del dato
+
+- UNE 0079:2023 Gestión de la calidad del dato
+  
+
+### UNE 0077:2023
+
+### UNE 0078:2023
+
+### UNE 0079:2023
+
 ## Referencias
 
 [1] ¿Qué es la gobernanza de datos? | Definición, importancia y tipos | SAP. (n.d.). SAP. https://www.sap.com/latinamerica/products/data-cloud/master-data-governance/what-is-data-governance.html
@@ -418,4 +435,10 @@ Al ser una ley se trata por lo tanto de algo con un cumplimiento obligatorio, no
 
 [12] BOE-A-2018-16673 Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales. (n.d.). https://www.boe.es/buscar/doc.php?id=BOE-A-2018-16673
 
-[13] datos.gob.es. (2025b, March 10). Especificaciones UNE – Gobierno, gestión y calidad del dato. datos.gob.es. Retrieved from https://datos.gob.es
+[13] datos.gob.es. (2025c, March 10). Especificaciones UNE – Gobierno, gestión y calidad del dato. datos.gob.es. https://datos.gob.es/es/blog/especificaciones-une-gobierno-gestion-y-calidad-del-dato
+
+[14] datos.gob.es. (2025d, June 6). Aplicación de la especificación UNE 0077:2023 a los datos abiertos. datos.gob.es. https://datos.gob.es/es/blog/aplicacion-de-la-especificacion-une-00772023-los-datos-abiertos
+
+[15] datos.gob.es. (2025e, June 6). Aplicación de las Especificación UNE 0078:2023 a los datos abiertos. datos.gob.es. https://datos.gob.es/es/blog/aplicacion-de-las-especificacion-une-0078-2023-los-datos-abiertos
+
+[16] datos.gob.es. (2025e, June 6). Aplicación de la Especificación UNE 0079:2023 de gestión de calidad a los datos abiertos. datos.gob.es. https://datos.gob.es/es/blog/aplicacion-de-la-especificacion-une-00792023-de-gestion-de-calidad-los-datos-abiertos
