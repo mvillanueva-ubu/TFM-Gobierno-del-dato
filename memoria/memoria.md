@@ -401,9 +401,18 @@ Las especificaciones a diferencia de las leyes, no son de aplicación obligatori
 - UNE 0078:2023 Gestión del dato
 
 - UNE 0079:2023 Gestión de la calidad del dato
-  
 
 ### UNE 0077:2023
+
+Esta especificación está dividida en 5 procesos [14].
+
+| Proceso                                                                               | Características                                                                                                                                                                                    |
+| ------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Establecimiento de la estrategia del dato                                             | Es el primer paso, en el que se identifican las capacidades de la organicación, los datos usados por la misma, los contextos en los que se usan y se elabora un plan general de gobierno del dato. |
+| Establecimiento de políticas, buenas prácticas y procedimientos del dato              | Es el paso en el que se definen las políticas degobierno del dato que se van a implementar, las regulaciones y estándares que nos afectan.                                                         |
+| Establecimiento de estructuras organizativas para el gobierno, gestión y uso del dato | Se analiza la estructura de la organización y como el uso del dato está dividido entre las diferentes partes                                                                                       |
+| Optimización de los riesgos del dato                                                  | Identificación, evaluación, mitigación de los riegos del dato, definición de las políticas de seguridad y privacidad                                                                               |
+| Optimicación del valor del dato                                                       | Consiste en la maximicación del valor de los datos,  alineándolos los objetivos estratégicos de la organización y realizando una buena gestión en su uso                                           |
 
 ### UNE 0078:2023
 
