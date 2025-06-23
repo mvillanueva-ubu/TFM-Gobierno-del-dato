@@ -416,6 +416,36 @@ Esta especificación está dividida en 5 procesos [14].
 
 ### UNE 0078:2023
 
+Mientras que UNE 0077:2023 era de carácter más estratégico, esta resalta más los procesos relacionados con las acciones que se van a llevar a cabo para realizarlos. Es decir por ejemplode una política que se ha decidido implementar, que acciones va a realizar su responsable para que esta se cumpla. 
+
+La especificación define 13 procesos a tener en cuenta, cada uno relacionado con un aspecto técnico de la gestión del dato:
+
+1. Procesamiento del dato
+
+2. Gestión de la infraestructura tecnológica
+
+3. Gestión de requisitos del dato
+
+4. Gestión de la configuración del dato
+
+5. Gestión de datos histórico
+
+6. Gestión de seguridad del dato
+
+7. Gestión del metadato
+
+8. Gestión de la arquitectura y diseño del dato
+
+9. Compartición, intermediación e integración del dato
+
+10. Gestión del dato maestro
+
+11. Gestión de recursos humanos
+
+12. Gestión del ciclo de vida del dato
+
+13. Análisis del dato
+
 ### UNE 0079:2023
 
 Este estándar define 4 procesos que hemos incorporado en nustro proyecto [16]:
