@@ -404,6 +404,8 @@ Las especificaciones a diferencia de las leyes, no son de aplicación obligatori
 
 ### UNE 0077:2023
 
+Es una especificación a nivel estratégico, diseñada para guiar la toma de decisiones a la hora de definir los objetivos del proyecto de gestión del dato. Por lo tanto se tendrá en cuenta tanto los objetivos a nivel general del proyecto, como las definiciones de las políticas que habrásn de ser implementadas. Esto implica que es del dominio de todos los roles del consejo del gobierno del dato.
+
 Esta especificación está dividida en 5 procesos [14].
 
 | Proceso                                                                               | Características                                                                                                                                                                                         |
@@ -416,7 +418,7 @@ Esta especificación está dividida en 5 procesos [14].
 
 ### UNE 0078:2023
 
-Mientras que UNE 0077:2023 era de carácter más estratégico, esta resalta más los procesos relacionados con las acciones que se van a llevar a cabo para realizarlos. Es decir por ejemplode una política que se ha decidido implementar, que acciones va a realizar su responsable para que esta se cumpla. 
+Mientras que UNE 0077:2023 era de carácter más estratégico, esta resalta más los procesos relacionados con las acciones que se van a llevar a cabo para realizarlos. Es decir por ejemplode una política que se ha decidido implementar, que acciones va a realizar su responsable para que esta se cumpla. Esta especificación por lo tanto tendrám que tenerla más presente los integrantes de los grupos de áreas.
 
 La especificación define 13 procesos a tener en cuenta, cada uno relacionado con un aspecto técnico de la gestión del dato:
 
@@ -448,14 +450,16 @@ La especificación define 13 procesos a tener en cuenta, cada uno relacionado co
 
 ### UNE 0079:2023
 
-Este estándar define 4 procesos que hemos incorporado en nustro proyecto [16]:
+Este estándar define 4 procesos que hemos incorporado en nuestro proyecto [16], todos ellos dedicados a la mejora contínua del dato, al ser una mezcla deprocesos estratégicos y técnicos algunas veces serán más del ámbito de unos roles u otros del equipo:
 
-| Proceso                                       | Características                                                                                                                                   |
-| --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Planificación de calidad del dato             | Es la planificación llevada a cabo para cumplir con el resto de los procesos. Se especifican objetivos, responsabilidades y las acciones a seguir |
-| Control y monitorización de calidad del dato, | Es la monitorización contínua del dato                                                                                                            |
-| Aseguramiento de calidad del dato             | Se definen los procesos para identificar los datos que no estén cumpliendo con los requisitoms mínimos decididos.                                 |
-| Mejora de calidad del dato                    | Se interviene en caso de que no se estén cumpliendo los mínimos de calidad.                                                                       |
+| Proceso                                      | Características                                                                                                                                   | Tipo        |
+| -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| Planificación de calidad del dato            | Es la planificación llevada a cabo para cumplir con el resto de los procesos. Se especifican objetivos, responsabilidades y las acciones a seguir | Estratégico |
+| Control y monitorización de calidad del dato | Es la monitorización contínua del dato                                                                                                            | Técnico     |
+| Aseguramiento de calidad del dato            | Se definen los procesos para identificar los datos que no estén cumpliendo con los requisitoms mínimos decididos.                                 | Estratégico |
+| Mejora de calidad del dato                   | Se interviene en caso de que no se estén cumpliendo los mínimos de calidad.                                                                       | Técnico     |
+
+Los procesos identificados como estratégicos van a res responsabilidad principalmente de los data stewards, mientras que los custodios serán los principales responsables de los técnicos.
 
 ## Referencias
 
