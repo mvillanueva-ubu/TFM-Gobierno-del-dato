@@ -334,6 +334,7 @@ Viendo estas tres categorias queda claro que cualquier pais de la Unión Europea
 ### Políticas de la vida del dato
 
 Estas políticas se aplican en los diferentes puntos de la vida del dato, y aunque es cierto que existe cierto solapamiento con otras categorías, es importante que se reflejen en las políticas los retos que afectan especialmente a el IoT[11].
+Estas políticas se aplican en los diferentes puntos de la vida del dato, y aunque es cierto que existe cierto solapamiento con otras categorías, es importante que se reflejen en las políticas los retos que afectan especialmente a el IoT[11]. Se hace especial incapié en las etapas que son especialmente complejas en este ámbito; como por ejemplo la colección del dato, ya que vienen de fuentes, maneras y formatos mucho más heterogéneos que en la mayoría de otros ámbitos. AUnque por supuesto se han de considerar todas las fases.
 
 Algunas fases del ciclo de vida que ya se cubren en anteriores políticas:
 
