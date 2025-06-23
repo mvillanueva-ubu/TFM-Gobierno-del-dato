@@ -418,6 +418,15 @@ Esta especificación está dividida en 5 procesos [14].
 
 ### UNE 0079:2023
 
+Este estándar define 4 procesos que hemos incorporado en nustro proyecto [16]:
+
+| Proceso                                       | Características                                                                                                                                   |
+| --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Planificación de calidad del dato             | Es la planificación llevada a cabo para cumplir con el resto de los procesos. Se especifican objetivos, responsabilidades y las acciones a seguir |
+| Control y monitorización de calidad del dato, | Es la monitorización contínua del dato                                                                                                            |
+| Aseguramiento de calidad del dato             | Se definen los procesos para identificar los datos que no estén cumpliendo con los requisitoms mínimos decididos.                                 |
+| Mejora de calidad del dato                    | Se interviene en caso de que no se estén cumpliendo los mínimos de calidad.                                                                       |
+
 ## Referencias
 
 [1] ¿Qué es la gobernanza de datos? | Definición, importancia y tipos | SAP. (n.d.). SAP. https://www.sap.com/latinamerica/products/data-cloud/master-data-governance/what-is-data-governance.html
