@@ -461,7 +461,7 @@ Este estándar define 4 procesos que hemos incorporado en nuestro proyecto [16],
 
 Los procesos identificados como estratégicos van a ser responsabilidad principalmente de los data stewards, mientras que los custodios serán los principales responsables de los técnicos.
 
-## Clasificacción y titularidad del dato
+## Clasificacción  del dato
 
 Expandiendo los conceptos tratados en el apartado de políticas de privacidad, dividiremos los datos en 4 categorías, dependiendo de su grado de privacidad y de si se trata de información interna de la organización. La privacidad se definirá según la regulación GDPR [7], mientras que la información interna será por decisión de los encargados del negocio.
 
@@ -584,6 +584,40 @@ Al ser abierta, los requisitos son los más laxos de todos.
 | Prevención de pérdida             | Sí, aunque se considera que puede ser compartida, no significa que su pérdida no sea un contratiempo                    |
 | Puede ser compartida con terceros | Sí                                                                                                                      |
 | Logging                           | Permitido                                                                                                               |
+
+## Titularidad del dato
+
+La titularidad del dato es un tema de especial complegidad en el ámbito del IoT, y no es un debate que tenga un consenso concreto a nivel global ni regional [18].
+
+Para discutir sobre la titularidad del dato, es importante distinguir 3 tipos de actores:
+
+- Los generadores del dato, que en el contexto de sensores y cualquier otra información generada por máquinas sería nuestra organización
+
+- Las personas relacionadas a información, en caso de que la información sea de caracter personal. Es decir que un dato o conjunto de datos identifique a una persona segun lo definido en el apartado anterior
+
+- Otros participantes, pueden ser los fabricantes de dispositivos IoT que utilizan sus propias plataformas para transmitir o almacenar los datos
+
+Dado que no existe un framework estandarizado para la titularidad, se han de definir unas pautas a seguir para guiarnos:
+
+1. Aunque la titularidad puede ser nuestra, hay ciertos derechos que las personas tienen sobre su información personal. Por lo que se ha de hacer un cumplimiento estricto de los derechos para con estas personas:
+
+   1. Esto implica informar del uso y obtener el consentimiento cuando es necesario
+
+   2. El derecho a las personas a obtener la información relacionada a ellas
+
+   3. El derecho a solicitar que dicha información sea borrada, por lo que tiene que haber mecanismo para eliminar todos los datos que la componen
+
+2. Identificar hasta qué punto pueden tener fabricantes y otros terceros a los datos que recogemos
+
+   1. Priorizar siempre en la manera de los posible sensores que no utilicen las propias redes del fabricante, o de fabricante que garanticen no almacenar nada
+
+   2. Analizar el tipo de dato que puede ser almacenado por dicho fabricante, valorar si puede identificar a personas físicas o si es considerado interno de la organización
+
+   3. Analizar el tipo de uso que se va a dar en caso de que sí se recopile información, valorar si es aceptable, por ejemplo, utilizar datos que nosotros consideramos "abiertos" para mejora de sus servicios
+
+3. Identificar si hay más puntos entre el punto de captura del dato y el lugar de almacenado final en el que pueda estar implicado un tercero
+
+4. Reevaluar los contextos y condiciones bajo las que se comparte información con otras organizaciones
 
 ## Referencias
 
