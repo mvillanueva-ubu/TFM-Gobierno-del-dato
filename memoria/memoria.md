@@ -136,6 +136,63 @@ Ya definidos tanto los grupos como los roles, se especifica la organización de 
 | Grupo de coordinación         | Lider de gobierno del dato<br/>Propietario del dato<br/>Data stewards<br/>Personas claves de entre los interesados          |
 | Grupos de áreas               | Data stewards<br/>Custodios<br/>Interesados                                                                                 |
 
+## Formación de data stewards
+
+Los data stewards son un perfil con alto conocimiento de ingeniería de datos, para poderrealizar la función de data steward sí que se requerirá alguna de las siguientes formaciones:
+
+- Grado en Ingeniería Informática
+
+- Grado en Ingeniería en Tecnología de Telecomunicación
+
+- Grado en Matemáticas
+
+- Grado en Ciencia de Datos
+
+- Algún otro grado equivalente
+
+Además de los estudios de grado hay ciertos posgrados que también ayudarán en la formación:
+
+- Máster en Big Data
+
+- Máster en Ciberseguridad
+
+- Máster en Ingeniería del Software
+  
+
+Es importante que la organización busque políticas para fomentar este tipo de estudios, como ayudas económicas o conciliación de horarios. Sin embargo, no es realista esperar que los data stewards inviertan tanto tiempo, recursos y energías en formaciones tan extensas, ni se puede permitir ninguna organización los recursos ni tiempo completos que requieren. En españa sí que existen varias organizaciones que ofrecen diferentes certificaciones en el ámbito del gobierno del dato, aunque ninguna de ellas es una certificación estandarizada, todas ellas son propias de las instituciones que las imparten. Estas sí que pueden considerarse como una buena opción para compaginar con el trabajo, dado sus precios más reducidos y duración asumible. Por lo tanto se ofrecerá a los data stewards la opción de cursar estos diferentes cursos y obtener sus corresponientes certificaiones:
+
+- Data Stewardship y gestión de datos de investigación
+
+  - Ofrecido por Sociedad Española de Documentación e Información Científica (SEDIC)
+
+  - En castellano
+
+  - De carácter virtual
+
+  - Duración de 60h
+
+- Certified Data Steward
+
+  - Ofrecido por eLearningCurve
+
+  - En inglés
+
+  - De carácter virtual
+
+  - Duración de 20h
+
+- Curso de Talend Data Stewardship
+
+  - Ofrecido por eLearningCurve
+
+  - En castellano
+
+  - Virtual o presencial en 4 localizaciones (Bilbao, Madrid, Málaga o Barcelona)
+
+  - Duración de 14h
+
+De la misma forma que se sugieren estos cursos, existirá la opción de los data stewards de solicitar otros alternativos que crean pertinentes, bajo la aprobación de su jefe de proyecto.
+
 ## Estándares
 
 De cara a crear un glosario de términos, es una buena práctica no intentar partir de 0, sino utilizar estándares ya existentes como base. Para ello, se ha realizado un estudio de diferentes estándares para ver sus diferentes características y poder decidirse por uno de ellos
