@@ -333,7 +333,6 @@ Viendo estas tres categorias queda claro que cualquier pais de la Unión Europea
 
 ### Políticas de la vida del dato
 
-Estas políticas se aplican en los diferentes puntos de la vida del dato, y aunque es cierto que existe cierto solapamiento con otras categorías, es importante que se reflejen en las políticas los retos que afectan especialmente a el IoT[11].
 Estas políticas se aplican en los diferentes puntos de la vida del dato, y aunque es cierto que existe cierto solapamiento con otras categorías, es importante que se reflejen en las políticas los retos que afectan especialmente a el IoT[11]. Se hace especial incapié en las etapas que son especialmente complejas en este ámbito; como por ejemplo la colección del dato, ya que vienen de fuentes, maneras y formatos mucho más heterogéneos que en la mayoría de otros ámbitos. AUnque por supuesto se han de considerar todas las fases.
 
 Algunas fases del ciclo de vida que ya se cubren en anteriores políticas:
@@ -462,6 +461,130 @@ Este estándar define 4 procesos que hemos incorporado en nuestro proyecto [16],
 
 Los procesos identificados como estratégicos van a res responsabilidad principalmente de los data stewards, mientras que los custodios serán los principales responsables de los técnicos.
 
+## Clasificacción y titularidad del dato
+
+Expandiendo los conceptos tratados en el apartado de políticas de privacidad, dividiremos los datos en 4 categorías, dependiendo de su grado de privacidad y de si se trata de información interna de la organización. La privacidad se definirá según la regulación GDPR [7], mientras que la información interna será por decisión de los encargados del negocio.
+
+### Personal
+
+Se considerará personal la información que cumpla las siguientes características, siguiendo su definición en el Artículo 4 (1) del GDPR [17]
+
+- Es información relacionada a una persona física
+
+  - Es decir, excluye a las personas jurídicas
+
+- Que identifican a dicha persona
+
+  - De manera directa
+
+  - De manera indirecta, mediante la unión de varios datos
+
+  - En particular hace especial incapié en idenficicación mediante
+
+    - Nombre
+
+    - Número de identificación
+
+    - Localización
+
+    - Identificador online
+
+    - Direcciónes IP
+
+    - O la unión de datos que sean específicos a una persona, como puede ser características físicas, fisiológicas, genéticas, mentales, económicas, culturales, o sociales.
+
+- Información que es tanto objetiva, como subjetiva (por ejemplo, opiniones o pareceres). Auqneu sí es cierto que en el ámbito de las IoTs la mayoría va a ser información objetivo, como puede ser la recogida mediante diferentes sensores
+
+- Es relacionada  auna persona viva
+
+  - Se considera que el derecho se aplica desde el nacimiento hasta la muerte de una persona
+
+La ley hace referencia a "cualquier información", por lo que ha de interpretarse de la manera más amplia posible, en caso de duda se considerará personal.
+
+Una vez identificada la información que cumple dichas condiciones se le asignan diferentes requisitos:
+
+| Contexto                          | Requisito                                                                              |
+| --------------------------------- | -------------------------------------------------------------------------------------- |
+| Tipo de almacenado                | Siempre en servidor, nunca en almacenamiento extraíble (USBs, discos duros portátiles) |
+| Localización  física              | Siempre dentro de la organización                                                      |
+| Encripción                        | Siempre                                                                                |
+| Control de acceso                 | Estricto                                                                               |
+| Destrucción de la información     | Bajo solicitud                                                                         |
+| Prevención de pérdida             | Sí                                                                                     |
+| Puede ser compartida con terceros | No                                                                                     |
+| Logging                           | Sólo si se anonimiza previamente                                                       |
+
+### Sensible
+
+Es un nivel por encima de la información personal, que como su nombre indica se trata de datos que pueden ser mñas sensibles.
+
+Se considera que es información sensible cuando:
+
+- Cumple las condiciones para ser información personal
+
+- Y encima es de una de las siguientes categorías:
+
+  - Genética
+
+    - El Artículo 4 (13) del GDPR [17] la define como información de características genéticas que ha heredado o desarrollado una persona, en particular la información obtenida mediante el análisis de una muestra biológica
+
+  - Biométrica
+
+  - - El Artículo 4 (14) del GDPR [17] la define como información relacionada a las características físicas, fisiológicas o de comportamiento de una persona
+
+  - De salud
+
+    - El Artículo 4 (15) del GDPR [17] la define como información relacionada a la situación de salud física o mental de una persona, incluyendo las prestaciones de servicios de salud
+
+  - Información personal que pueda revelar raza u origen étnico, opiniones políticas religiosas o ideológicas o que revelen pertenencia a sindicatos.
+
+Por lo tanto se establecen una condiciones aun más restrictivas que con la información personal no sensible:
+
+| Contexto                          | Requisito                                                                              |
+| --------------------------------- | -------------------------------------------------------------------------------------- |
+| Tipo de almacenado                | Siempre en servidor, nunca en almacenamiento extraíble (USBs, discos duros portátiles) |
+| Localización  física              | Siempre dentro de la organización                                                      |
+| Encripción                        | Siempre                                                                                |
+| Control de acceso                 | Muy estricto                                                                           |
+| Destrucción de la información     | Bajo solicitud                                                                         |
+| Prevención de pérdida             | Sí                                                                                     |
+| Puede ser compartida con terceros | No                                                                                     |
+| Logging                           | Nunca                                                                                  |
+
+### Interna
+
+Se trata de información que no es personal, pero que por decisiones de negocio no puede ser accedida por organizaciones externas de forma libre. Su clasificación se hace mediante la decisión de los responsables de negocio.
+
+Su seguridad no compromete el cumplimiento de las regulaciones, pero sí que ha de protegerse para no afectar negativamente a la organización. Por lo tanto tendrña ciertos requisitos, aunque menos estrictos que en el caso de información personal.
+
+| Contexto                          | Requisito                                                                                                                         |
+| --------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| Tipo de almacenado                | En servidor o equipor profesionales de los trabajadores<br/>En almacenamiento extraíble sólo en caso de estar propiamente cifrada |
+| Localización  física              | El almacenamiento principal se realizará tanto en servidores propios de la organización como en datacenters contratados           |
+| Encripción                        | Necesaria sólo en caso de usar medios de almacenados extraíbles                                                                   |
+| Control de acceso                 | Medio                                                                                                                             |
+| Destrucción de la información     | Según necesidades de negocio                                                                                                      |
+| Prevención de pérdida             | Sí                                                                                                                                |
+| Puede ser compartida con terceros | Sí, pero bajo permiso del propietario del dato                                                                                    |
+| Logging                           | Permitido                                                                                                                         |
+
+### Abierta
+
+La información abierta o pública es la que ni es personal ni se considera que necesariamente ha de permanecer dentro de la organización. Su clasificación se hace mediante la decisión de los responsables de negocio.
+
+Al ser abierta, los requisitos son los más laxos de todos.
+
+| Contexto                          | Requisito                                                                                                               |
+| --------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| Tipo de almacenado                | Cualquiera                                                                                                              |
+| Localización  física              | El almacenamiento principal se realizará tanto en servidores propios de la organización como en datacenters contratados |
+| Encripción                        | No necesaria                                                                                                            |
+| Control de acceso                 | Bajo                                                                                                                    |
+| Destrucción de la información     | Según necesidades de negocio                                                                                            |
+| Prevención de pérdida             | Sí, aunque se considera que puede ser compartida, no significa que su pérdida no sea un contratiempo                    |
+| Puede ser compartida con terceros | Sií                                                                                                                     |
+| Logging                           | Permitido                                                                                                               |
+
 ## Referencias
 
 [1] ¿Qué es la gobernanza de datos? | Definición, importancia y tipos | SAP. (n.d.). SAP. https://www.sap.com/latinamerica/products/data-cloud/master-data-governance/what-is-data-governance.html
@@ -495,3 +618,5 @@ Los procesos identificados como estratégicos van a res responsabilidad principa
 [15] datos.gob.es. (2025e, June 6). Aplicación de las Especificación UNE 0078:2023 a los datos abiertos. datos.gob.es. https://datos.gob.es/es/blog/aplicacion-de-las-especificacion-une-0078-2023-los-datos-abiertos
 
 [16] datos.gob.es. (2025e, June 6). Aplicación de la Especificación UNE 0079:2023 de gestión de calidad a los datos abiertos. datos.gob.es. https://datos.gob.es/es/blog/aplicacion-de-la-especificacion-une-00792023-de-gestion-de-calidad-los-datos-abiertos
+
+[17] Art. 4 GDPR – Definitions - General Data Protection Regulation (GDPR). (2018, March 29). General Data Protection Regulation (GDPR). https://gdpr-info.eu/art-4-gdpr/
