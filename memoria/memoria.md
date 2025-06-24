@@ -450,7 +450,7 @@ La especificación define 13 procesos a tener en cuenta, cada uno relacionado co
 
 ### UNE 0079:2023
 
-Este estándar define 4 procesos que hemos incorporado en nuestro proyecto [16], todos ellos dedicados a la mejora contínua del dato, al ser una mezcla deprocesos estratégicos y técnicos algunas veces serán más del ámbito de unos roles u otros del equipo:
+Este estándar define 4 procesos que hemos incorporado en nuestro proyecto [16], todos ellos dedicados a la mejora contínua del dato, al ser una mezcla de procesos estratégicos y técnicos algunas veces serán más del ámbito de unos roles u otros del equipo:
 
 | Proceso                                      | Características                                                                                                                                   | Tipo        |
 | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
@@ -459,7 +459,7 @@ Este estándar define 4 procesos que hemos incorporado en nuestro proyecto [16],
 | Aseguramiento de calidad del dato            | Se definen los procesos para identificar los datos que no estén cumpliendo con los requisitoms mínimos decididos.                                 | Estratégico |
 | Mejora de calidad del dato                   | Se interviene en caso de que no se estén cumpliendo los mínimos de calidad.                                                                       | Técnico     |
 
-Los procesos identificados como estratégicos van a res responsabilidad principalmente de los data stewards, mientras que los custodios serán los principales responsables de los técnicos.
+Los procesos identificados como estratégicos van a ser responsabilidad principalmente de los data stewards, mientras que los custodios serán los principales responsables de los técnicos.
 
 ## Clasificacción y titularidad del dato
 
@@ -582,7 +582,7 @@ Al ser abierta, los requisitos son los más laxos de todos.
 | Control de acceso                 | Bajo                                                                                                                    |
 | Destrucción de la información     | Según necesidades de negocio                                                                                            |
 | Prevención de pérdida             | Sí, aunque se considera que puede ser compartida, no significa que su pérdida no sea un contratiempo                    |
-| Puede ser compartida con terceros | Sií                                                                                                                     |
+| Puede ser compartida con terceros | Sí                                                                                                                      |
 | Logging                           | Permitido                                                                                                               |
 
 ## Referencias
@@ -620,3 +620,5 @@ Al ser abierta, los requisitos son los más laxos de todos.
 [16] datos.gob.es. (2025e, June 6). Aplicación de la Especificación UNE 0079:2023 de gestión de calidad a los datos abiertos. datos.gob.es. https://datos.gob.es/es/blog/aplicacion-de-la-especificacion-une-00792023-de-gestion-de-calidad-los-datos-abiertos
 
 [17] Art. 4 GDPR – Definitions - General Data Protection Regulation (GDPR). (2018, March 29). General Data Protection Regulation (GDPR). https://gdpr-info.eu/art-4-gdpr/
+
+[18] Asswad, J., & Marx Gómez, J. (2021). Data Ownership: A Survey. Information, 12(11), 465. https://doi.org/10.3390/info12110465
