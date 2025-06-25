@@ -424,6 +424,28 @@ Implican principalmente la creación de los estándares de nomenclatura que ha d
 | Creación y mantenimiento de un catálogo de datos. En el se definirán las nomenclaturas a utilizar.                                                | Data stewards             | Contínua              |
 | Utilización de las nomenclaturas especificadas en el catálogo de datos. No será permisible utilizar nomenclaturas que no estén definidas en este. | Custodios<br/>Interesados | Contínua              |
 
+## Gestión de prácticas y políticas
+
+Para realizar una buena gestíon de todo lo implementado y verificar su funcionamiento se realizarán truniones bianuales. Estas reuniones las realizará el consejo de grupo de coordinación para evaluar el grado de implantación de las prácticas y políticas definidas y valorar su efectividad. Para ello los data stewards de cada área deberán realizar un informe sobre su área y compartirlos con el líder del gobierno del dato. Estos informaes deberán cubrir los siguientes aspectos:
+
+- Nivel de implantación del plan
+
+  - Y los problemas encontrados que puedan estar retrasando su implantación
+
+- Eficacia de las acciones tomadas
+
+  - Se deberá poner especial énfasis en las más y menos eficaces
+
+- Comentarios y sugerencias recibidas
+
+De los puntos en los que se han notado carencias o problemas será necesario distinguir qué tipo de solución es suficiente:
+
+- Si se considera solucionable mediante medios técnicos o formas de implantación, el responsable de dicha acción seguirá siendo el encargado de realizar lo necesario. Para ello puede solicitar orientación de otros miembros del grupo o usar alguno de los casos de éxito como referencia
+
+- En caso de ser un problema que requiere más recursos o de un cambio en la estratégia del proyecto, será necesario realizar un informe con las deficiencias y necesidades. Este será redactado por el líder del dato y llevado a discusión a el consejo del dato
+
+De la misma manera, el consejo del dato se reunirá también con la misma cadencia, después de la anterior reunión. En ella se tratará el avance de el proyecto y se discutirán las mejoras que requieran de cambios a nivel estratégico o de recursos. En caso de llegar a un acuerdo el líder del dato se encargará de llevar de vuelta estas decisiones a los data stewards.
+
 ## Regulaciones
 
 La ley principal en España que regula el dato es la "Ley Orgánica de Protección de Datos Personales y garantía de los derechos digitales"[12], que así mismo se trata de una adaptación al ámbito nacional de la ley de la Unión Europea "Reglamento General de Protección de Datos"[7] (GDPR por sus siglas en inglés).
