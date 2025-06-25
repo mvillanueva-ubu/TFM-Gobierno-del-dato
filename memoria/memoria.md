@@ -157,7 +157,6 @@ Además de los estudios de grado hay ciertos posgrados que también ayudarán en
 - Máster en Ciberseguridad
 
 - Máster en Ingeniería del Software
-  
 
 Es importante que la organización busque políticas para fomentar este tipo de estudios, como ayudas económicas o conciliación de horarios. Sin embargo, no es realista esperar que los data stewards inviertan tanto tiempo, recursos y energías en formaciones tan extensas, ni se puede permitir ninguna organización los recursos ni tiempo completos que requieren. En españa sí que existen varias organizaciones que ofrecen diferentes certificaciones en el ámbito del gobierno del dato, aunque ninguna de ellas es una certificación estandarizada, todas ellas son propias de las instituciones que las imparten. Estas sí que pueden considerarse como una buena opción para compaginar con el trabajo, dado sus precios más reducidos y duración asumible. Por lo tanto se ofrecerá a los data stewards la opción de cursar estos diferentes cursos y obtener sus corresponientes certificaiones:
 
@@ -384,9 +383,9 @@ Viendo estas tres categorias queda claro que cualquier pais de la Unión Europea
 
 | Política                                                                                                                                    | Responsable                                                                                                                                                                                                                        | Momento de aplicación                                                           |
 | ------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
-| Revisión periódica de las regulaciones de seguridad. Que pueden incorporar requisitos para defenderse de nuevos riesgos y vulnerabilidades. | Lider de gobierno del dato<br/>Propietario del dato<br/>Data steward<br/>En general se trata de un equipo mixto que sea capaz de hacer cumplir lo acordado y que al mismo tiempo tengo algo de conocimiento específico del negocio | Periódica, con carácter mensual                                                 |
+| Revisión periódica de las regulaciones de seguridad. Que pueden incorporar requisitos para defenderse de nuevos riesgos y vulnerabilidades. | Lider de gobierno del dato<br/>Propietario del dato<br/>Data steward<br/>En general se trata de un equipo mixto que sea capaz de hacer cumplir lo acordado y que al mismo tiempo tenga algo de conocimiento específico del negocio | Periódica, con carácter mensual                                                 |
 | Asignación de responsables para los diferentes sistemas                                                                                     | Lider de gobierno del dato<br/>Data steward<br/>Custodios                                                                                                                                                                          | Cada vez que se realicen modificaciones en el equipo o en la propiedad del dato |
-| Creación de protocolos en caso de una situación de violación de datos                                                                       | Data steward y custodios asignatdos como responsables en la política anterior                                                                                                                                                      | Creación inmediata, con 2 revisiones anuales                                    |
+| Creación de protocolos en caso de una situación de violación de datos                                                                       | Data steward y custodios asignados como responsables en la política anterior                                                                                                                                                       | Creación inmediata, con 2 revisiones anuales                                    |
 
 ### Políticas de la vida del dato
 
@@ -427,13 +426,13 @@ Implican principalmente la creación de los estándares de nomenclatura que ha d
 
 ## Regulaciones
 
-La ley principal en España que regula el dato es la "Ley Orgánica de Protección de Datos Personales y garantía de los derechos digitales"[12], que así mismo se trata de una adaptación al ámbito nacional de la ley de ámbito de la Unión Europea "Reglamento General de Protección de Datos"[7] (GDPR por sus siglas en inglés).
+La ley principal en España que regula el dato es la "Ley Orgánica de Protección de Datos Personales y garantía de los derechos digitales"[12], que así mismo se trata de una adaptación al ámbito nacional de la ley de la Unión Europea "Reglamento General de Protección de Datos"[7] (GDPR por sus siglas en inglés).
 
-Este marco define mushos de los aspectos quye ya hemos tratado, como son:
+Este marco define muchos de los aspectos quye ya hemos tratado, como son:
 
 - Qué se considera un dato privado
 
-- Necesidad de información al usuario sobre qué datos suyos se utilizan y cómo se utilizan.
+- Necesidad de información la persona sobre qué datos suyos se utilizan y cómo se utilizan.
 
 - Necesidad de consentimiento para recopilar información no estrictamente necesaria para el funcionamiento básico de los servicios aportados
 
