@@ -697,6 +697,22 @@ Dado que no existe un framework estandarizado para la titularidad, se han de def
 
 4. Reevaluar los contextos y condiciones bajo las que se comparte información con otras organizaciones
 
+## Herramientas
+
+### Herramientas ETL
+
+ETL, de sus siglas en inglés "Extract Transform Load" ("Extraer Transformar Cargar") es un proceso vital en el mundo de las IoT. Consiste principalmente en reunir datos de distintas fuentes, realizar un proceso para que queden uniformes y alamcenarlos juntos. Es el único modo de tratar con orígenes de datos heterogéneos, que se dan tanto en los IoT, y poder utilizar dichos datos de forma conjunta posteriormente.
+
+El procesado ha de ser guiado por un data steward que será quién especifique que forma final ha de tener los datos, es decir, qué estándares y condiciones tienen que cumplir. Por lo tanto será el trabajo de personas de perfil más técnico, como son los custodios el adaptar cada uno de los orígenes. Para ello se realizan los siguientes pasos:
+
+1. Identificar todos los orígenes que han de ser agrupados
+
+2. Identificar las salidas de cada uno de ellos
+
+3. Definir las operaciones que han de realizarse sobre cada uno de ellos para transformarlos a lo que el steward ha especificado
+
+4. Crear las entradas y operaciones identificadas y definidas anteriormente en la herramienta de ETL
+
 ## Referencias
 
 [1] ¿Qué es la gobernanza de datos? | Definición, importancia y tipos | SAP. (n.d.). SAP. https://www.sap.com/latinamerica/products/data-cloud/master-data-governance/what-is-data-governance.html
