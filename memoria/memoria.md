@@ -713,6 +713,53 @@ El procesado ha de ser guiado por un data steward que será quién especifique q
 
 4. Crear las entradas y operaciones identificadas y definidas anteriormente en la herramienta de ETL
 
+#### Adeptia Connect
+
+Adeptia Connect es una herramienta orientada a maximizar la facilidad de uso. Ofrece opciones para usuarios avanzados y con conocimientos más técnicos, pero busca ofrecer la mayoría de su funcionalidad como "no code" es decir puramente mediante su interfaz gráfica.
+
+Es de licencia comercial, y su uso requiere de un contrato activo con Adeptia, no ofrecen opción de self-hosting. Toda la gestión se hace desde su plataforma, y sí ofrece algunos beneficios como el trabajo colaborativo de varias personas al mismo tiempo.
+
+Ofrece procesamiento a tiempo real, además de algunas herramientas de monitorización.
+
+#### Apache NiFi
+
+Apache NiFi es una herramienta open-source, con soporte para procesamiento en vivo y opciones de procesado dinámico. De esta forma es posible realizar operaciones diferentes a los mismos orígenes dependiendo de condiciones establecidas.
+
+Al ser open-source, sí dan la opción de gestionarla uno mismo, y aunque puede que no sea tan avanzada en el aspecto de la interfaz de usuario, sí que ofrece la mayoría de su funcionalidad directamente desde la interfaz web. Por lo que es posible funcionar correctamente con un equipo mixto de personas técnicas que se encarguen de el despliegue y funcionamiento del sistema, mientras que los menos técnicos se encargan de el uso de la herramienta.
+
+#### IBM InfoSphere Information Server
+
+Es una herramienta multiusos de IBM, que cuenta con su sección de ETL, aunque también busca ser una herramienta general para Data Warehousing y Business Intelligence, ofreciano la habilidad de gestionar la calidad del dato, analisis y auditoría.
+
+Está optimizada para su uso conjunto con otras herramientas del ecosistema IBM.
+
+Puede ser utilizado desplegándolo en la organización mismo o en la nube.
+
+#### Oracle Data Integration Cloud Service
+
+Se trata de una plataforma completa, similar a la herramienta anterior de IBM, que busca unificar diferentes soluciones para todos los aspectos del gobierno del dato, Business Intelligence o migración de datos.
+
+También se integra con las herramientas del ecosistema Oracle.
+
+Es una herramienta orientada a su uso puramente en la nube, ya que la estrategia de Oracle ha sido la de desarrollar todo su ecosistema en la nube.
+
+#### Comparativa
+
+Realizamos la comparativa, principalmente valorando el tipo de licencia, precio, opciones para despliegues en la propia organización o en la nube e integraciones con herramientas del propio ecosistema.
+
+| Herramienta                           | Licencia                    | Precio                                                  | Uso "in-premise" | Hosting en la nube            | Ecosistema                      |
+| ------------------------------------- | --------------------------- | ------------------------------------------------------- | ---------------- | ----------------------------- | ------------------------------- |
+| Adeptia Connect                       | Comercial                   | Bajo acuerdo                                            | Sí               | Sí, nube propia o de terceros | No cuenta con ecosistema propio |
+| Apache NiFi                           | Apache License, Version 2.0 | Gratuíto, a coste de realizar el mantenimiento nosotros | Sí               | Sí, nube de terceros          | Ecosistema Apache               |
+| IBM InfoSphere Information Server     | Comercial                   | Bajo acuerdo                                            | Sí               | Sí, nube propia o de terceros | Ecosistema IBM                  |
+| Oracle Data Integration Cloud Service | Comercial                   | Bajo acuerdo                                            | No               | Sí, nube propia               | Ecosistema Oracle               |
+
+ La elección de herramienta dependerá nastante de las capabilidades técnicas del equipo, para equipos con pocos recursos de este tipo o que consideren que no pueden dedicarle los recursos necesarios, podrían considerar que la selección más correcta es alguna de las 3 que ofrecen soporte. Mientras que si nos consideramos habilitados para realizar esa gestión, la opción de Apache puede ser más adecuada, que es la que consideramos para nuestro caso.
+
+La opción de integrarlos con servicios en la nube lo consideramos un punto a favor, pero sin embargo lo que se considera crítico es la opción de hosting en las premisas de la organización. Es la forma más sencilla de garantizar que ciertos datos no salen en ningún momento de nuestra organización.
+
+Por lo tanto, se selecciona Apache niFi como la solución más correcta en este caso, con la condición de que será necesario dedicar ciertos recursos a su gestión.
+
 ## Referencias
 
 [1] ¿Qué es la gobernanza de datos? | Definición, importancia y tipos | SAP. (n.d.). SAP. https://www.sap.com/latinamerica/products/data-cloud/master-data-governance/what-is-data-governance.html
