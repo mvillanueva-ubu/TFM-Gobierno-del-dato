@@ -754,11 +754,55 @@ Realizamos la comparativa, principalmente valorando el tipo de licencia, precio,
 | IBM InfoSphere Information Server     | Comercial                   | Bajo acuerdo                                            | Sí               | Sí, nube propia o de terceros | Ecosistema IBM                  |
 | Oracle Data Integration Cloud Service | Comercial                   | Bajo acuerdo                                            | No               | Sí, nube propia               | Ecosistema Oracle               |
 
- La elección de herramienta dependerá nastante de las capabilidades técnicas del equipo, para equipos con pocos recursos de este tipo o que consideren que no pueden dedicarle los recursos necesarios, podrían considerar que la selección más correcta es alguna de las 3 que ofrecen soporte. Mientras que si nos consideramos habilitados para realizar esa gestión, la opción de Apache puede ser más adecuada, que es la que consideramos para nuestro caso.
+La elección de herramienta dependerá nastante de las capabilidades técnicas del equipo, para equipos con pocos recursos de este tipo o que consideren que no pueden dedicarle los recursos necesarios, podrían considerar que la selección más correcta es alguna de las 3 que ofrecen soporte. Mientras que si nos consideramos habilitados para realizar esa gestión, la opción de Apache puede ser más adecuada, que es la que consideramos para nuestro caso.La elección de herramienta dependerá nastante de las capabilidades técnicas del equipo, para equipos con pocos recursos de este tipo o que consideren que no pueden dedicarle los recursos necesarios, podrían considerar que la selección más correcta es alguna de las 3 que ofrecen soporte. Mientras que si nos consideramos habilitados para realizar esa gestión, la opción de Apache puede ser más adecuada, que es la que consideramos para nuestro caso.
 
 La opción de integrarlos con servicios en la nube lo consideramos un punto a favor, pero sin embargo lo que se considera crítico es la opción de hosting en las premisas de la organización. Es la forma más sencilla de garantizar que ciertos datos no salen en ningún momento de nuestra organización.
 
 Por lo tanto, se selecciona Apache niFi como la solución más correcta en este caso, con la condición de que será necesario dedicar ciertos recursos a su gestión.
+
+#### Usando Apache NiFi
+
+NiFi funciona mediante lo que denomina "processors" que son las unidades que definen origenes, transformaciones y salidas.
+
+Un flujo de uso tal como se define en el manual [19] podría ser el siguiente, dividido para mostrar las 3 fases del proceso Extract-Transform-Load:
+
+1. Extracción: Crear un nuevo processor de tipo  como de "data ingestion"
+
+   1. Estos son los processors que formarán la entrada de todos nuestros datos
+
+2. Transformación: procesadores que distrubuyen los datos y los transforman
+
+   1. Crear los procesadores dedicados a mover los datos
+
+      1. De tipo "Routing" o "Mediator", es decir, que enrutan de un punto a otro
+
+      2. De tipo "Attribute extraction", para extraer atributos concretos
+
+      3. De tipo "Splitting" o "Merging", para separar atributos del mismo orígen en varios, o de varios a un solo punto
+
+   2. Crear los procesadores que transforman los datos en sí, de tipo "Data Transformation"
+
+      1. Estos son los que realizan operaciones sobre los datos, como puede ser convertir de una unidad a otra
+
+3. Carga:
+
+   1. Procesadores que envían los datos ya transformados a su destino
+
+      1. Tipo "Sending" para envío de datos a  el servidor donde configuremos
+
+      2. Tipo "Database Access" si modificamos directamente en base de datos
+
+Se definirá también el "run duration" o el tiempo que se dedicará a la ececución de los procesadores cada vez que se pongan en marcha.
+
+Finalmente definimos el momento de ejecución de los procesadores, en la pestaña de "scheduling".  La configuración principal es la estrategia de ejecución "Scheduling Strategy" que puede ser de 3 tipos:
+
+- "Timer driven": ejecución contínua cada X tiempo, para ejecución a tiempo real
+
+- "Event driven": sólo se ejecuta bajo ciertas condiciones  especificadas
+
+- "CRON driven": ejecuciones planificadas por fecha y hora. Por ejemplo, todas las semanas el viernes a las 2pm
+
+Otras configuraciones más técnicas para la ejecución son las de "concurrent tasks" y "execution". La primera especifica cuantos hilos puede ocupar la ejecución, mientras que la segunda especifica el nodo específico en el que se ejecutan. Estas opciones no son definidas por el data steward, sino que se han de crear unas directrices por parte del equipo técnico que mantiene la herramienta para no sobrecargarla y hacer un uso óptimo de la misma.
 
 ## Referencias
 
@@ -797,3 +841,5 @@ Por lo tanto, se selecciona Apache niFi como la solución más correcta en este 
 [17] Art. 4 GDPR – Definitions - General Data Protection Regulation (GDPR). (2018, March 29). General Data Protection Regulation (GDPR). https://gdpr-info.eu/art-4-gdpr/
 
 [18] Asswad, J., & Marx Gómez, J. (2021). Data Ownership: A Survey. Information, 12(11), 465. https://doi.org/10.3390/info12110465
+
+[19] Team, A. N. (n.d.). Apache NiFi User Guide. https://nifi.apache.org/docs/nifi-docs/html/user-guide.html
