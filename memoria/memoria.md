@@ -812,6 +812,36 @@ Finalmente definimos el momento de ejecución de los procesadores, en la pestañ
 
 Otras configuraciones más técnicas para la ejecución son las de "concurrent tasks" y "execution". La primera especifica cuantos hilos puede ocupar la ejecución, mientras que la segunda especifica el nodo específico en el que se ejecutan. Estas opciones no son definidas por el data steward, sino que se han de crear unas directrices por parte del equipo técnico que mantiene la herramienta para no sobrecargarla y hacer un uso óptimo de la misma.
 
+### Herramientas de calidad del dato
+
+De cara a utilizar una herramienta para gestionar la calidad del dato, ya que estamos utilizando Apache NiFi como herramienta ETL, optaremos por utilizarla también por sus cualidades de gestión de la calidad del dato para evitar redundancias con 2 herramientas que se solapan. De todas formas también se considerarán otras herramientas por si en algún futuro se decidiera dejar Apache NiFi de lado y se necesitara alguna alternativa.
+
+#### Apache NiFi y la calidad del dato
+
+Apache NiFi nos ofrece soporte para diferentes acciones clave de cara a la calidad:
+
+| Validación                  | Es posible realizar una validación continua, ya sea mediante esquemas predefinidos o lógica programada                                                                                               |
+| --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Transformación              | La acción de la transformación en sí mejora la calidad, garantiza una estandarización  y consistencia de los datos.                                                                                  |
+| Procedencia                 | NiFi muestra lo que llama el "linaje" de los datos, es decir muestra todos los pasos por los que transcurre desde el origen hasta la salida                                                          |
+| Establecimiento de perfiles | O "data profiling", es la capacidad de NiFi de analizar la distribución de datos en el sistema, identificando patrones o posibles anomalías.                                                         |
+| Limpieza                    | Parte de las operaciones que los "processors" pueden realizar son de limpieza de datos, como puede ser eliminación de duplicados o corregir errores                                                  |
+| Gestión de errores          | Permite gestionar qué hacer en caso de errores, con políticas de reintentos o gestiones específicas. De esta forma se puede definir qué hacer al darse un fallo de validación o un error de conexión |
+| Monitorización              | Permite monitorizar la salud y rendimiento de todos los aspectos del sistema, mostrando métricas de tasas de error, velocidades de procesamiento...                                                  |
+| Logging                     | Alta customización de los logs del sistema, para poder identificar los fallos y trazar sus puntos de error                                                                                           |
+
+#### Alternativas
+
+Las primeras alternativas a considerar serían los ecosistemas de las otras herramientas ETL consideradas. En caso por ejemplo de pivotar a el ecosistema de IBM, también nos ofrecería capacidades de calidad del dato mediante sus propias herramientas. Es también el caso con Oracle Data Integration Cloud Service, que como se ha especificado antes, busca ser una herramienta que cubra todas las necesidades de este ámbito.
+
+Otras alternativas existentes:
+
+- OpenRefine, antes "Google Refine" es una herramienta dedicada exclusivamente a la calidad de la información, con especial énfasis en la eficiencia del análisis. Por lo que es una herramienta que destaca por ejemplo a la hora de identificar patrones en la información. Aunque es más limitada en el aspecto de la gestión de errores.
+
+- Data Ladder, herramienta muy orientada a la limpieza de los datos. Sin embargo su muy limitado alcance y falta de documentación para sus características más avanzadas son un factor grande en su contra.
+
+- Talend es una herramienta que potencia sus cualidades de análisis utilizando machine learning. Cuanta con varias rutinas de limpieza y de-duplicado muy eficientes, aunque su gran desventaja es la complejidad a la hora de usarse por parte de usuarios en perfiles poco técnicos.
+
 ## Referencias
 
 [1] ¿Qué es la gobernanza de datos? | Definición, importancia y tipos | SAP. (n.d.). SAP. https://www.sap.com/latinamerica/products/data-cloud/master-data-governance/what-is-data-governance.html
