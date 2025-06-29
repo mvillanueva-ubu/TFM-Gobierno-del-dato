@@ -268,7 +268,6 @@ desarrollados, exceptuando a DogOnt que sigue en el desarrollo previamente menci
 
 - Utilizado en el marco europeo: la cualidad más subjetiva de las 4, aunque sí se considera útil el saber que proyectos y empresas en un marco europeo similar al nuestro lo están ya utilizando
 
-|            | Aplicamble a un ámbito general                     | Suficientemente desarrollado                   | Licencia permisiva        | Utilizado en el marco europeo                       |
 |            | Aplicable a un ámbito general                      | Suficientemente desarrollado                   | Licencia permisiva        | Utilizado en el marco europeo                       |
 | ---------- | -------------------------------------------------- | ---------------------------------------------- | ------------------------- | --------------------------------------------------- |
 | DogOnt     | En proceso de expandirse del ámbito de la domótica | En proceso de desarrollo de su segunda versión | Sí                        | No extendido                                        |
@@ -291,6 +290,7 @@ IoT-Lite es una extensión de Semantic Sensor Network Ontology (SSN) y utiliza 
 
 - Sistemas, abstracción que representa infraestructura. Puede tener componentes y al mismo tiempo subsistemas (que a su vez son de tipo sistema)
 
+  - Estos componentes o dispositivos a su vez pueden ser de diferentes tipos:  dispositivos sensores, dispositivos de etiqueta (como puede ser un código QR o chip RFID)
 
   - Los dispositivos sensores son a su vez también elementos de tipo "sensor" que pueden contener sub-sensores. Lo que estos dispositivos captan se define mediante objetos de tipo unidad y cantidad
 
