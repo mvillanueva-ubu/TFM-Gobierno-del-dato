@@ -4,21 +4,21 @@
 
 Los objetivos se separan en dos tipos[1]:
 
-- Por un lado, se identifican los objetivos que la gobernanca del dato va a aportar a nuestra organización, es decir qué aspectos son los que se verán mejorados en nuestra organización tras la aplicación de nuestro proyecto.
+- Por un lado, se identifican los objetivos que la gobernanza del dato va a aportar a nuestra organización, es decir qué aspectos son los que se verán mejorados en nuestra organización tras la aplicación de nuestro proyecto.
 
 - Por otro lado, también es necesario definir los objetivos que el proyecto en sí ha de cumplir, qué aspectos de el gobierno del dato se van a tratar.
 
 ### ¿Qué nos aporta el gobierno del dato?
 
-Los beneficios de aplicar un proyecto de gobierno del dato a cualquier organización son claros e immediatos, con un efecto directo en la eficiencia, seguridad y desarrollo.
+Los beneficios de aplicar un proyecto de gobierno del dato a cualquier organización son claros e inmediatos, con un efecto directo en la eficiencia, seguridad y desarrollo.
 
 Entre los objetivos que buscamos se encuentran los siguientes:
 
 1. Mejora de los datos: de forma que no solamente se obtienen datos de mayor calidad, sino que son más confiables.
 
-   1. Utilizamos estándares que nos ayudan a medir y cumpolic con la calidad
+   1. Utilizamos estándares que nos ayudan a medir y cumplir con la calidad
 
-   2. Se monitorizan los datos de forma contínua para garantizar el cumplimiento
+   2. Se monitorizan los datos de forma continua para garantizar el cumplimiento
 
 2. Cumplimiento de las normativas pertinentes, y mejora de la seguridad en general
 
@@ -52,7 +52,7 @@ Los objetivos de este proyecto para alcanzar los definidos en el anterior aparta
 
 ### Contexto
 
-El gobierno del dato es un aspecto clave en cualquier organización, pero tiene un carácter especialmente importante en el ámbito de el IOT (Internet de las Cosas). No solo se parte desde una situación en la que los dispositivos IoT son cada vez más, sino que cuenta con bastantes retos que son claves desde una perspectiva de fobierno del dato. Por ejemplo la generación masiva de datos que estos dispositivos conllevan, o la heterogeneidad de las fuentes. A esto se le añaden agravantes como la necesidad de procesamiento de los datos en tiempo real y la necesidad de una mayor seguridad.
+El gobierno del dato es un aspecto clave en cualquier organización, pero tiene un carácter especialmente importante en el ámbito de el IoT (Internet de las Cosas). No solo se parte desde una situación en la que los dispositivos IoT son cada vez más, sino que cuenta con bastantes retos que son claves desde una perspectiva de gobierno del dato. Por ejemplo la generación masiva de datos que estos dispositivos conllevan, o la heterogeneidad de las fuentes. A esto se le añaden agravantes como la necesidad de procesamiento de los datos en tiempo real y la necesidad de una mayor seguridad.
 
 ### Actores implicados
 
@@ -70,7 +70,7 @@ El gobierno del dato ha de implicar no sólo a los actores directos del proyecto
 
 - Equipos de desarrollo, ya que son los encargados de construir las soluciones que hacen uso de los datos
 
-De la misma manera, se definirá un equipo del gobierno del dato en un apartado posterior. Estas serán las personas principales encargadas de llevar a cabo el proyecto. Para ello se definirán roles especificos y se acotarán las responsabilidades de cada uno.
+De la misma manera, se definirá un equipo del gobierno del dato en un apartado posterior. Estas serán las personas principales encargadas de llevar a cabo el proyecto. Para ello se definirán roles específicos y se acotarán las responsabilidades de cada uno.
 
 ## Equipo
 
@@ -78,7 +78,7 @@ El equipo de gobierno del dato se puede separar en 3 grupos principales: el cons
 
 ### Consejo de gobierno del dato
 
-El consejop ha de ser formado por miembros de la organización con capacidades para asignarle tanto recursos como los fondos necesarios y miembros que vayan a ser los encargados de tomar las decisiones sobre políticas y procesos. Como tercer grupo minoritario también se contará con gente relacionada a los procesos de negocio, aunque no sean miembros principales aportarán su conocimiento sobre el negocio en momentos en los que se necesite.
+El consejo ha de ser formado por miembros de la organización con capacidades para asignarle tanto recursos como los fondos necesarios y miembros que vayan a ser los encargados de tomar las decisiones sobre políticas y procesos. Como tercer grupo minoritario también se contará con gente relacionada a los procesos de negocio, aunque no sean miembros principales aportarán su conocimiento sobre el negocio en momentos en los que se necesite.
 
 Sus principales responsabilidades son las siguientes[3]:
 
@@ -92,7 +92,7 @@ En aspectos generales, el rol principal consiste en decidir cuales son los objet
 
 ### Grupo de coordinación
 
-Este grupo contará con miembros que también participan en el consejo, quienes se encargan de definir las políticas a seguir han de definir los requisitos específicos que se han de lograr para lograr los objetivos a alto nivel decididos en el consejo. Funcionará como un intermediario entre la dirección de alto nivel del consejo y los grupos de áreas especificos, marcando las acciones que los grupos de áreas han de realizar y retransmitiendo al consejo los resultados y comentarios de las áreas al consejo.
+Este grupo contará con miembros que también participan en el consejo, quienes se encargan de definir las políticas a seguir han de definir los requisitos específicos que se han de lograr para lograr los objetivos a alto nivel decididos en el consejo. Funcionará como un intermediario entre la dirección de alto nivel del consejo y los grupos de áreas específicos, marcando las acciones que los grupos de áreas han de realizar y retransmitiendo al consejo los resultados y comentarios de las áreas al consejo.
 
 ### Grupos de áreas
 
@@ -106,17 +106,17 @@ La la formación de estos grupos definiremos varios roles, cada persona implicad
 
 Será el líder del proyecto, encargado de asignar los suficientes fondos y recursos que se acuerden en el consejo. Toma carácter de guía de la estrategia que ha de seguir el proyecto.
 
-#### Lider del gobierno del dato
+#### Líder del gobierno del dato
 
 Es el responsable máximo de que se lleve adelante la implementación del proyecto. Por lo tanto sus responsabilidades son de coordinar y guiar al equipo, como jefe de proyecto.
 
 #### Propietario del dato
 
-El propietario del dato es quien tien autoridad para realizar las decisiones sobre las definiciones de términos de negocios y requerimientos que el negocio tiene sobre el dato
+El propietario del dato es quien tiene autoridad para realizar las decisiones sobre las definiciones de términos de negocios y requerimientos que el negocio tiene sobre el dato
 
 #### Data steward
 
-Los data steward son los encargados de trasladar los requerimientos específicos y actuan como sus representantes en la reuniones del día a día. Son gente de los diferentes departamentos que trabajan bajo la coordinación del propietario del dato.
+Los data steward son los encargados de trasladar los requerimientos específicos y actúan como sus representantes en la reuniones del día a día. Son gente de los diferentes departamentos que trabajan bajo la coordinación del propietario del dato.
 
 #### Interesados
 
@@ -132,13 +132,13 @@ Ya definidos tanto los grupos como los roles, se especifica la organización de 
 
 | Grupo                         | Roles                                                                                                                       |
 | ----------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| Consejo del gobierno del dato | Patrocinador ejecutivo<br/>Lider de gobierno del dato<br/>Propietario del dato<br/>Personas claves de entre los interesados |
-| Grupo de coordinación         | Lider de gobierno del dato<br/>Propietario del dato<br/>Data stewards<br/>Personas claves de entre los interesados          |
+| Consejo del gobierno del dato | Patrocinador ejecutivo<br/>Líder de gobierno del dato<br/>Propietario del dato<br/>Personas claves de entre los interesados |
+| Grupo de coordinación         | Líder de gobierno del dato<br/>Propietario del dato<br/>Data stewards<br/>Personas claves de entre los interesados          |
 | Grupos de áreas               | Data stewards<br/>Custodios<br/>Interesados                                                                                 |
 
 ## Formación de data stewards
 
-Los data stewards son un perfil con alto conocimiento de ingeniería de datos, para poderrealizar la función de data steward sí que se requerirá alguna de las siguientes formaciones:
+Los data stewards son un perfil con alto conocimiento de ingeniería de datos, para poder realizar la función de data steward sí que se requerirá alguna de las siguientes formaciones:
 
 - Grado en Ingeniería Informática
 
@@ -158,17 +158,19 @@ Además de los estudios de grado hay ciertos posgrados que también ayudarán en
 
 - Máster en Ingeniería del Software
 
-Es importante que la organización busque políticas para fomentar este tipo de estudios, como ayudas económicas o conciliación de horarios. Sin embargo, no es realista esperar que los data stewards inviertan tanto tiempo, recursos y energías en formaciones tan extensas, ni se puede permitir ninguna organización los recursos ni tiempo completos que requieren. En españa sí que existen varias organizaciones que ofrecen diferentes certificaciones en el ámbito del gobierno del dato, aunque ninguna de ellas es una certificación estandarizada, todas ellas son propias de las instituciones que las imparten. Estas sí que pueden considerarse como una buena opción para compaginar con el trabajo, dado sus precios más reducidos y duración asumible. Por lo tanto se ofrecerá a los data stewards la opción de cursar estos diferentes cursos y obtener sus corresponientes certificaiones:
+Es importante que la organización busque políticas para fomentar este tipo de estudios, como ayudas económicas o conciliación de horarios. Sin embargo, no es realista esperar que los data stewards inviertan tanto tiempo, recursos y energías en formaciones tan extensas, ni se puede permitir ninguna organización los recursos ni tiempo completos que requieren. En España sí que existen varias organizaciones que ofrecen diferentes certificaciones en el ámbito del gobierno del dato, aunque ninguna de ellas es una certificación estandarizada, todas ellas son propias de las instituciones que las imparten. Estas sí que pueden considerarse como una buena opción para compaginar con el trabajo, dado sus precios más reducidos y duración asumible. Por lo tanto se ofrecerá a los data stewards la opción de cursar estos diferentes cursos y obtener sus correspondientes certificaciones:
 
-- Data Stewardship y gestión de datos de investigación
+- Data Stewardship y gestión de datos de
 
-  - Ofrecido por Sociedad Española de Documentación e Información Científica (SEDIC)
+investigación
 
-  - En castellano
+- Ofrecido por Sociedad Española de Documentación e Información Científica (SEDIC)
 
-  - De carácter virtual
+- En castellano
 
-  - Duración de 60h
+- De carácter virtual
+
+- Duración de 60h
 
 - Certified Data Steward
 
@@ -194,7 +196,7 @@ De la misma forma que se sugieren estos cursos, existirá la opción de los data
 
 ## Estándares
 
-De cara a crear un glosario de términos, es una buena práctica no intentar partir de 0, sino utilizar estándares ya existentes como base. Para ello, se ha realizado un estudio de diferentes estándares para ver sus diferentes características y poder decidirse por uno de ellos
+De cara a crear un glosario de términos, es una buena práctica no intentar partir de 0, sino utilizar estándares ya existentes como base. Para ello, se ha realizado un estudio de diferentes estándares para ver sus diferentes carácterísticas y poder decidirse por uno de ellos
 
 ### Ontología dedicada a campos específicos
 
@@ -205,7 +207,7 @@ No se consideran como soluciones a nuestras necesidades, dado que no tienen uso 
 | Agronomy Ontology (AgrO) | Agronomía                                                                                                                                        | https://bigdata.cgiar.org/resources/agronomy-ontology/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | Brick                    | Construcción                                                                                                                                     | https://brickschema.org/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | ExtruOnt                 | Industria , concretamente máquinas de extrusión                                                                                                  | https://arxiv.org/pdf/2401.11848                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| SAREF                    | Es un gropo de varios proyectos cada uno con su dominio: Automobilismo, construcción, ciudades, salud, energía, medio ambiente, industria, aguas | https://www.etsi.org/deliver/etsi_ts/103400_103499/10341007/01.01.01_60/ts_10341007v010101p.pdf<br/>https://www.etsi.org/deliver/etsi_ts/103400_103499/10341003/01.01.02_60/ts_10341003v010102p.pdf<br/>https://www.etsi.org/deliver/etsi_ts/103400_103499/10341004/01.01.02_60/ts_10341004v010102p.pdf<br/>https://www.etsi.org/deliver/etsi_ts/103400_103499/10341001/01.01.02_60/ts_10341001v010102p.pdf<br/>https://www.etsi.org/deliver/etsi_ts/103400_103499/10341002/01.01.02_60/ts_10341002v010102p.pdf<br/>https://www.etsi.org/deliver/etsi_ts/103400_103499/10341005/01.01.02_60/ts_10341005v010102p.pdf<br/>https://www.etsi.org/deliver/etsi_ts/103400_103499/10341010/01.01.01_60/ts_10341010v010101p.pdf<br/> |
+| SAREF                    | Es un grupo de varios proyectos cada uno con su dominio: Automovilismo, construcción, ciudades, salud, energía, medio ambiente, industria, aguas | https://www.etsi.org/deliver/etsi_ts/103400_103499/10341007/01.01.01_60/ts_10341007v010101p.pdf<br/>https://www.etsi.org/deliver/etsi_ts/103400_103499/10341003/01.01.02_60/ts_10341003v010102p.pdf<br/>https://www.etsi.org/deliver/etsi_ts/103400_103499/10341004/01.01.02_60/ts_10341004v010102p.pdf<br/>https://www.etsi.org/deliver/etsi_ts/103400_103499/10341001/01.01.02_60/ts_10341001v010102p.pdf<br/>https://www.etsi.org/deliver/etsi_ts/103400_103499/10341002/01.01.02_60/ts_10341002v010102p.pdf<br/>https://www.etsi.org/deliver/etsi_ts/103400_103499/10341005/01.01.02_60/ts_10341005v010102p.pdf<br/>https://www.etsi.org/deliver/etsi_ts/103400_103499/10341010/01.01.01_60/ts_10341010v010101p.pdf<br/> |
 
 ### Ontology Modeling for Intelligent Domotic Environments (DogOnt)
 
@@ -245,7 +247,7 @@ Centrado en la privacidad, y en soportar los frameworks de pruebas de los dispos
 
 ### Machine-to-Machine Measurement (M3)
 
-Creado con el objetivo de utilizar un lenguaje unificado que compartan todos los sensores de despositivos de todos los ámbitos.
+Creado con el objetivo de utilizar un lenguaje unificado que compartan todos los sensores de dispositivos de todos los ámbitos.
 
 | Alcance       | General                                                              |
 | ------------- | -------------------------------------------------------------------- |
@@ -256,15 +258,18 @@ Creado con el objetivo de utilizar un lenguaje unificado que compartan todos los
 
 Para realizar una selección de qué estándar utilizar, se ha decidido utilizar 4 cualidades. No todas necesariamente de obligatorio cumplimiento al 100%:
 
-- Aplicamble a un ámbito general: en este contexto significa que no está diseñado para un ámbito específico, y se considerará mejor segun más tipos de elementos, propiedades y valores sea capaz de modelar. En este caso sólo DogOnt no es del todo aplicable a todos lo dominios, aunque sigue su desarrollo para que en algún momento lo sea. Y por otro lado M3 tiene un diseño que modela ciertas unidades, sensores y dominios, por lo que podría darse el caso de que no cumpliera todas nuestras necesidades.
+- Aplicable a un ámbito general: en este contexto significa que no está diseñado para un ámbito específico, y se considerará mejor según más tipos de elementos, propiedades y valores sea capaz de modelar. En este caso sólo DogOnt no es del todo aplicable a todos lo dominios, aunque sigue su desarrollo para que en algún momento lo sea. Y por otro lado M3 tiene un diseño que modela ciertas unidades, sensores y dominios, por lo que podría darse el caso de que no cumpliera todas nuestras necesidades.
 
-- Suficientemente desarrollado: implica que está listo para ser utilizado en aplicaciones productivas ya. En el caso de los estándares propuestos, todos están ya lo suficientemente desarrollados, exceptuando a DogOnt que sigue en el desarrollo previamente mencionado de pasar de un dominio específico a un ámbito genérico.
+- Suficientemente desarrollado: implica que está listo para ser utilizado en aplicaciones productivas ya. En el caso de los estándares propuestos, todos están ya lo suficientemente
+
+desarrollados, exceptuando a DogOnt que sigue en el desarrollo previamente mencionado de pasar de un dominio específico a un ámbito genérico.
 
 - Licencia permisiva: se valorará que cuente con una licencia que no nos vaya a limitar en su uso, ni condicione ser parte de ninguna organización.
 
 - Utilizado en el marco europeo: la cualidad más subjetiva de las 4, aunque sí se considera útil el saber que proyectos y empresas en un marco europeo similar al nuestro lo están ya utilizando
 
 |            | Aplicamble a un ámbito general                     | Suficientemente desarrollado                   | Licencia permisiva        | Utilizado en el marco europeo                       |
+|            | Aplicable a un ámbito general                      | Suficientemente desarrollado                   | Licencia permisiva        | Utilizado en el marco europeo                       |
 | ---------- | -------------------------------------------------- | ---------------------------------------------- | ------------------------- | --------------------------------------------------- |
 | DogOnt     | En proceso de expandirse del ámbito de la domótica | En proceso de desarrollo de su segunda versión | Sí                        | No extendido                                        |
 | IoT-Lite   | Sí                                                 | Sí                                             | Sí                        | Sí, desarrollado como parte de la iniciativa EU FP7 |
@@ -272,7 +277,7 @@ Para realizar una selección de qué estándar utilizar, se ha decidido utilizar
 | FIESTA-IoT | Sí                                                 | Sí                                             | Sólo bajo previa petición | Sí                                                  |
 | M3         | Sí, aunque tiene una estructura muy rígida         | Sí                                             | Sí                        | Sí                                                  |
 
-Como conclusión, IoT-Lite es la que mejor balancea las 4 cualidades que buscamos, por lo que sería nuestra primera opción. De carácter abierto a todos los dominios y sin limitaciopnes con ningún dispositivo que nos vayamos a encontrar, cuenta con una licencia que no nos limita en ningún aspecto y sabemos que ha sido desarrollado y se está utilizando en un marco como el nuestro.
+Como conclusión, IoT-Lite es la que mejor balancea las 4 cualidades que buscamos, por lo que sería nuestra primera opción. De carácter abierto a todos los dominios y sin limitaciones con ningún dispositivo que nos vayamos a encontrar, cuenta con una licencia que no nos limita en ningún aspecto y sabemos que ha sido desarrollado y se está utilizando en un marco como el nuestro.
 
 ### Funcionamiento de IoT-Lite
 
@@ -286,15 +291,14 @@ IoT-Lite es una extensión de Semantic Sensor Network Ontology (SSN) y utiliza 
 
 - Sistemas, abstracción que representa infraestructura. Puede tener componentes y al mismo tiempo subsistemas (que a su vez son de tipo sistema)
 
-  - Estos componentes o dispositivos a su vez pueden ser de diferentyes tipos:  dispositivos sensores, dispositivos de etiqueta (como puede ser un código QR o chip RFID)
 
   - Los dispositivos sensores son a su vez también elementos de tipo "sensor" que pueden contener sub-sensores. Lo que estos dispositivos captan se define mediante objetos de tipo unidad y cantidad
 
-  - Los dispositivos también pueden tener covertura (define su rango de actuación) y esta se define mediante utilizando lo siguiente
+  - Los dispositivos también pueden tener cobertura (define su rango de actuación) y esta se define mediante utilizando lo siguiente
 
     - Puntos, que representan puntos en el espacio físico
 
-    - El sub-tipo de el elemento covertura nos indica como utilizar los puntos para dibujar el alcance
+    - El sub-tipo de el elemento cobertura nos indica como utilizar los puntos para dibujar el alcance
 
       - Círculo
 
@@ -326,15 +330,15 @@ El reto principal de la calidad en el contexto de IoT viene dada la alta cantida
 
 | Política                                                                                                                                                                                                                                                                                                 | Responsable                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Momento de aplicación                                                                                            |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| Comparación de la información de los sensores con datos de referencia. Por ejemplo si tenemos sensores de lluvia comprobar que coincida con información meteorológica de referencia.                                                                                                                     | Proceso automatizado, los márgenes de diferencias serán marcados por el data steward, mientras que la implancación será de mano del custodio.                                                                                                                                                                                                                                                                                                                          | Periódica, diario como proceso automatizado fuera del hortario laboral.                                          |
-| Validación de las unidades utilizadas por los nuevos orígenes de datos.                                                                                                                                                                                                                                  | EL custodio es el encargado de validar que cada nuevo origen que añada al sistema utilice las mismas unidades que los demás. Dichos estándares son los especificados por el data steward. Indican por ejemplo que los pesos han de especificarse en gramos, el tiempo en milisegundos y la temperatura en grados celsius. En caso de que el orignen no cumpla por defecto, el custodio habrá de implementar la conversión de los datos antes de empezar a almacenarlos | Al momento de incorporar un nuevo origen de datos al sistema                                                     |
+| Comparación de la información de los sensores con datos de referencia. Por ejemplo si tenemos sensores de lluvia comprobar que coincida con información meteorológica de referencia.                                                                                                                     | Proceso automatizado, los márgenes de diferencias serán marcados por el data steward, mientras que la implantación será de mano del custodio.                                                                                                                                                                                                                                                                                                                          | Periódica, diario como proceso automatizado fuera del horario laboral.                                           |
+| Validación de las unidades utilizadas por los nuevos orígenes de datos.                                                                                                                                                                                                                                  | EL custodio es el encargado de validar que cada nuevo origen que añada al sistema utilice las mismas unidades que los demás. Dichos estándares son los especificados por el data steward. Indican por ejemplo que los pesos han de especificarse en gramos, el tiempo en mili-segundos y la temperatura en grados Celsius. En caso de que el origen no cumpla por defecto, el custodio habrá de implementar la conversión de los datos antes de empezar a almacenarlos | Al momento de incorporar un nuevo origen de datos al sistema                                                     |
 | Inspección visual de la información. No de forma exhaustiva, pero sí que ha de combinarse con las validaciones automáticas para poder encontrar casos que no se estén validando bien                                                                                                                     | El encargado es el data steward del área, ya que cuenta tanto con los conocimientos del negocio como de los estándares que se han marcado.                                                                                                                                                                                                                                                                                                                             | Periódica, semanal                                                                                               |
-| Calibración de los sensores                                                                                                                                                                                                                                                                              | Personal técnico                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Periódico, segun las especificaciones del fabricante                                                             |
+| Calibración de los sensores                                                                                                                                                                                                                                                                              | Personal técnico                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Periódico, según las especificaciones del fabricante                                                             |
 | Implementación de redundancia en los sensores. En los casos que sea posible, utilizar sensores redundantes para la validación del correcto funcionamiento de cada uno de ellos. No sólo para la validación, sino el poder continuar con la recolección de datos en caso de fallo de uno de los sensores. | Custodios del dato, personal técnico                                                                                                                                                                                                                                                                                                                                                                                                                                   | Crear la redundancia en cuanto sea posible, después una vez esté implementada la validación ha de ser automática |
 
 ### Políticas de privacidad
 
-En el aspecto de la privacidad, las pautas principales en el ámbito de la Unión Europea las marca el Reglamento General de Protección de Datos (GDPR) [7]. A la hora de identificar si algún dato es de carácter privado es necesario utilizar la definición que nos indica [8]. A grandes rasgos se trata de información relacionada a una persona física (es decir, no aplicable a  que sea identificada o que pueda ser identificada mediante un punto o varios de información. Bajo esta definición queda claro que muchísima de la información que campturan los dispositivos IoT cae bajo esta categoría. Sí que hay información que no es de este tipo, como puede ser:
+En el aspecto de la privacidad, las pautas principales en el ámbito de la Unión Europea las marca el Reglamento General de Protección de Datos (GDPR) [7]. A la hora de identificar si algún dato es de carácter privado es necesario utilizar la definición que nos indica [8]. A grandes rasgos se trata de información relacionada a una persona física (es decir, no aplicable a  que sea identificada o que pueda ser identificada mediante un punto o varios de información. Bajo esta definición queda claro que muchísima de la información que capturan los dispositivos IoT cae bajo esta categoría. Sí que hay información que no es de este tipo, como puede ser:
 
 - Información meteorológica en general
 
@@ -360,42 +364,42 @@ El GPR también contempla un tipo de información extra sensible, que hemos de t
 
 - Información personal que pueda revelar raza u origen étnico, opiniones políticas religiosas o ideológicas o que revelen pertenencia a sindicatos.
 
-| Política                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | Responsable                                                                                                                                                                                                                   | Momento de aplicación                                                     |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
-| Identificar información privada. Se ha de identificar todos los orígenes que nos nutran de información que se considere privada. Se deberá ejecutar en cuanto sea posible para información ya capturada y orígenes de datos ya utilizados, y siempre que se añada un origen de datos nuevo. Especial incapié en que no hay que tratar los nuevos orígenes como puntos independientes, sino que hay que considerarlos en contexto para poder identificar si la nueva información puede ser combinada con otra ya existente para des-anonimizarla. | Data steward                                                                                                                                                                                                                  | Inmediato, siempre en el momento de añadir nuevos orígenes de información |
-| No compartir información privada con otras organizaciones. Esto ha de ser aceptado por el lider del proyecto, ya que tiene que guiar también al negocio. Es posible compartir esta información con otras organizaciones bajo ciertas condiciones, pero siempre la opción por defecto ha de ser que esta información no sea compartida con nadie.                                                                                                                                                                                                 | Patrocinador ejecutivo: responsable de alinear a la organización con la política<br/>Lider de gobierno del dato: responsable de argumentar su importancia<br/>Data steward: responsable de identificar la información privada | A la hora de solicitudes de información desde otras organizaciones        |
-| Notificación de la información utilizada. Es necesario notificar a la persona de la que se está capturando información. Esto implica, que las aplicaciones de nuestran organización informen al usuario de las mismas, se informen a los trabajadores y por último se informe a cualquier cliente.                                                                                                                                                                                                                                               | Data steward: como supervisor<br/>Interesados: relacionados a las personas pertinentes<br/>Personal técnico, en caso de que se necesite alguna implementación de carácter técnico                                             | Siempre qeu alguna de las personas afectadas interactue con nosotros      |
-| Eliminación de la información bajo demanda de la persona a la que pertenezca esa información                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Data steward: como supervisor<br/>Personal técnico, en caso de que se necesite alguna implementación de carácter técnico                                                                                                      | Bajo demanda, cada vez que una persona solicite su eliminación            |
-| Cifrado de la información personal [9]. Como medida para minimizar los riesgos de una brecha de seguridad                                                                                                                                                                                                                                                                                                                                                                                                                                        | Custodios<br/>Personal técnico                                                                                                                                                                                                | Contínua                                                                  |
-| Creación de los casos de procesado de la información. Según la reguilación, es necesario especificar qué uso se le da a cada dato, por lo que es necesario identificar todos los usos que se den y actualizar cada vez que se cree un uso nuevo para que se pueda ejercer la política de notificación a la persona afectada.                                                                                                                                                                                                                     | Data steward<br/>Custodios                                                                                                                                                                                                    | Contínua                                                                  |
+| Política                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | Responsable                                                                                                                                                                                                                   | Momento de aplicación                                                     |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| Identificar información privada. Se ha de identificar todos los orígenes que nos nutran de información que se considere privada. Se deberá ejecutar en cuanto sea posible para información ya capturada y orígenes de datos ya utilizados, y siempre que se añada un origen de datos nuevo. Especial hincapié en que no hay que tratar los nuevos orígenes como puntos independientes, sino que hay que considerarlos en contexto para poder identificar si la nueva información puede ser combinada con otra ya existente para des-anonimizarla. | Data steward                                                                                                                                                                                                                  | Inmediato, siempre en el momento de añadir nuevos orígenes de información |
+| No compartir información privada con otras organizaciones. Esto ha de ser aceptado por el líder del proyecto, ya que tiene que guiar también al negocio. Es posible compartir esta información con otras organizaciones bajo ciertas condiciones, pero siempre la opción por defecto ha de ser que esta información no sea compartida con nadie.                                                                                                                                                                                                  | Patrocinador ejecutivo: responsable de alinear a la organización con la política<br/>Líder de gobierno del dato: responsable de argumentar su importancia<br/>Data steward: responsable de identificar la información privada | A la hora de solicitudes de información desde otras organizaciones        |
+| Notificación de la información utilizada. Es necesario notificar a la persona de la que se está capturando información. Esto implica, que las aplicaciones de nuestra organización informen al usuario de las mismas, se informen a los trabajadores y por último se informe a cualquier cliente.                                                                                                                                                                                                                                                 | Data steward: como supervisor<br/>Interesados: relacionados a las personas pertinentes<br/>Personal técnico, en caso de que se necesite alguna implementación de carácter técnico                                             | Siempre que alguna de las personas afectadas interactúe con nosotros      |
+| Eliminación de la información bajo demanda de la persona a la que pertenezca esa información                                                                                                                                                                                                                                                                                                                                                                                                                                                      | Data steward: como supervisor<br/>Personal técnico, en caso de que se necesite alguna implementación de carácter técnico                                                                                                      | Bajo demanda, cada vez que una persona solicite su eliminación            |
+| Cifrado de la información personal [9]. Como medida para minimizar los riesgos de una brecha de seguridad                                                                                                                                                                                                                                                                                                                                                                                                                                         | Custodios<br/>Personal técnico                                                                                                                                                                                                | Continua                                                                  |
+| Creación de los casos de procesado de la información. Según la reguilación, es necesario especificar qué uso se le da a cada dato, por lo que es necesario identificar todos los usos que se den y actualizar cada vez que se cree un uso nuevo para que se pueda ejercer la política de notificación a la persona afectada.                                                                                                                                                                                                                      | Data steward<br/>Custodios                                                                                                                                                                                                    | Continua                                                                  |
 
 ### Políticas de seguridad
 
-No existe un sólo estándar universal de políticas de seguridad, y al igual que en los demás tipos de políticas hemos de tener en cuenta nuestro ámbito. Internet Society [10] por ejemplo distingue 3 tipos de ámbitos segun su desarrollo en las regulaciones de la seguridad:
+No existe un sólo estándar universal de políticas de seguridad, y al igual que en los demás tipos de políticas hemos de tener en cuenta nuestro ámbito. Internet Society [10] por ejemplo distingue 3 tipos de ámbitos según su desarrollo en las regulaciones de la seguridad:
 
-- Desarrollo en fases iniciales: hay interes en el IoT, pero no existe una regulación aún.
+- Desarrollo en fases iniciales: hay interés en el IoT, pero no existe una regulación aún.
 
 - Desarrollo en estado intermedio: hay regulaciones, pero no contemplan el IoT o no se ejercen dichas regulaciones
 
 - Desarrollo avanzado: existen las regulaciones, son aplicables al IoT y hay cuerpos dedicados a ejercer su cumplimiento
 
-Viendo estas tres categorias queda claro que cualquier pais de la Unión Europea cae bajo la categoría de desarrollo avanzado, e Internet Society mismo sugiere unas acciones a realizar que pueden guiar nuestras políticas.
+Viendo estas tres categorías queda claro que cualquier país de la Unión Europea cae bajo la categoría de desarrollo avanzado, e Internet Society mismo sugiere unas acciones a realizar que pueden guiar nuestras políticas.
 
 | Política                                                                                                                                    | Responsable                                                                                                                                                                                                                        | Momento de aplicación                                                           |
 | ------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
-| Revisión periódica de las regulaciones de seguridad. Que pueden incorporar requisitos para defenderse de nuevos riesgos y vulnerabilidades. | Lider de gobierno del dato<br/>Propietario del dato<br/>Data steward<br/>En general se trata de un equipo mixto que sea capaz de hacer cumplir lo acordado y que al mismo tiempo tenga algo de conocimiento específico del negocio | Periódica, con carácter mensual                                                 |
-| Asignación de responsables para los diferentes sistemas                                                                                     | Lider de gobierno del dato<br/>Data steward<br/>Custodios                                                                                                                                                                          | Cada vez que se realicen modificaciones en el equipo o en la propiedad del dato |
+| Revisión periódica de las regulaciones de seguridad. Que pueden incorporar requisitos para defenderse de nuevos riesgos y vulnerabilidades. | Líder de gobierno del dato<br/>Propietario del dato<br/>Data steward<br/>En general se trata de un equipo mixto que sea capaz de hacer cumplir lo acordado y que al mismo tiempo tenga algo de conocimiento específico del negocio | Periódica, con carácter mensual                                                 |
+| Asignación de responsables para los diferentes sistemas                                                                                     | Líder de gobierno del dato<br/>Data steward<br/>Custodios                                                                                                                                                                          | Cada vez que se realicen modificaciones en el equipo o en la propiedad del dato |
 | Creación de protocolos en caso de una situación de violación de datos                                                                       | Data steward y custodios asignados como responsables en la política anterior                                                                                                                                                       | Creación inmediata, con 2 revisiones anuales                                    |
 
 ### Políticas de la vida del dato
 
-Estas políticas se aplican en los diferentes puntos de la vida del dato, y aunque es cierto que existe cierto solapamiento con otras categorías, es importante que se reflejen en las políticas los retos que afectan especialmente a el IoT[11]. Se hace especial incapié en las etapas que son especialmente complejas en este ámbito; como por ejemplo la colección del dato, ya que vienen de fuentes, maneras y formatos mucho más heterogéneos que en la mayoría de otros ámbitos. AUnque por supuesto se han de considerar todas las fases.
+Estas políticas se aplican en los diferentes puntos de la vida del dato, y aunque es cierto que existe cierto solapamiento con otras categorías, es importante que se reflejen en las políticas los retos que afectan especialmente a el IoT[11]. Se hace especial hincapié en las etapas que son especialmente complejas en este ámbito; como por ejemplo la colección del dato, ya que vienen de fuentes, maneras y formatos mucho más heterogéneos que en la mayoría de otros ámbitos. Aunque por supuesto se han de considerar todas las fases.
 
 Algunas fases del ciclo de vida que ya se cubren en anteriores políticas:
 
 - Creación, colección y limpieza: se aplican las políticas de calidad del dato relacionadas con la estandarización y veracidad de la información.
 
-- Almacenamiento: se deben seguir las políticas de seguridad para garantidad su seguridad física (daño del lugar de almacenado) y de acceso (no haya accesos indebidos o hacking)
+- Almacenamiento: se deben seguir las políticas de seguridad para garantizar su seguridad física (daño del lugar de almacenado) y de acceso (no haya accesos indebidos o hacking)
 
 - Procesado: Aplicados en el contexto de la privacidad
 
@@ -405,7 +409,7 @@ Como ejemplo de alguna política no considerada en el apartado anterior:
 
 | Política                                                                                                                                                                                                                           | Responsable                 | Momento de aplicación       |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------- | --------------------------- |
-| Purga de datos innecesarios. Ha de ser una decisión tomada entre los data stewards correspondientes y los custodios, para realizar la decisión de qué datos han dejado de ser relevantes para el negocio y  pueden ser eliminados. | Data stewards<br/>Custodios | Periódica de caracter anual |
+| Purga de datos innecesarios. Ha de ser una decisión tomada entre los data stewards correspondientes y los custodios, para realizar la decisión de qué datos han dejado de ser relevantes para el negocio y  pueden ser eliminados. | Data stewards<br/>Custodios | Periódica de carácter anual |
 
 ### Políticas éticas
 
@@ -413,7 +417,7 @@ En lo relacionado a la ética, principalmente atañe a un cumplimiento correcto 
 
 | Política                                                                                                             | Responsable                                 | Momento de aplicación       |
 | -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------- | --------------------------- |
-| Reuniones periódicas para la creación de directrices éticas que expandan los requisitos mínimos exigidos legalmente. | Lider de gobierno del dato<br/>Data steward | Periódica de caracter anual |
+| Reuniones periódicas para la creación de directrices éticas que expandan los requisitos mínimos exigidos legalmente. | Líder de gobierno del dato<br/>Data steward | Periódica de carácter anual |
 
 ### Políticas de definiciones
 
@@ -421,12 +425,12 @@ Implican principalmente la creación de los estándares de nomenclatura que ha d
 
 | Política                                                                                                                                          | Responsable               | Momento de aplicación |
 | ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- | --------------------- |
-| Creación y mantenimiento de un catálogo de datos. En el se definirán las nomenclaturas a utilizar.                                                | Data stewards             | Contínua              |
-| Utilización de las nomenclaturas especificadas en el catálogo de datos. No será permisible utilizar nomenclaturas que no estén definidas en este. | Custodios<br/>Interesados | Contínua              |
+| Creación y mantenimiento de un catálogo de datos. En el se definirán las nomenclaturas a utilizar.                                                | Data stewards             | Continua              |
+| Utilización de las nomenclaturas especificadas en el catálogo de datos. No será permisible utilizar nomenclaturas que no estén definidas en este. | Custodios<br/>Interesados | Continua              |
 
 ## Gestión de prácticas y políticas
 
-Para realizar una buena gestíon de todo lo implementado y verificar su funcionamiento se realizarán truniones bianuales. Estas reuniones las realizará el consejo de grupo de coordinación para evaluar el grado de implantación de las prácticas y políticas definidas y valorar su efectividad. Para ello los data stewards de cada área deberán realizar un informe sobre su área y compartirlos con el líder del gobierno del dato. Estos informaes deberán cubrir los siguientes aspectos:
+Para realizar una buena gestión de todo lo implementado y verificar su funcionamiento se realizarán reuniones bianuales. Estas reuniones las realizará el consejo de grupo de coordinación para evaluar el grado de implantación de las prácticas y políticas definidas y valorar su efectividad. Para ello los data stewards de cada área deberán realizar un informe sobre su área y compartirlos con el líder del gobierno del dato. Estos informes deberán cubrir los siguientes aspectos:
 
 - Nivel de implantación del plan
 
@@ -442,7 +446,7 @@ De los puntos en los que se han notado carencias o problemas será necesario dis
 
 - Si se considera solucionable mediante medios técnicos o formas de implantación, el responsable de dicha acción seguirá siendo el encargado de realizar lo necesario. Para ello puede solicitar orientación de otros miembros del grupo o usar alguno de los casos de éxito como referencia
 
-- En caso de ser un problema que requiere más recursos o de un cambio en la estratégia del proyecto, será necesario realizar un informe con las deficiencias y necesidades. Este será redactado por el líder del dato y llevado a discusión a el consejo del dato
+- En caso de ser un problema que requiere más recursos o de un cambio en la estrategia del proyecto, será necesario realizar un informe con las deficiencias y necesidades. Este será redactado por el líder del dato y llevado a discusión a el consejo del dato
 
 De la misma manera, el consejo del dato se reunirá también con la misma cadencia, después de la anterior reunión. En ella se tratará el avance de el proyecto y se discutirán las mejoras que requieran de cambios a nivel estratégico o de recursos. En caso de llegar a un acuerdo el líder del dato se encargará de llevar de vuelta estas decisiones a los data stewards.
 
@@ -450,7 +454,7 @@ De la misma manera, el consejo del dato se reunirá también con la misma cadenc
 
 La ley principal en España que regula el dato es la "Ley Orgánica de Protección de Datos Personales y garantía de los derechos digitales"[12], que así mismo se trata de una adaptación al ámbito nacional de la ley de la Unión Europea "Reglamento General de Protección de Datos"[7] (GDPR por sus siglas en inglés).
 
-Este marco define muchos de los aspectos quye ya hemos tratado, como son:
+Este marco define muchos de los aspectos que ya hemos tratado, como son:
 
 - Qué se considera un dato privado
 
@@ -472,7 +476,7 @@ Al ser una ley se trata por lo tanto de algo con un cumplimiento obligatorio, no
 
 ## Especificaciones
 
-Las especificaciones a diferencia de las leyes, no son de aplicación obligatoria, pero siempre es una buena práctica el utilizar estándares de referencia. En españa los estándares de referencia son las especificaciones UNE [13] (Una Norma Española). En particular en el ambiente de gobierno del dato las aplicables son las siguientes:
+Las especificaciones a diferencia de las leyes, no son de aplicación obligatoria, pero siempre es una buena práctica el utilizar estándares de referencia. En España los estándares de referencia son las especificaciones UNE [13] (Una Norma Española). En particular en el ambiente de gobierno del dato las aplicables son las siguientes:
 
 - UNE 0077:2023 Gobierno del dato
 
@@ -482,21 +486,23 @@ Las especificaciones a diferencia de las leyes, no son de aplicación obligatori
 
 ### UNE 0077:2023
 
-Es una especificación a nivel estratégico, diseñada para guiar la toma de decisiones a la hora de definir los objetivos del proyecto de gestión del dato. Por lo tanto se tendrá en cuenta tanto los objetivos a nivel general del proyecto, como las definiciones de las políticas que habrásn de ser implementadas. Esto implica que es del dominio de todos los roles del consejo del gobierno del dato.
+Es una especificación a nivel estratégico, diseñada para guiar la toma de decisiones a la hora de definir los objetivos
+
+del proyecto de gestión del dato. Por lo tanto se tendrá en cuenta tanto los objetivos a nivel general del proyecto, como las definiciones de las políticas que habrán de ser implementadas. Esto implica que es del dominio de todos los roles del consejo del gobierno del dato.
 
 Esta especificación está dividida en 5 procesos [14].
 
-| Proceso                                                                               | Características                                                                                                                                                                                         |
+| Proceso                                                                               | carácterísticas                                                                                                                                                                                         |
 | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Establecimiento de la estrategia del dato                                             | Es el primer paso, en el que se identifican las capacidades de la organicación, los datos usados por la misma, los contextos en los que se usan y se elabora un plan general de gobierno del dato.      |
+| Establecimiento de la estrategia del dato                                             | Es el primer paso, en el que se identifican las capacidades de la organización, los datos usados por la misma, los contextos en los que se usan y se elabora un plan general de gobierno del dato.      |
 | Establecimiento de políticas, buenas prácticas y procedimientos del dato              | Es el paso en el que se definen las políticas de gobierno del dato que se van a implementar, las regulaciones y estándares que nos afectan.                                                             |
 | Establecimiento de estructuras organizativas para el gobierno, gestión y uso del dato | Se analiza la estructura de la organización y como el uso del dato está dividido entre las diferentes partes. También se define el equipo, roles y responsabilidades del proyecto de gobierno del dato. |
 | Optimización de los riesgos del dato                                                  | Identificación, evaluación, mitigación de los riegos del dato, definición de las políticas de seguridad y privacidad.                                                                                   |
-| Optimicación del valor del dato                                                       | Consiste en la maximicación del valor de los datos,  alineándolos los objetivos estratégicos de la organización y realizando una buena gestión en su uso.                                               |
+| Optimización del valor del dato                                                       | Consiste en la maximización del valor de los datos,  alineándolos los objetivos estratégicos de la organización y realizando una buena gestión en su uso.                                               |
 
 ### UNE 0078:2023
 
-Mientras que UNE 0077:2023 era de carácter más estratégico, esta resalta más los procesos relacionados con las acciones que se van a llevar a cabo para realizarlos. Es decir por ejemplode una política que se ha decidido implementar, que acciones va a realizar su responsable para que esta se cumpla. Esta especificación por lo tanto tendrám que tenerla más presente los integrantes de los grupos de áreas.
+Mientras que UNE 0077:2023 era de carácter más estratégico, esta resalta más los procesos relacionados con las acciones que se van a llevar a cabo para realizarlos. Es decir por ejemplo de una política que se ha decidido implementar, que acciones va a realizar su responsable para que esta se cumpla. Esta especificación por lo tanto tendrán que tenerla más presente los integrantes de los grupos de áreas.
 
 La especificación define 13 procesos a tener en cuenta, cada uno relacionado con un aspecto técnico de la gestión del dato:
 
@@ -528,24 +534,24 @@ La especificación define 13 procesos a tener en cuenta, cada uno relacionado co
 
 ### UNE 0079:2023
 
-Este estándar define 4 procesos que hemos incorporado en nuestro proyecto [16], todos ellos dedicados a la mejora contínua del dato, al ser una mezcla de procesos estratégicos y técnicos algunas veces serán más del ámbito de unos roles u otros del equipo:
+Este estándar define 4 procesos que hemos incorporado en nuestro proyecto [16], todos ellos dedicados a la mejora continua del dato, al ser una mezcla de procesos estratégicos y técnicos algunas veces serán más del ámbito de unos roles u otros del equipo:
 
-| Proceso                                      | Características                                                                                                                                   | Tipo        |
+| Proceso                                      | carácterísticas                                                                                                                                   | Tipo        |
 | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
 | Planificación de calidad del dato            | Es la planificación llevada a cabo para cumplir con el resto de los procesos. Se especifican objetivos, responsabilidades y las acciones a seguir | Estratégico |
-| Control y monitorización de calidad del dato | Es la monitorización contínua del dato                                                                                                            | Técnico     |
-| Aseguramiento de calidad del dato            | Se definen los procesos para identificar los datos que no estén cumpliendo con los requisitoms mínimos decididos.                                 | Estratégico |
+| Control y monitorización de calidad del dato | Es la monitorización continua del dato                                                                                                            | Técnico     |
+| Aseguramiento de calidad del dato            | Se definen los procesos para identificar los datos que no estén cumpliendo con los requisitos mínimos decididos.                                  | Estratégico |
 | Mejora de calidad del dato                   | Se interviene en caso de que no se estén cumpliendo los mínimos de calidad.                                                                       | Técnico     |
 
 Los procesos identificados como estratégicos van a ser responsabilidad principalmente de los data stewards, mientras que los custodios serán los principales responsables de los técnicos.
 
-## Clasificacción  del dato
+## Clasificación del dato
 
 Expandiendo los conceptos tratados en el apartado de políticas de privacidad, dividiremos los datos en 4 categorías, dependiendo de su grado de privacidad y de si se trata de información interna de la organización. La privacidad se definirá según la regulación GDPR [7], mientras que la información interna será por decisión de los encargados del negocio.
 
 ### Personal
 
-Se considerará personal la información que cumpla las siguientes características, siguiendo su definición en el Artículo 4 (1) del GDPR [17]
+Se considerará personal la información que cumpla las siguientes carácterísticas, siguiendo su definición en el Artículo 4 (1) del GDPR [17]
 
 - Es información relacionada a una persona física
 
@@ -557,7 +563,7 @@ Se considerará personal la información que cumpla las siguientes característi
 
   - De manera indirecta, mediante la unión de varios datos
 
-  - En particular hace especial incapié en idenficicación mediante
+  - En particular hace especial hincapié en identificación mediante
 
     - Nombre
 
@@ -567,13 +573,13 @@ Se considerará personal la información que cumpla las siguientes característi
 
     - Identificador online
 
-    - Direcciónes IP
+    - Direcciones IP
 
-    - O la unión de datos que sean específicos a una persona, como puede ser características físicas, fisiológicas, genéticas, mentales, económicas, culturales, o sociales.
+    - O la unión de datos que sean específicos a una persona, como puede ser carácterísticas físicas, fisiológicas, genéticas, mentales, económicas, culturales, o sociales.
 
-- Información que es tanto objetiva, como subjetiva (por ejemplo, opiniones o pareceres). Auqneu sí es cierto que en el ámbito de las IoTs la mayoría va a ser información objetivo, como puede ser la recogida mediante diferentes sensores
+- Información que es tanto objetiva, como subjetiva (por ejemplo, opiniones o pareceres). Aunque sí es cierto que en el ámbito de las IoTs la mayoría va a ser información objetivo, como puede ser la recogida mediante diferentes sensores
 
-- Es relacionada  auna persona viva
+- Es relacionada a una persona viva
 
   - Se considera que el derecho se aplica desde el nacimiento hasta la muerte de una persona
 
@@ -594,7 +600,7 @@ Una vez identificada la información que cumple dichas condiciones se le asignan
 
 ### Sensible
 
-Es un nivel por encima de la información personal, que como su nombre indica se trata de datos que pueden ser mñas sensibles.
+Es un nivel por encima de la información personal, que como su nombre indica se trata de datos que pueden ser más sensibles.
 
 Se considera que es información sensible cuando:
 
@@ -604,11 +610,11 @@ Se considera que es información sensible cuando:
 
   - Genética
 
-    - El Artículo 4 (13) del GDPR [17] la define como información de características genéticas que ha heredado o desarrollado una persona, en particular la información obtenida mediante el análisis de una muestra biológica
+    - El Artículo 4 (13) del GDPR [17] la define como información de carácterísticas genéticas que ha heredado o desarrollado una persona, en particular la información obtenida mediante el análisis de una muestra biológica
 
   - Biométrica
 
-  - - El Artículo 4 (14) del GDPR [17] la define como información relacionada a las características físicas, fisiológicas o de comportamiento de una persona
+  - - El Artículo 4 (14) del GDPR [17] la define como información relacionada a las carácterísticas físicas, fisiológicas o de comportamiento de una persona
 
   - De salud
 
@@ -633,11 +639,11 @@ Por lo tanto se establecen una condiciones aun más restrictivas que con la info
 
 Se trata de información que no es personal, pero que por decisiones de negocio no puede ser accedida por organizaciones externas de forma libre. Su clasificación se hace mediante la decisión de los responsables de negocio.
 
-Su seguridad no compromete el cumplimiento de las regulaciones, pero sí que ha de protegerse para no afectar negativamente a la organización. Por lo tanto tendrña ciertos requisitos, aunque menos estrictos que en el caso de información personal.
+Su seguridad no compromete el cumplimiento de las regulaciones, pero sí que ha de protegerse para no afectar negativamente a la organización. Por lo tanto tendría ciertos requisitos, aunque menos estrictos que en el caso de información personal.
 
 | Contexto                          | Requisito                                                                                                                         |
 | --------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| Tipo de almacenado                | En servidor o equipor profesionales de los trabajadores<br/>En almacenamiento extraíble sólo en caso de estar propiamente cifrada |
+| Tipo de almacenado                | En servidor o equipos profesionales de los trabajadores<br/>En almacenamiento extraíble sólo en caso de estar propiamente cifrada |
 | Localización  física              | El almacenamiento principal se realizará tanto en servidores propios de la organización como en datacenters contratados           |
 | Encripción                        | Necesaria sólo en caso de usar medios de almacenados extraíbles                                                                   |
 | Control de acceso                 | Medio                                                                                                                             |
@@ -665,13 +671,13 @@ Al ser abierta, los requisitos son los más laxos de todos.
 
 ## Titularidad del dato
 
-La titularidad del dato es un tema de especial complegidad en el ámbito del IoT, y no es un debate que tenga un consenso concreto a nivel global ni regional [18].
+La titularidad del dato es un tema de especial complejidad en el ámbito del IoT, y no es un debate que tenga un consenso concreto a nivel global ni regional [18].
 
 Para discutir sobre la titularidad del dato, es importante distinguir 3 tipos de actores:
 
 - Los generadores del dato, que en el contexto de sensores y cualquier otra información generada por máquinas sería nuestra organización
 
-- Las personas relacionadas a información, en caso de que la información sea de caracter personal. Es decir que un dato o conjunto de datos identifique a una persona segun lo definido en el apartado anterior
+- Las personas relacionadas a información, en caso de que la información sea de carácter personal. Es decir que un dato o conjunto de datos identifique a una persona segun lo definido en el apartado anterior
 
 - Otros participantes, pueden ser los fabricantes de dispositivos IoT que utilizan sus propias plataformas para transmitir o almacenar los datos
 
@@ -695,13 +701,13 @@ Dado que no existe un framework estandarizado para la titularidad, se han de def
 
 3. Identificar si hay más puntos entre el punto de captura del dato y el lugar de almacenado final en el que pueda estar implicado un tercero
 
-4. Reevaluar los contextos y condiciones bajo las que se comparte información con otras organizaciones
+4. Re-evaluar los contextos y condiciones bajo las que se comparte información con otras organizaciones
 
 ## Herramientas
 
 ### Herramientas ETL
 
-ETL, de sus siglas en inglés "Extract Transform Load" ("Extraer Transformar Cargar") es un proceso vital en el mundo de las IoT. Consiste principalmente en reunir datos de distintas fuentes, realizar un proceso para que queden uniformes y alamcenarlos juntos. Es el único modo de tratar con orígenes de datos heterogéneos, que se dan tanto en los IoT, y poder utilizar dichos datos de forma conjunta posteriormente.
+ETL, de sus siglas en inglés "Extract Transform Load" ("Extraer Transformar Cargar") es un proceso vital en el mundo de las IoT. Consiste principalmente en reunir datos de distintas fuentes, realizar un proceso para que queden uniformes y almacenarlos juntos. Es el único modo de tratar con orígenes de datos heterogéneos, que se dan tanto en los IoT, y poder utilizar dichos datos de forma conjunta posteriormente.
 
 El procesado ha de ser guiado por un data steward que será quién especifique que forma final ha de tener los datos, es decir, qué estándares y condiciones tienen que cumplir. Por lo tanto será el trabajo de personas de perfil más técnico, como son los custodios el adaptar cada uno de los orígenes. Para ello se realizan los siguientes pasos:
 
@@ -729,9 +735,11 @@ Al ser open-source, sí dan la opción de gestionarla uno mismo, y aunque puede 
 
 #### IBM InfoSphere Information Server
 
-Es una herramienta multiusos de IBM, que cuenta con su sección de ETL, aunque también busca ser una herramienta general para Data Warehousing y Business Intelligence, ofreciano la habilidad de gestionar la calidad del dato, analisis y auditoría.
+Es una herramienta multiusos de IBM, que cuenta con su sección de ETL, aunque también busca ser una herramienta general para Data Warehousing y Business Intelligence, ofreciano la habilidad de gestionar la calidad del dato, análisis y auditoría.
 
-Está optimizada para su uso conjunto con otras herramientas del ecosistema IBM.
+Está optimizada para su uso conjunto con otras herramientas del
+
+ecosistema IBM.
 
 Puede ser utilizado desplegándolo en la organización mismo o en la nube.
 
@@ -750,19 +758,19 @@ Realizamos la comparativa, principalmente valorando el tipo de licencia, precio,
 | Herramienta                           | Licencia                    | Precio                                                  | Uso "in-premise" | Hosting en la nube            | Ecosistema                      |
 | ------------------------------------- | --------------------------- | ------------------------------------------------------- | ---------------- | ----------------------------- | ------------------------------- |
 | Adeptia Connect                       | Comercial                   | Bajo acuerdo                                            | Sí               | Sí, nube propia o de terceros | No cuenta con ecosistema propio |
-| Apache NiFi                           | Apache License, Version 2.0 | Gratuíto, a coste de realizar el mantenimiento nosotros | Sí               | Sí, nube de terceros          | Ecosistema Apache               |
+| Apache NiFi                           | Apache License, Version 2.0 | Gratuito, a coste de realizar el mantenimiento nosotros | Sí               | Sí, nube de terceros          | Ecosistema Apache               |
 | IBM InfoSphere Information Server     | Comercial                   | Bajo acuerdo                                            | Sí               | Sí, nube propia o de terceros | Ecosistema IBM                  |
 | Oracle Data Integration Cloud Service | Comercial                   | Bajo acuerdo                                            | No               | Sí, nube propia               | Ecosistema Oracle               |
 
-La elección de herramienta dependerá nastante de las capabilidades técnicas del equipo, para equipos con pocos recursos de este tipo o que consideren que no pueden dedicarle los recursos necesarios, podrían considerar que la selección más correcta es alguna de las 3 que ofrecen soporte. Mientras que si nos consideramos habilitados para realizar esa gestión, la opción de Apache puede ser más adecuada, que es la que consideramos para nuestro caso.La elección de herramienta dependerá nastante de las capabilidades técnicas del equipo, para equipos con pocos recursos de este tipo o que consideren que no pueden dedicarle los recursos necesarios, podrían considerar que la selección más correcta es alguna de las 3 que ofrecen soporte. Mientras que si nos consideramos habilitados para realizar esa gestión, la opción de Apache puede ser más adecuada, que es la que consideramos para nuestro caso.
+La elección de herramienta dependerá bastante de las capacidades técnicas del equipo, para equipos con pocos recursos de este tipo o que consideren que no pueden dedicarle los recursos necesarios, podrían considerar que la selección más correcta es alguna de las 3 que ofrecen soporte. Mientras que si nos consideramos habilitados para realizar esa gestión, la opción de Apache puede ser más adecuada, que es la que consideramos para nuestro caso. La elección de herramienta dependerá bastante de las capacidades técnicas del equipo, para equipos con pocos recursos de este tipo o que consideren que no pueden dedicarle los recursos necesarios, podrían considerar que la selección más correcta es alguna de las 3 que ofrecen soporte. Mientras que si nos consideramos habilitados para realizar esa gestión, la opción de Apache puede ser más adecuada, que es la que consideramos para nuestro caso.
 
 La opción de integrarlos con servicios en la nube lo consideramos un punto a favor, pero sin embargo lo que se considera crítico es la opción de hosting en las premisas de la organización. Es la forma más sencilla de garantizar que ciertos datos no salen en ningún momento de nuestra organización.
 
-Por lo tanto, se selecciona Apache niFi como la solución más correcta en este caso, con la condición de que será necesario dedicar ciertos recursos a su gestión.
+Por lo tanto, se selecciona Apache NiFi como la solución más correcta en este caso, con la condición de que será necesario dedicar ciertos recursos a su gestión.
 
 #### Usando Apache NiFi
 
-NiFi funciona mediante lo que denomina "processors" que son las unidades que definen origenes, transformaciones y salidas.
+NiFi funciona mediante lo que denomina "processors" que son las unidades que definen orígenes, transformaciones y salidas.
 
 Un flujo de uso tal como se define en el manual [19] podría ser el siguiente, dividido para mostrar las 3 fases del proceso Extract-Transform-Load:
 
@@ -770,7 +778,7 @@ Un flujo de uso tal como se define en el manual [19] podría ser el siguiente, d
 
    1. Estos son los processors que formarán la entrada de todos nuestros datos
 
-2. Transformación: procesadores que distrubuyen los datos y los transforman
+2. Transformación: procesadores que distribuyen los datos y los transforman
 
    1. Crear los procesadores dedicados a mover los datos
 
@@ -778,7 +786,7 @@ Un flujo de uso tal como se define en el manual [19] podría ser el siguiente, d
 
       2. De tipo "Attribute extraction", para extraer atributos concretos
 
-      3. De tipo "Splitting" o "Merging", para separar atributos del mismo orígen en varios, o de varios a un solo punto
+      3. De tipo "Splitting" o "Merging", para separar atributos del mismo origen en varios, o de varios a un solo punto
 
    2. Crear los procesadores que transforman los datos en sí, de tipo "Data Transformation"
 
@@ -792,11 +800,11 @@ Un flujo de uso tal como se define en el manual [19] podría ser el siguiente, d
 
       2. Tipo "Database Access" si modificamos directamente en base de datos
 
-Se definirá también el "run duration" o el tiempo que se dedicará a la ececución de los procesadores cada vez que se pongan en marcha.
+Se definirá también el "run duration" o el tiempo que se dedicará a la ejecución de los procesadores cada vez que se pongan en marcha.
 
 Finalmente definimos el momento de ejecución de los procesadores, en la pestaña de "scheduling".  La configuración principal es la estrategia de ejecución "Scheduling Strategy" que puede ser de 3 tipos:
 
-- "Timer driven": ejecución contínua cada X tiempo, para ejecución a tiempo real
+- "Timer driven": ejecución continua cada X tiempo, para ejecución a tiempo real
 
 - "Event driven": sólo se ejecuta bajo ciertas condiciones  especificadas
 
