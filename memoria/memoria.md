@@ -842,6 +842,95 @@ Otras alternativas existentes:
 
 - Talend es una herramienta que potencia sus cualidades de análisis utilizando machine learning. Cuanta con varias rutinas de limpieza y de-duplicado muy eficientes, aunque su gran desventaja es la complejidad a la hora de usarse por parte de usuarios en perfiles poco técnicos.
 
+### Catálogo de datos
+
+Un catálogo de datos es un inventario de la riqueza del dato de una organización. No es un lugar para guardar los datos en sí, sino una recolección de metadatos sobre ellos. Es una forma de ayudar a los usuarios de dicha información a encontrar y acceder a ella de forma rápida y eficiente.
+
+No debe de ser sólo aplicable a datos estructurados, sino que debe de permitir informar a los usuarios sobre todo tipo de diferentes tipos, especialmente importante en el ámbito de IoT, donde  se manejan decenas de formatos y estructuras.
+
+Los dos usuarios principales de estos catálogos son por un lado los data stewards, encargados de organizar los datos de toda la organización realizando la tarea de mantenedores de el catálogo, y por otro lado los consumidores de la información, los cuales hacen uso de algún dato o conjunto de datos para servir a diferentes necesidades del negocio. Para estos segundos es de vital importancia el llegar a saber de qué pueden hacer uso, ya que muchas veces dada la gran cantidad de información es posible que ni siquiera se conozca. De la misma manera, y como hemos comentado antes sobre la gran heterogeneidad en el ámbito de las IoT, el catálogo especifica tanto de dónde puede recogerse esa información como la forma y estándares que tendrá.
+
+También es una herramienta vital de cara a crear un lenguaje unificado. Este es el punto en el que los data stewards definen los datos, su nomenclatura, significado, clasificación y contexto. Y los demás consumidores han de usar el mismo lenguaje para así evitar posibles errores o confusiones.
+
+#### Amudsen
+
+Amudsen es una herramienta de catálogo de datos originalmente creada por Lyft y que ahora es de código abierto. Tiene un especial énfasis en la colaboración entre las personas usuarias, con capacidades para ver qué uso le dan las diferentes personas del equipo a las características de la herramienta como a qué tipo de datos se utilizan y de qué forma. Enfatiza el compartir con el resto del equipo anotaciones comentarios y valoraciones.
+
+| Página web | https://www.amundsen.io/                |
+| ---------- | --------------------------------------- |
+| Licencia   | Apache-2.0 license                      |
+| Proyecto   | https://github.com/amundsen-io/amundsen |
+
+#### Collibra
+
+Collibra es una de las soluciones líder en el mercado, ofreciando la mayoría de las características que son necesarias de una herramienta de este tipo para empresas. Es rápido en incluir nuevas tecnologías para mejorar sus funcionalidades, como es el caso de machine learning e inteligencia artificial, consiguiendo acelerar procesos de gestión de metadatos, clasificación y detección de anomalías.
+
+Se trata de una solución completamente comercial, tanto en el sentido de no ser open source como de no contar con versión gratuita, todas sus funcionalidades requiren de un contrato con la empresa. Aunque sí es cierto que aunque sea sí que ofrecen dos modalidades, una puramente como servicio (es decir en su propia nube) y otra en las premisas de la organización usuaria.
+
+| Página web | https://www.collibra.com/ |
+| ---------- | ------------------------- |
+| Licencia   | Comercial                 |
+| Proyecto   | No es de código abierto   |
+
+#### OpenMetadata
+
+OpenMetadata es una herramienta de código abierto, una gran ventaja que ofrece es el poder realizar una demo directamente en su página web, de este modo es posible probar las funcionalidades incluso antes de hacer una primera instalación.
+
+Ofrece la opción de ejecutar el catálogo directamente en cualquier servidor, o utilizar herramientas como Docker y Kubernetes o cualquier servicio cloud.
+
+Se define a sí misma como la plataforma de metadatos con el mayor crecimiento en el mercado, y cuenta con amplia adopción en diferentes industrias.
+
+Cuenta con herramientas de gestión y colaboración, y una amplia gama de conectores para todo tipo de entradas de datos.
+
+| Página web | https://open-metadata.org/                    |
+| ---------- | --------------------------------------------- |
+| Licencia   | Apache-2.0 license                            |
+| Proyecto   | https://github.com/open-metadata/OpenMetadata |
+
+#### DataHub
+
+DataHub es una solución mixta que cuenta con versiones gratuitas y open source (versión "Core") y comerciales (versión "Cloud"). Es una herramienta que tiene también gran presencia en la industria, y su versión Cloud está orientada a ofrecer servicios a empresas.
+
+La versión Core cuenta con todas las funcionalidades básicas de un catálogo de datos maduro, pero hay ciertas características que son exclusivas de la versión Cloud, algunos ejemplos a continuación:
+
+- Personalización de búsquedas para diferentes roles
+
+- Automatizaciones con interfaz no-code
+
+- Herramientas de IA para documentación
+
+- Integraciones para ciertos datasources
+
+- Seguimiento del flujo de información
+
+- Observabilidad continua
+
+- Evaluación de la calidad bajo demanda
+
+Por lo que es cierto que la funcionalidad básica es gratuita, ofrece menos servicios que otras opciones que son puramente open source.
+
+| Página web | https://datahub.com/                       |
+| ---------- | ------------------------------------------ |
+| Licencia   | Apache-2.0 license / comercial             |
+| Proyecto   | https://github.com/datahub-project/datahub |
+
+#### Comparativa
+
+Para comparar las diferentes herramientas se valorará la permisividad de su licencia, tanto las opciones para realizar el mantenimiento nosotros mismo y por último las posibilidades de desplegarlo tanto en nuestras propias premisas como en la nube.
+
+| Herramienta  | Open source | Precio                                         | Características completas  | Opción de despliegue "on premise" | Opción en cloud                                                           |
+| ------------ | ----------- | ---------------------------------------------- | -------------------------- | --------------------------------- | ------------------------------------------------------------------------- |
+| Amudsen      | Sí          | Gratuito                                       | Sí                         | Sí                                | Sí                                                                        |
+| Collibra     | No          | Suscripción                                    | Sí                         | Sí                                | Sólo en su propio servicio                                                |
+| OpenMetadata | Sí          | Gratuito                                       | Sí                         | Sí                                | Sí                                                                        |
+| DataHub      | Mixto       | Gratuito para "Core", suscripción para "Cloud" | Sólo en la versión "Cloud" | Sólo en la versión "Core"         | En ambas versiones, aunque la versión "Cloud" ha de ser en su propia nube |
+
+En conclusión, se han considerado principalmente Amudsen u OpenMetadata, ya que ofrecen la mayor flexibilidad posible, con opciones de despliegues por nuestra cuenta o en diferentes proveedores cloud. Tal como se ha valorado en la sección de "Herramientas ETL", se considera a nuestra organización lo suficientemente avanzada para realizar la gestión de la herramienta, y de este modo no queda el servicio atado a una suscripción recurrente.
+
+La versión open source de DataHub se ha considerado que no es lo suficientemente madura comparada con las otras opciones de código abierto, y contaba con demasiadas limitaciones que sólo estaban presentes en la versión comercial.
+
+Aunque tanto Amudsen como OpenMetadata se han considerado opciones adecuadas, se le ha dado la ventaja a OpenMetadata. Esto se da debido a su mayor madurez, facilidad de uso y gestión y mayor utilización en la industria. También por ofrecer una plataforma de pruebas online en la que los data stewards pueden andar realizando pruebas previa a la instalación, haciendo posible el pivotar a la otra opción en caso de identificar puntos que sean insuficientes.
+
 ## Referencias
 
 [1] ¿Qué es la gobernanza de datos? | Definición, importancia y tipos | SAP. (n.d.). SAP. https://www.sap.com/latinamerica/products/data-cloud/master-data-governance/what-is-data-governance.html
