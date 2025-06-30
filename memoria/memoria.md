@@ -959,19 +959,19 @@ La guía de administradores de OpenMetadata [19] divide las acciones básicas de
 
       2. También permite definir políticas de acceso, estas así mismo puede ser de 3 tipos:
 
-         1. "Evaluate Deny", significa que se evaluan las condiciones y si se da alguna se niega el acceso
+         1. "Evaluate Deny", significa que se evalúan las condiciones y si se da alguna se niega el acceso
 
-         2. "Evaluate Allow", lo contrario, se evaluan y si se cumple alguna se otorga el acceso
+         2. "Evaluate Allow", lo contrario, se evalúan y si se cumple alguna se otorga el acceso
 
          3. "Disallow Access", nunca se tiene acceso
 
 2. Añadir los usuarios
 
-   1. Desde el dashboard de OpenMetadata se pueden añadir los usuarios, se les asignan los datos básicos (nombre, email, descripción) y sutipo dentro de la plataforma (Equipos a los que pertenece, roles y si se trata de un usuario administrador o no)
+   1. Desde el dashboard de OpenMetadata se pueden añadir los usuarios, se les asignan los datos básicos (nombre, correo electrónico, descripción) y su tipo dentro de la plataforma (Equipos a los que pertenece, roles y si se trata de un usuario administrador o no)
 
 3. Configurar la entrada de metadatos
 
-   1. OpenMetadata ofrece servicios para la conexión a diferentes orígenes, en especial para nuestro caso, cuenta un conector para Apache NiFi. También es posible configurar más de una entrada, por lo que si contaramos con datos no considerados en el ETL, aunque sería una mala práctica, podríamos seguir añadiéndolos a nuestro catálogo
+   1. OpenMetadata ofrece servicios para la conexión a diferentes orígenes, en especial para nuestro caso, cuenta un conector para Apache NiFi. También es posible configurar más de una entrada; por lo que si contáramos con datos no considerados en el ETL, aunque sería una mala práctica, podríamos seguir añadiéndolos a nuestro catálogo
 
    2. En este caso por lo tanto crearíamos un conector de tipo "Pipelines" y seleccionaríamos Apache NiFi
 
