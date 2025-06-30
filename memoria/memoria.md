@@ -931,6 +931,56 @@ La versión open source de DataHub se ha considerado que no es lo suficientement
 
 Aunque tanto Amudsen como OpenMetadata se han considerado opciones adecuadas, se le ha dado la ventaja a OpenMetadata. Esto se da debido a su mayor madurez, facilidad de uso y gestión y mayor utilización en la industria. También por ofrecer una plataforma de pruebas online en la que los data stewards pueden andar realizando pruebas previa a la instalación, haciendo posible el pivotar a la otra opción en caso de identificar puntos que sean insuficientes.
 
+Un último punto a considerar, es que sea compatible con la herramienta de ETL que estamos utilizando, Apache NiFi. En este caso OpenMetadata lo es, por lo que podemos darle el visto bueno.
+
+#### Utilizando OpenMetadata
+
+Dividiremos la siguiente sección en 2 partes, dependiendo de qué tipo de perfil sea el responsable de los distintos aspectos de la herramienta:
+
+- Administradores: perfiles técnicos, encargados de el buen funcionamiento de la herramienta
+
+- Usuarios: tanto data stewards que son los encargados de gestionar el dato como usuarios del dato. En general las acciones a realizar ya utilizando las prestaciones de gobernanza del dato que nos ofrece la herramienta
+
+##### Administradores
+
+La guía de administradores de OpenMetadata [19] divide las acciones básicas de administración de la plataforma en 3 secciones
+
+1. Gestión de los usuarios y equipos
+
+   1. Creación de los equipos
+
+      1. OpenMetadata utiliza una estructura de la organización de 5 niveles: "Organization", "Business Unit", "Division", "Department" y "Group". Siendo Organization el nodo origen, cada nodo puede contener tanto nodos hijos de un tipo inferior o del mismo nivel (excepto Organization que no pueden ser del mismo nivel). Cada nodo puede tener varios nodos hijos, y en el caso de Department y Group pueden tener varios nodos padre también. Esto permite una forma flexible de adaptarse a casi cualquier organización.
+
+      2. Los datos se asignarán a nivel de "Group", no de ningún nodo superior.
+
+   2. Control de acceso
+
+      1. OpenMetadata permite el acceso a la plataforma mediante varios servicios Single Sign On, como puede ser Auth0
+
+      2. También permite definir políticas de acceso, estas así mismo puede ser de 3 tipos:
+
+         1. "Evaluate Deny", significa que se evaluan las condiciones y si se da alguna se niega el acceso
+
+         2. "Evaluate Allow", lo contrario, se evaluan y si se cumple alguna se otorga el acceso
+
+         3. "Disallow Access", nunca se tiene acceso
+
+2. Añadir los usuarios
+
+   1. Desde el dashboard de OpenMetadata se pueden añadir los usuarios, se les asignan los datos básicos (nombre, email, descripción) y sutipo dentro de la plataforma (Equipos a los que pertenece, roles y si se trata de un usuario administrador o no)
+
+3. Configurar la entrada de metadatos
+
+   1. OpenMetadata ofrece servicios para la conexión a diferentes orígenes, en especial para nuestro caso, cuenta un conector para Apache NiFi. También es posible configurar más de una entrada, por lo que si contaramos con datos no considerados en el ETL, aunque sería una mala práctica, podríamos seguir añadiéndolos a nuestro catálogo
+
+   2. En este caso por lo tanto crearíamos un conector de tipo "Pipelines" y seleccionaríamos Apache NiFi
+
+      1. Una vez creado se puede probar la conectividad y se podrá observar el estado de la conexión
+
+   3. Dentro de cada conector se crearían los "Agents". En estos agentes se controla qué datos de los que expone de todos los que ofrece el origen a los que nos conectamos. De este modo podemos dar acceso a diferentes personas a diferentes recursos.
+
+      1. Para cada agente se configurará también el momento de ejecución, que puede ser manual bajo demanda o planificado en momentos concretos
+
 ## Referencias
 
 [1] ¿Qué es la gobernanza de datos? | Definición, importancia y tipos | SAP. (n.d.). SAP. https://www.sap.com/latinamerica/products/data-cloud/master-data-governance/what-is-data-governance.html
@@ -970,3 +1020,7 @@ Aunque tanto Amudsen como OpenMetadata se han considerado opciones adecuadas, 
 [18] Asswad, J., & Marx Gómez, J. (2021). Data Ownership: A Survey. Information, 12(11), 465. https://doi.org/10.3390/info12110465
 
 [19] Team, A. N. (n.d.). Apache NiFi User Guide. https://nifi.apache.org/docs/nifi-docs/html/user-guide.html
+
+[20] Admin Guide | OpenMetadata Administration Documentation. (n.d.). https://docs.open-metadata.org/latest/how-to-guides/admin-guide
+
+[21] Guide for Data Users | OpenMetadata User Guide. (n.d.). https://docs.open-metadata.org/latest/how-to-guides/guide-for-data-users
