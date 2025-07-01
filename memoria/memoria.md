@@ -1031,7 +1031,7 @@ Algunas de las secciones tratadas en el mismo son las siguientes:
 
     - Por defecto la titularidad de un recurso se propaga hacia abajo (por ejemplo de un esquema de una base de datos a las tablas que lo compongan) a no ser que se especifique lo contrario
 
-  -  Todos los recursos tienen ciertas características que se pueden configurar, como es la titularidad o el dominio, pero dependiendo de que tipo sean OpenMetadata ofrece unas pestañas de gestión u otras, para así sólo mostrar las que sean aplicables a el recurso en particular. Por ejemplo, un recurso de base de datos tendrá una pestaña para configurar sus esquemas, pero un recurso de tipo "pipeline" no tiene esquemas y por lo tanto no tendría sentido que tuviera esa pestaña. El manual de OpenMetadata especifica qué pestañas se aplican en cada caso [24]
+  - Todos los recursos tienen ciertas características que se pueden configurar, como es la titularidad o el dominio, pero dependiendo de que tipo sean OpenMetadata ofrece unas pestañas de gestión u otras, para así sólo mostrar las que sean aplicables a el recurso en particular. Por ejemplo, un recurso de base de datos tendrá una pestaña para configurar sus esquemas, pero un recurso de tipo "pipeline" no tiene esquemas y por lo tanto no tendría sentido que tuviera esa pestaña. El manual de OpenMetadata especifica qué pestañas se aplican en cada caso [24]
 
   - Seguir un recurso, para luego poder verlo en la página principal y ser notificado de sus cambios
 
@@ -1091,6 +1091,32 @@ Prever las tendencias de cara al futuro es siempre complicado, y no es algo sobr
 
 - Blockchain para el aumento de la seguridad e integridad, creando registros transparentes e inmutables
 
+## Cultura del gobierno del dato
+
+No existe una sola manera de crear una buena cultura de gobierno del dato, aunque en general consiste en re-enfocar las responsabilidades que conlleva a los beneficios que nos aporta. No hacer énfasis en el trabajo que supone, sino en el trabajoque va a ser más sencillo y eficiente una vez se alcanza esta cultura.
+
+Algunas recomendaciones para fomentar la buena cultura son las siguientes [26]:
+
+- Cambiar las percepciones
+
+  - Mostrar la gobernanza como una herramienta que ayuda, en vez de ser una imposición administrativa
+
+- Fomentar prácticas proactivas
+
+  - Incluir la gobernanza desde el principio de los workflows de trabajo, para maximizar sus ventajas
+
+- Fomentar la colaboración
+
+  - Creación de equipos de gobernanza para tratar las dudas y preocupaciones
+
+  - Alinear la gobernanza con los objetivos de la organización
+
+- Mostrar beneficios tangibles
+
+  - Celebrando mejoras que ha traído la gobernanza
+
+- Realizar formaciones regulares
+
 ## Referencias
 
 [1] ¿Qué es la gobernanza de datos? | Definición, importancia y tipos | SAP. (n.d.). SAP. https://www.sap.com/latinamerica/products/data-cloud/master-data-governance/what-is-data-governance.html
@@ -1142,3 +1168,5 @@ Prever las tendencias de cara al futuro es siempre complicado, y no es algo sobr
 [24] Overview of Data Assets. (n.d.). https://docs.open-metadata.org/latest/how-to-guides/guide-for-data-users/data-asset-tabs#data-asset-tabs
 
 [25] Goswami, V. (2024, November 29). Essential Guide to IoT Monitoring - Benefits and Best Practices. SigNoz. https://signoz.io/guides/iot-monitoring/
+
+[26] https://www.secoda.co/authors/ainslie-eck. (2024, December 13). Embedding governance into culture: Practices that drive success. https://www.secoda.co/blog/embedding-governance-into-culture-practices-that-drive-success
