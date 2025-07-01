@@ -454,7 +454,7 @@ De la misma manera, el consejo del dato se reunirá también con la misma cadenc
 
 Las auditorías son una de las herramientas clave para valorar la correcta implementación y uso de nuestro sistema. Es una forma de garantizar que se cumplan los objetivos marcados, observando qué aspectos están progresando adecuadamente y cuales no han progresado o no están funcionando como deberían. Es el origen del que surgirán todas las acciones de mejora continua.
 
-Las auditorías pueden realizarse en 4 fases [24]:
+Las auditorías pueden realizarse en 4 fases [12]:
 
 1. Preparación: implica la definición de objetivos, alcance y plan de acción
 
@@ -464,7 +464,7 @@ Las auditorías pueden realizarse en 4 fases [24]:
 
 4. Resultados: Se presentan los resultados
 
-De cara a realizar una buena auditoría también es necesario definir que preguntas son clave realizar durante las auditorías, The Institute of Internal Auditors sugiere varias para su uso en el ámbito de el gobierno del dato [25]:
+De cara a realizar una buena auditoría también es necesario definir que preguntas son clave realizar durante las auditorías, The Institute of Internal Auditors sugiere varias para su uso en el ámbito de el gobierno del dato [13]:
 
 - ¿Saben las personas afectadas que se está recopilando su información?
 
@@ -482,7 +482,7 @@ De cara a realizar una buena auditoría también es necesario definir que pregun
 
 ## Regulaciones
 
-La ley principal en España que regula el dato es la "Ley Orgánica de Protección de Datos Personales y garantía de los derechos digitales"[12], que así mismo se trata de una adaptación al ámbito nacional de la ley de la Unión Europea "Reglamento General de Protección de Datos"[7] (GDPR por sus siglas en inglés).
+La ley principal en España que regula el dato es la "Ley Orgánica de Protección de Datos Personales y garantía de los derechos digitales"[14], que así mismo se trata de una adaptación al ámbito nacional de la ley de la Unión Europea "Reglamento General de Protección de Datos"[7] (GDPR por sus siglas en inglés).
 
 Este marco define muchos de los aspectos que ya hemos tratado, como son:
 
@@ -506,7 +506,7 @@ Al ser una ley se trata por lo tanto de algo con un cumplimiento obligatorio, no
 
 ## Especificaciones
 
-Las especificaciones a diferencia de las leyes, no son de aplicación obligatoria, pero siempre es una buena práctica el utilizar estándares de referencia. En España los estándares de referencia son las especificaciones UNE [13] (Una Norma Española). En particular en el ambiente de gobierno del dato las aplicables son las siguientes:
+Las especificaciones a diferencia de las leyes, no son de aplicación obligatoria, pero siempre es una buena práctica el utilizar estándares de referencia. En España los estándares de referencia son las especificaciones UNE [15] (Una Norma Española). En particular en el ambiente de gobierno del dato las aplicables son las siguientes:
 
 - UNE 0077:2023 Gobierno del dato
 
@@ -520,7 +520,7 @@ Es una especificación a nivel estratégico, diseñada para guiar la toma de dec
 
 del proyecto de gestión del dato. Por lo tanto se tendrá en cuenta tanto los objetivos a nivel general del proyecto, como las definiciones de las políticas que habrán de ser implementadas. Esto implica que es del dominio de todos los roles del consejo del gobierno del dato.
 
-Esta especificación está dividida en 5 procesos [14].
+Esta especificación está dividida en 5 procesos [16].
 
 | Proceso                                                                               | carácterísticas                                                                                                                                                                                         |
 | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -534,7 +534,7 @@ Esta especificación está dividida en 5 procesos [14].
 
 Mientras que UNE 0077:2023 era de carácter más estratégico, esta resalta más los procesos relacionados con las acciones que se van a llevar a cabo para realizarlos. Es decir por ejemplo de una política que se ha decidido implementar, que acciones va a realizar su responsable para que esta se cumpla. Esta especificación por lo tanto tendrán que tenerla más presente los integrantes de los grupos de áreas.
 
-La especificación define 13 procesos a tener en cuenta, cada uno relacionado con un aspecto técnico de la gestión del dato:
+La especificación define 13 procesos a tener en cuenta [17], cada uno relacionado con un aspecto técnico de la gestión del dato:
 
 1. Procesamiento del dato
 
@@ -564,7 +564,7 @@ La especificación define 13 procesos a tener en cuenta, cada uno relacionado co
 
 ### UNE 0079:2023
 
-Este estándar define 4 procesos que hemos incorporado en nuestro proyecto [16], todos ellos dedicados a la mejora continua del dato, al ser una mezcla de procesos estratégicos y técnicos algunas veces serán más del ámbito de unos roles u otros del equipo:
+Este estándar define 4 procesos que hemos incorporado en nuestro proyecto [18], todos ellos dedicados a la mejora continua del dato, al ser una mezcla de procesos estratégicos y técnicos algunas veces serán más del ámbito de unos roles u otros del equipo:
 
 | Proceso                                      | carácterísticas                                                                                                                                   | Tipo        |
 | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
@@ -581,7 +581,7 @@ Expandiendo los conceptos tratados en el apartado de políticas de privacidad, d
 
 ### Personal
 
-Se considerará personal la información que cumpla las siguientes carácterísticas, siguiendo su definición en el Artículo 4 (1) del GDPR [17]
+Se considerará personal la información que cumpla las siguientes carácterísticas, siguiendo su definición en el Artículo 4 (1) del GDPR [19]
 
 - Es información relacionada a una persona física
 
@@ -640,15 +640,15 @@ Se considera que es información sensible cuando:
 
   - Genética
 
-    - El Artículo 4 (13) del GDPR [17] la define como información de carácterísticas genéticas que ha heredado o desarrollado una persona, en particular la información obtenida mediante el análisis de una muestra biológica
+    - El Artículo 4 (13) del GDPR [19] la define como información de carácterísticas genéticas que ha heredado o desarrollado una persona, en particular la información obtenida mediante el análisis de una muestra biológica
 
   - Biométrica
 
-  - - El Artículo 4 (14) del GDPR [17] la define como información relacionada a las carácterísticas físicas, fisiológicas o de comportamiento de una persona
+  - - El Artículo 4 (14) del GDPR [19] la define como información relacionada a las carácterísticas físicas, fisiológicas o de comportamiento de una persona
 
   - De salud
 
-    - El Artículo 4 (15) del GDPR [17] la define como información relacionada a la situación de salud física o mental de una persona, incluyendo las prestaciones de servicios de salud
+    - El Artículo 4 (15) del GDPR [19] la define como información relacionada a la situación de salud física o mental de una persona, incluyendo las prestaciones de servicios de salud
 
   - Información personal que pueda revelar raza u origen étnico, opiniones políticas religiosas o ideológicas o que revelen pertenencia a sindicatos.
 
@@ -701,7 +701,7 @@ Al ser abierta, los requisitos son los más laxos de todos.
 
 ## Titularidad del dato
 
-La titularidad del dato es un tema de especial complejidad en el ámbito del IoT, y no es un debate que tenga un consenso concreto a nivel global ni regional [18].
+La titularidad del dato es un tema de especial complejidad en el ámbito del IoT, y no es un debate que tenga un consenso concreto a nivel global ni regional [20].
 
 Para discutir sobre la titularidad del dato, es importante distinguir 3 tipos de actores:
 
@@ -802,7 +802,7 @@ Por lo tanto, se selecciona Apache NiFi como la solución más correcta en este 
 
 NiFi funciona mediante lo que denomina "processors" que son las unidades que definen orígenes, transformaciones y salidas.
 
-Un flujo de uso tal como se define en el manual [19] podría ser el siguiente, dividido para mostrar las 3 fases del proceso Extract-Transform-Load:
+Un flujo de uso tal como se define en el manual [21] podría ser el siguiente, dividido para mostrar las 3 fases del proceso Extract-Transform-Load:
 
 1. Extracción: Crear un nuevo processor de tipo  como de "data ingestion"
 
@@ -973,7 +973,7 @@ Dividiremos la siguiente sección en 2 partes, dependiendo de qué tipo de perfi
 
 ##### Administradores
 
-La guía de administradores de OpenMetadata [19] divide las acciones básicas de administración de la plataforma en 3 secciones
+La guía de administradores de OpenMetadata [22] divide las acciones básicas de administración de la plataforma en 3 secciones
 
 1. Gestión de los usuarios y equipos
 
@@ -1013,7 +1013,7 @@ La guía de administradores de OpenMetadata [19] divide las acciones básicas de
 
 ##### Usuarios
 
-Es más complicado definir unos pasos iniciales para los usuarios dada la amplia extensión de la aplicación y los diferentes tipos de usos que cada usuario va a darle a la aplicación. Un buen punto de comienzo es el manual del usuario de OpenMetadata [21] en el que se detallan las diferentes secciones de la interfaz web, por lo que será la primera lectura necesaria para los usuarios. De esta forma será posible orientarse inicialmente y empezar a hacer uso de la herramienta.
+Es más complicado definir unos pasos iniciales para los usuarios dada la amplia extensión de la aplicación y los diferentes tipos de usos que cada usuario va a darle a la aplicación. Un buen punto de comienzo es el manual del usuario de OpenMetadata [23] en el que se detallan las diferentes secciones de la interfaz web, por lo que será la primera lectura necesaria para los usuarios. De esta forma será posible orientarse inicialmente y empezar a hacer uso de la herramienta.
 
 Algunas de las secciones tratadas en el mismo son las siguientes:
 
@@ -1031,7 +1031,7 @@ Algunas de las secciones tratadas en el mismo son las siguientes:
 
     - Por defecto la titularidad de un recurso se propaga hacia abajo (por ejemplo de un esquema de una base de datos a las tablas que lo compongan) a no ser que se especifique lo contrario
 
-  -  Todos los recursos tienen ciertas características que se pueden configurar, como es la titularidad o el dominio, pero dependiendo de que tipo sean OpenMetadata ofrece unas pestañas de gestión u otras, para así sólo mostrar las que sean aplicables a el recurso en particular. Por ejemplo, un recurso de base de datos tendrá una pestaña para configurar sus esquemas, pero un recurso de tipo "pipeline" no tiene esquemas y por lo tanto no tendría sentido que tuviera esa pestaña. El manual de OpenMetadata especifica qué pestañas se aplican en cada caso [22]
+  -  Todos los recursos tienen ciertas características que se pueden configurar, como es la titularidad o el dominio, pero dependiendo de que tipo sean OpenMetadata ofrece unas pestañas de gestión u otras, para así sólo mostrar las que sean aplicables a el recurso en particular. Por ejemplo, un recurso de base de datos tendrá una pestaña para configurar sus esquemas, pero un recurso de tipo "pipeline" no tiene esquemas y por lo tanto no tendría sentido que tuviera esa pestaña. El manual de OpenMetadata especifica qué pestañas se aplican en cada caso [24]
 
   - Seguir un recurso, para luego poder verlo en la página principal y ser notificado de sus cambios
 
@@ -1081,7 +1081,7 @@ La creación de los procesos de monitorización no sigue los mismos pasos, pero 
 
 ### De cara al futuro
 
-Prever las tendencias de cara al futuro es siempre complicado, y no es algo sobre lo que exista un consenso. Por ejemplo la plataforma de monitorización SigNoz contempla principalmente 4 tendencias [23]:
+Prever las tendencias de cara al futuro es siempre complicado, y no es algo sobre lo que exista un consenso. Por ejemplo la plataforma de monitorización SigNoz contempla principalmente 4 tendencias [25]:
 
 - El auge de la inteligencia artificial y el machine learning, utilizando sus capacidades para análisis predictivos para poder adelantarnos a problemas antes de que estos de den
 
@@ -1115,30 +1115,30 @@ Prever las tendencias de cara al futuro es siempre complicado, y no es algo sobr
 
 [11] Vinod V. Nair, R. Nanda Kishor. (2017). Getting the Most out of IoT with an Effective Data Lifecycle Management Strategy. https://www.tcs.com/content/dam/global-tcs/en/pdfs/insights/whitepapers/getting-the-most-of-iot-data-effective-lifecycle-management-strategy.pdf
 
-[12] BOE-A-2018-16673 Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales. (n.d.). https://www.boe.es/buscar/doc.php?id=BOE-A-2018-16673
+[12] Baker, E. (2024, September 26). Conducting a data governance audit. DataGovernancePlatforms.com. https://www.datagovernanceplatforms.com/conducting-data-governance-audit/
 
-[13] datos.gob.es. (2025c, March 10). Especificaciones UNE – Gobierno, gestión y calidad del dato. datos.gob.es. https://datos.gob.es/es/blog/especificaciones-une-gobierno-gestion-y-calidad-del-dato
+[13] The Institute of Internal Auditors, Inc (2020). Data Governance - Providing assurance regarding data risk management : https://www.theiia.org/globalassets/site/content/articles/industry-knowledge-brief/2020/data-governance/data-governance.pdf
 
-[14] datos.gob.es. (2025d, June 6). Aplicación de la especificación UNE 0077:2023 a los datos abiertos. datos.gob.es. https://datos.gob.es/es/blog/aplicacion-de-la-especificacion-une-00772023-los-datos-abiertos
+[14] BOE-A-2018-16673 Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales. (n.d.). https://www.boe.es/buscar/doc.php?id=BOE-A-2018-16673
 
-[15] datos.gob.es. (2025e, June 6). Aplicación de las Especificación UNE 0078:2023 a los datos abiertos. datos.gob.es. https://datos.gob.es/es/blog/aplicacion-de-las-especificacion-une-0078-2023-los-datos-abiertos
+[15] datos.gob.es. (2025c, March 10). Especificaciones UNE – Gobierno, gestión y calidad del dato. datos.gob.es. https://datos.gob.es/es/blog/especificaciones-une-gobierno-gestion-y-calidad-del-dato
 
-[16] datos.gob.es. (2025e, June 6). Aplicación de la Especificación UNE 0079:2023 de gestión de calidad a los datos abiertos. datos.gob.es. https://datos.gob.es/es/blog/aplicacion-de-la-especificacion-une-00792023-de-gestion-de-calidad-los-datos-abiertos
+[16] datos.gob.es. (2025d, June 6). Aplicación de la especificación UNE 0077:2023 a los datos abiertos. datos.gob.es. https://datos.gob.es/es/blog/aplicacion-de-la-especificacion-une-00772023-los-datos-abiertos
 
-[17] Art. 4 GDPR – Definitions - General Data Protection Regulation (GDPR). (2018, March 29). General Data Protection Regulation (GDPR). https://gdpr-info.eu/art-4-gdpr/
+[17] datos.gob.es. (2025e, June 6). Aplicación de las Especificación UNE 0078:2023 a los datos abiertos. datos.gob.es. https://datos.gob.es/es/blog/aplicacion-de-las-especificacion-une-0078-2023-los-datos-abiertos
 
-[18] Asswad, J., & Marx Gómez, J. (2021). Data Ownership: A Survey. Information, 12(11), 465. https://doi.org/10.3390/info12110465
+[18] datos.gob.es. (2025e, June 6). Aplicación de la Especificación UNE 0079:2023 de gestión de calidad a los datos abiertos. datos.gob.es. https://datos.gob.es/es/blog/aplicacion-de-la-especificacion-une-00792023-de-gestion-de-calidad-los-datos-abiertos
 
-[19] Team, A. N. (n.d.). Apache NiFi User Guide. https://nifi.apache.org/docs/nifi-docs/html/user-guide.html
+[19] Art. 4 GDPR – Definitions - General Data Protection Regulation (GDPR). (2018, March 29). General Data Protection Regulation (GDPR). https://gdpr-info.eu/art-4-gdpr/
 
-[20] Admin Guide | OpenMetadata Administration Documentation. (n.d.). https://docs.open-metadata.org/latest/how-to-guides/admin-guide
+[20] Asswad, J., & Marx Gómez, J. (2021). Data Ownership: A Survey. Information, 12(11), 465. https://doi.org/10.3390/info12110465
 
-[21] Guide for Data Users | OpenMetadata User Guide. (n.d.). https://docs.open-metadata.org/latest/how-to-guides/guide-for-data-users
+[21] Team, A. N. (n.d.). Apache NiFi User Guide. https://nifi.apache.org/docs/nifi-docs/html/user-guide.html
 
-[22] Overview of Data Assets. (n.d.). https://docs.open-metadata.org/latest/how-to-guides/guide-for-data-users/data-asset-tabs#data-asset-tabs
+[22] Admin Guide | OpenMetadata Administration Documentation. (n.d.). https://docs.open-metadata.org/latest/how-to-guides/admin-guide
 
-[23] Goswami, V. (2024, November 29). Essential Guide to IoT Monitoring - Benefits and Best Practices. SigNoz. https://signoz.io/guides/iot-monitoring/
+[23] Guide for Data Users | OpenMetadata User Guide. (n.d.). https://docs.open-metadata.org/latest/how-to-guides/guide-for-data-users
 
-[24] Baker, E. (2024, September 26). Conducting a data governance audit. DataGovernancePlatforms.com. https://www.datagovernanceplatforms.com/conducting-data-governance-audit/
+[24] Overview of Data Assets. (n.d.). https://docs.open-metadata.org/latest/how-to-guides/guide-for-data-users/data-asset-tabs#data-asset-tabs
 
-[25] The Institute of Internal Auditors, Inc (2020). Data Governance - Providing assurance regarding data risk management : https://www.theiia.org/globalassets/site/content/articles/industry-knowledge-brief/2020/data-governance/data-governance.pdf
+[25] Goswami, V. (2024, November 29). Essential Guide to IoT Monitoring - Benefits and Best Practices. SigNoz. https://signoz.io/guides/iot-monitoring/
