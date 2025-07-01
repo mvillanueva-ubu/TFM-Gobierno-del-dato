@@ -1023,6 +1023,44 @@ Algunas de las secciones tratadas en el mismo son las siguientes:
 
   - Creación de propiedades a medida. Además de las propiedades por defecto para cada tipo de recurso, los usuarios podrán crear propiedades a medida para cubrir cualquier caso de uso no contemplado por defecto. Estas propiedades se relacionarán con un tipo de recurso concreto, y estarán disponibles para todos los recursos de dicho tipo.
 
+## Monitorización
+
+### Retos de la monitorización en el IoT
+
+Los retos que la monitorización tiene que superar en el contexto del IoT vienen de aspectos que ya hemos tratado en otras secciones:
+
+- Heterogeneidad de los sistemas: un reto que nos ha seguido en caso todo los pasos del proceso, sigue siendo igual de importante para la monitorización. Es imposible monitorizar correctamente todos estos sistemas sin un buen sistema de integración de todos ellos. Es por eso que se ha trabajado en utilizar herramientas que permitan esta estandarización y agregado de sistemas
+
+- Problemas de conectividad: Al ser el IoT un ecosistema con muchísimos tipos de dispositivos separados en el espacio físico, es de gran importancia considerar que la tasa de fallos de conectividad será alta
+
+- Generación masiva de datos: Es una de las ventajas del IoT que al mismo tiempo significa un reto, el IoT nos permite recopilar grandes cantidades de información que sistemas más centralizados son incapaces de alcanzar, pero esto supone un mayor coste a la hora de cualquier proceso que se de después de la captura del dato. Desde el transporte de altas cantidades, como el procesado de todos ellos y por supuesto la monitorización de todo ello
+
+- Conformidad con las regulaciones: tratado principalmente en la sección de "Regulaciones", el ioT ofrece un reto extra no solo por la complejidad que aporta una mayor cantidad de datos, sino porque se dan muchas veces que son datos personales y la complicación que se da al considerar qué combinaciones de datos inicialmente no personales forman información personal
+
+### Buenas prácticas
+
+La creación de los procesos de monitorización no sigue los mismos pasos, pero sí que se pueden establecer buenas prácticas que guíen las decisiones:
+
+- Utilizar siempre la herramienta de monitorización centralizada. Es decir no crear puntos de monitorización separados, se han de utilizar siempre las herramientas seleccionadas en el proyecto y la monitorización debe ir siempre por esos canales. De esta forma toda persona que deba acceder a esa monitorización podrá tener acceso a ella y se podrán realizar comparativas de los diferentes puntos.
+
+- Identificar bases para las métricas, definir qué se considera el funcionamiento normal para cada una de las entradas y los rangos de valores para ese funcionamiento. Para ello es de vital importancia el haber establecido un lenguaje común en toda la organización, para que se vea claro qué conceptos son equivalentes (y por tanto se les puede aplicar los mismos rangos) y qué conceptos suenan igual pero no son equivalentes
+
+- Crear alertas automáticas que avisen de cualquier problema. Identificar puntos críticos que requieran de intervención en caso de problemas, y utilizar las capacidades de nuestras herramientas para crear alertas. De esta forma dada una situación problemática las personas adecuadas estarán sobre aviso al momento
+
+- Aplicar estándares de seguridad adecuados, de la misma forma que son necesarios para cualquier otro aspecto, en el ámbito de la monitorización es importante saber que datos se están moviendo a donde y cuando se trata de información personal o anonimizada.
+
+### De cara al futuro
+
+Prever las tendencias de cara al futuro es siempre complicado, y no es algo sobre lo que exista un consenso. Por ejemplo la plataforma de monitorización SigNoz contempla principalmente 4 tendencias [23]:
+
+- El auge de la inteligencia artificial y el machine learning, utilizando sus capacidades para análisis predictivos para poder adelantarnos a problemas antes de que estos de den
+
+- Integración de la tecnología 5G mejorando la conectividad de todos los dispositivos IoT, reduciendo problemas de conectividad, mejorando el rendimiento de las comunicaciones tanto en el ancho de banda como en latencia. Mejorando de gran manera el rendimiento de cualquier procesado
+
+- "Edge Computing" para un mayor procesado desde el principio, disminuyendo el trabajo a realizar por herramientas centralizadas que ya recibirán la información más estandarizada y procesada. De esta forma no se consumirán tantos recursos en un solo punto, sino que se repartirá parte de la carga por todo el sistema
+
+- Blockchain para el aumento de la seguridad e integridad, creando registros transparentes e inmutables
+
 ## Referencias
 
 [1] ¿Qué es la gobernanza de datos? | Definición, importancia y tipos | SAP. (n.d.). SAP. https://www.sap.com/latinamerica/products/data-cloud/master-data-governance/what-is-data-governance.html
@@ -1068,3 +1106,5 @@ Algunas de las secciones tratadas en el mismo son las siguientes:
 [21] Guide for Data Users | OpenMetadata User Guide. (n.d.). https://docs.open-metadata.org/latest/how-to-guides/guide-for-data-users
 
 [22] Overview of Data Assets. (n.d.). https://docs.open-metadata.org/latest/how-to-guides/guide-for-data-users/data-asset-tabs#data-asset-tabs
+
+[23] Goswami, V. (2024, November 29). Essential Guide to IoT Monitoring - Benefits and Best Practices. SigNoz. https://signoz.io/guides/iot-monitoring/
