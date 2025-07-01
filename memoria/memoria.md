@@ -430,7 +430,7 @@ Implican principalmente la creación de los estándares de nomenclatura que ha d
 
 ## Gestión de prácticas y políticas
 
-Para realizar una buena gestión de todo lo implementado y verificar su funcionamiento se realizarán reuniones bianuales. Estas reuniones las realizará el consejo de grupo de coordinación para evaluar el grado de implantación de las prácticas y políticas definidas y valorar su efectividad. Para ello los data stewards de cada área deberán realizar un informe sobre su área y compartirlos con el líder del gobierno del dato. Estos informes deberán cubrir los siguientes aspectos:
+Para realizar una buena gestión de todo lo implementado y verificar su funcionamiento se realizarán reuniones bianuales. Estas reuniones las realizará el consejo de grupo de coordinación para evaluar el grado de implantación de las prácticas y políticas definidas y valorar su efectividad. Para ello los data stewards de cada área deberán realizar una auditoría sobre su área y compartir los resultados con el líder del gobierno del dato. Deberán cubrir los siguientes aspectos:
 
 - Nivel de implantación del plan
 
@@ -449,6 +449,36 @@ De los puntos en los que se han notado carencias o problemas será necesario dis
 - En caso de ser un problema que requiere más recursos o de un cambio en la estrategia del proyecto, será necesario realizar un informe con las deficiencias y necesidades. Este será redactado por el líder del dato y llevado a discusión a el consejo del dato
 
 De la misma manera, el consejo del dato se reunirá también con la misma cadencia, después de la anterior reunión. En ella se tratará el avance de el proyecto y se discutirán las mejoras que requieran de cambios a nivel estratégico o de recursos. En caso de llegar a un acuerdo el líder del dato se encargará de llevar de vuelta estas decisiones a los data stewards.
+
+### Auditorías
+
+Las auditorías son una de las herramientas clave para valorar la correcta implementación y uso de nuestro sistema. Es una forma de garantizar que se cumplan los objetivos marcados, observando qué aspectos están progresando adecuadamente y cuales no han progresado o no están funcionando como deberían. Es el origen del que surgirán todas las acciones de mejora continua.
+
+Las auditorías pueden realizarse en 4 fases [24]:
+
+1. Preparación: implica la definición de objetivos, alcance y plan de acción
+
+2. Participación de los interesados: definición de los roles, identificación de todos los interesados
+
+3. Ejecución: Se obtiene la información y se analiza
+
+4. Resultados: Se presentan los resultados
+
+De cara a realizar una buena auditoría también es necesario definir que preguntas son clave realizar durante las auditorías, The Institute of Internal Auditors sugiere varias para su uso en el ámbito de el gobierno del dato [25]:
+
+- ¿Saben las personas afectadas que se está recopilando su información?
+
+- ¿Se está inventariando toda la información que recopilamos?
+
+- ¿Se están cumpliendo nuestros estándares para la calidad?
+
+- ¿Son las soluciones técnicas correctas y adecuadas?
+
+- ¿Es la seguridad actual suficiente?
+
+- ¿Son las prácticas de gobierno del dato utilizadas suficientemente maduras?
+
+- ¿Se está formando a los trabajadores en el aspecto ético de el gobierno del dato?
 
 ## Regulaciones
 
@@ -1108,3 +1138,7 @@ Prever las tendencias de cara al futuro es siempre complicado, y no es algo sobr
 [22] Overview of Data Assets. (n.d.). https://docs.open-metadata.org/latest/how-to-guides/guide-for-data-users/data-asset-tabs#data-asset-tabs
 
 [23] Goswami, V. (2024, November 29). Essential Guide to IoT Monitoring - Benefits and Best Practices. SigNoz. https://signoz.io/guides/iot-monitoring/
+
+[24] Baker, E. (2024, September 26). Conducting a data governance audit. DataGovernancePlatforms.com. https://www.datagovernanceplatforms.com/conducting-data-governance-audit/
+
+[25] The Institute of Internal Auditors, Inc (2020). Data Governance - Providing assurance regarding data risk management : https://www.theiia.org/globalassets/site/content/articles/industry-knowledge-brief/2020/data-governance/data-governance.pdf
