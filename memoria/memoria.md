@@ -981,6 +981,48 @@ La guía de administradores de OpenMetadata [19] divide las acciones básicas de
 
       1. Para cada agente se configurará también el momento de ejecución, que puede ser manual bajo demanda o planificado en momentos concretos
 
+##### Usuarios
+
+Es más complicado definir unos pasos iniciales para los usuarios dada la amplia extensión de la aplicación y los diferentes tipos de usos que cada usuario va a darle a la aplicación. Un buen punto de comienzo es el manual del usuario de OpenMetadata [21] en el que se detallan las diferentes secciones de la interfaz web, por lo que será la primera lectura necesaria para los usuarios. De esta forma será posible orientarse inicialmente y empezar a hacer uso de la herramienta.
+
+Algunas de las secciones tratadas en el mismo son las siguientes:
+
+- Página de inicio, se trata de una página viva y modificable por cada usuario, con una estructura de "widgets" cada usuario puede seleccionar cuales quiere ver en su página de inicio y en qué posición en orden.
+
+  - Widgets de actividad: como puede ser un listado de la actividad de algún equipo, las menciones que hayan hecho otros usuarios o anuncios de alguien de la organización.
+
+  - Widgets de tareas pendientes, creadas por el usuario mismo u otro usuario
+
+  - Widgets de seguimiento: listados de recursos a los que el usuario sigue o widgets de rendimiento de recursos completos o de la aplicación entera.
+
+- Gestión de los recursos, realizada directamente por el usuario o realizando solicitudes. Es decir que si el usuario descubre algún punto que requiera trabajo, puede decidir informarlo el mismo, o en caso de no saber puede mencionar a otro usuario para subsanar el problema.
+
+  - Asignar titularidad, o modificar dicha titularidad
+
+    - Por defecto la titularidad de un recurso se propaga hacia abajo (por ejemplo de un esquema de una base de datos a las tablas que lo compongan) a no ser que se especifique lo contrario
+
+  -  Todos los recursos tienen ciertas características que se pueden configurar, como es la titularidad o el dominio, pero dependiendo de que tipo sean OpenMetadata ofrece unas pestañas de gestión u otras, para así sólo mostrar las que sean aplicables a el recurso en particular. Por ejemplo, un recurso de base de datos tendrá una pestaña para configurar sus esquemas, pero un recurso de tipo "pipeline" no tiene esquemas y por lo tanto no tendría sentido que tuviera esa pestaña. El manual de OpenMetadata especifica qué pestañas se aplican en cada caso [22]
+
+  - Seguir un recurso, para luego poder verlo en la página principal y ser notificado de sus cambios
+
+  - Eliminación de recursos
+
+    - De forma lógica (OpenMetadata lo llama "soft delete"), de forma que el borrado sea reversible. A tener en cuenta que no cumple con regulaciones que requieran el eliminado real de datos
+
+    - De forma física ("hard delete") para un borrado final que no es reversible
+
+  - Descripciones de texto enriquecido mediante el uso de MarkDown
+
+  - Creación de términos del glosario y etiquetas
+
+  - Asignación de términos y etiquetas a recursos
+
+  - Versionado de recursos
+
+    - Pueden ser versiones menores (cambios no rompen compatibilidad) o mayores (sí se rompe compatibilidad)
+
+  - Creación de propiedades a medida. Además de las propiedades por defecto para cada tipo de recurso, los usuarios podrán crear propiedades a medida para cubrir cualquier caso de uso no contemplado por defecto. Estas propiedades se relacionarán con un tipo de recurso concreto, y estarán disponibles para todos los recursos de dicho tipo.
+
 ## Referencias
 
 [1] ¿Qué es la gobernanza de datos? | Definición, importancia y tipos | SAP. (n.d.). SAP. https://www.sap.com/latinamerica/products/data-cloud/master-data-governance/what-is-data-governance.html
@@ -1024,3 +1066,5 @@ La guía de administradores de OpenMetadata [19] divide las acciones básicas de
 [20] Admin Guide | OpenMetadata Administration Documentation. (n.d.). https://docs.open-metadata.org/latest/how-to-guides/admin-guide
 
 [21] Guide for Data Users | OpenMetadata User Guide. (n.d.). https://docs.open-metadata.org/latest/how-to-guides/guide-for-data-users
+
+[22] Overview of Data Assets. (n.d.). https://docs.open-metadata.org/latest/how-to-guides/guide-for-data-users/data-asset-tabs#data-asset-tabs
