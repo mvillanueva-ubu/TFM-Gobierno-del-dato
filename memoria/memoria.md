@@ -842,6 +842,49 @@ Finalmente definimos el momento de ejecución de los procesadores, en la pestañ
 
 Otras configuraciones más técnicas para la ejecución son las de "concurrent tasks" y "execution". La primera especifica cuantos hilos puede ocupar la ejecución, mientras que la segunda especifica el nodo específico en el que se ejecutan. Estas opciones no son definidas por el data steward, sino que se han de crear unas directrices por parte del equipo técnico que mantiene la herramienta para no sobrecargarla y hacer un uso óptimo de la misma.
 
+#### Prototipo
+
+De cara a crear un pequeño prototipo para mostrar el uso de apache NiFI, se recojerán loas pasos seguidos para realizar cada uno de los pasos.
+
+##### Instalación
+
+Apache NiFi es una herramienta portátil por lo que no requiere de instalación como tal. Eso sí, es necesario tener instalada una versión de Java superior a 8. Una vez Java instalado y configurada la variable de entorno JAVA_HOME, el proceso de instalación es tan sencillo como extraer el archivo zip que Apache NiFi ofrece en su página.
+
+Sí que de cara a documentar lo realizado, se ha editado la configuración en "./conf/nifi.properties" para que los diferentes directorios donde se guarda el trabajo queden controlados por el control de cambios, ya que por defecto se guarda mezclado con los archivos propios del funcionamiento de la herramienta. Se trata de las siguientes configuraciones:
+
+| Directorio               | Contenido                                                             |
+| ------------------------ | --------------------------------------------------------------------- |
+| ./database_repository/   | Base de datos interna de NiFi                                         |
+| ./flowfile_repository/   | Datos que fluyen por el sistema de NiFi                               |
+| ./content_repository/    | El contenido de los "flowfile" anteriores                             |
+| ./provenance_repository/ | Es un log de las procedencias de los diferentes flujos                |
+| ./flow_repository/       | Las definiciones de los flujos                                        |
+| ./assets/                | Contenido creado por el usuario, como pueden ser procesadores creados |
+| ./nar_repository/        | Metadatos de los contenidos                                           |
+
+También es posible la instalación de NiFi como servicio, aunque sólo en sistemas Mac y Linux. De cualquier manera, al tratarse de un prototipo, incluso existiendo la opción lo más adecuado es la instalación portable que NiFi ofrece opr defecto.
+
+##### Ejecución
+
+Uno de los posibles pasos es la modificación del usuario por defecto, que se puede modificar con el siguiente comando, aunque por el momento se dejará el autogenerado.
+
+| ./bin/nifi.sh set-single-user-credentials |
+| ----------------------------------------- |
+
+El usuario generado lo podremos ver en "./logs/nifi-app.log", junto con el estado actual de la ejecución. El estado no se muestra en la ventana de la terminal, y es necesario consultarlo en el log.
+
+Una vez arrancada la herramienta, se puede navegar a https://localhost:8443/nifi para acceder a la herramienta. En los navegadores modernos será necesario aceptar la conexión a una página no segura antes de continuar.
+
+![Inicio NiFi](./imagenes/inicio-nifi.png)
+
+##### Extracción de datos
+Para recoger los primeros datos, deberemos crear un procesador. El tipo más simple por el que podemos empezar es el de tipo "GetFile"
+
+![Procesador GetFile](./imagenes/nifi-procesador-getfile.png)
+
+Una vez generado podemos darle un nombre y configurar sus propiedades. Le podemos indicar el directorio donde va a leer los archivos, y el filtro que va a usar para decidir qué archivos recojer. En el siguiente caso, por ejemplo, recogerá todos los archivos ".csv" del directorio especificado.
+
+![Procesador GetFile](./imagenes/nifi-procesador-getfile-properties.png)
 ### Herramientas de calidad del dato
 
 De cara a utilizar una herramienta para gestionar la calidad del dato, ya que estamos utilizando Apache NiFi como herramienta ETL, optaremos por utilizarla también por sus cualidades de gestión de la calidad del dato para evitar redundancias con 2 herramientas que se solapan. De todas formas también se considerarán otras herramientas por si en algún futuro se decidiera dejar Apache NiFi de lado y se necesitara alguna alternativa.
