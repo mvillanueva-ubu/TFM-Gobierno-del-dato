@@ -862,11 +862,11 @@ Sí que de cara a documentar lo realizado, se ha editado la configuración en ".
 | ./assets/                | Contenido creado por el usuario, como pueden ser procesadores creados |
 | ./nar_repository/        | Metadatos de los contenidos                                           |
 
-También es posible la instalación de NiFi como servicio, aunque sólo en sistemas Mac y Linux. De cualquier manera, al tratarse de un prototipo, incluso existiendo la opción lo más adecuado es la instalación portable que NiFi ofrece opr defecto.
+También es posible la instalación de NiFi como servicio, aunque sólo en sistemas Mac y Linux. De cualquier manera, al tratarse de un prototipo, incluso existiendo la opción lo más adecuado es la instalación portable que NiFi ofrece por defecto.
 
 ##### Ejecución
 
-Uno de los posibles pasos es la modificación del usuario por defecto, que se puede modificar con el siguiente comando, aunque por el momento se dejará el autogenerado.
+Uno de los posibles pasos es la modificación del usuario por defecto, que se puede modificar con el siguiente comando, aunque por el momento se dejará el auto-generado.
 
 | ./bin/nifi.sh set-single-user-credentials |
 | ----------------------------------------- |
@@ -878,6 +878,7 @@ Una vez arrancada la herramienta, se puede navegar a https://localhost:8443/nifi
 ![Inicio NiFi](./imagenes/inicio-nifi.png)
 
 ##### Extracción de datos
+
 Para recoger los primeros datos, deberemos crear un procesador. El tipo más simple por el que podemos empezar es el de tipo "GetFile"
 
 ![Procesador GetFile](./imagenes/nifi-procesador-getfile.png)
@@ -885,6 +886,98 @@ Para recoger los primeros datos, deberemos crear un procesador. El tipo más sim
 Una vez generado podemos darle un nombre y configurar sus propiedades. Le podemos indicar el directorio donde va a leer los archivos, y el filtro que va a usar para decidir qué archivos recojer. En el siguiente caso, por ejemplo, recogerá todos los archivos ".csv" del directorio especificado.
 
 ![Procesador GetFile](./imagenes/nifi-procesador-getfile-properties.png)
+
+##### Enrutado
+
+Para mostrar las capacidades del enrutado de NiFI, se crean varias situaciones que pueden solucionar con esta herramienta.
+
+Se propone el caso 1, simulando dos orígenes que cuenten con entradas compatibles. Esto significa que se quieren enrutar a el mismo destino. Para ello se crea un procesador de tipo "RouteOnAttribute". Se modifica el anterior procesador GetFile, para que obtenga un sólo archivo csv, este simulará uno de los orígenes. Se crea un segundo archivo con la misma estructura pero diferentes valores. El archivo se encuentra en el mismo directorio, pero para simular un origen diferente se crea otro procesador GetFile que consuma ese único archivo. Siendo ambos compatibles, el objetivo es enrutarlos al mismo lugar, por lo que en el procesador de enrutado, se controlarán estos dos orígenes para un enrutado en particular:
+
+![Procesador enrutado](./imagenes/nifi-procesador-enrutado-properties.png)
+
+El siguiente paso consiste en unir todos los procesadores, mediante la interfaz visual de NiFi.
+
+![Procesador enrutado](./imagenes/nifi-procesadores-routing-A.png)
+
+A continuación se imagina un caso 2, con otro origen, que no sigue la misma estructura, sino que aunque sí que ha de acabar uniéndose a los anteriores deberá de tener un procesado diferente. Para ello se definirá otro procesador GetFile. Y de la misma manera se definirá una nueva propiedad en el enrutador para las entradas de tipo B. De esta forma la entrada queda de la siguiente manera:
+
+![Procesador enrutado](./imagenes/nifi-procesadores-routing-B.png)
+
+Las propiedades de salida del enrutador tendrán que utilizarse a la hora de generar las conexiones al siguiente paso, que consiste en un procesador de tipo "SplitRecord" para separar las columnas de tipo A. Para ello se crearán 2 servicios de tipo RecordReader y RecordWriter, utilizando las plantillas que existen en NiFi para CSVs. Utilizaremos estos servicios el procesador para las temperaturas de tipo A.
+
+![Procesador SplitRecord](./imagenes/nifi-procesadores-routing-split.png)
+
+Estos procesadores lo que harán será separar los archivos SCV en filas separadas, ignorando la primera fila que consta de los títulos.
+
+##### Procesado
+
+Para los casos propuestos, se ha decidido simular un caso de tener que estandarizar orígenes heterogéneos. Hasta ahora se ha tratado cómo capturar y enrutar los datos, pero no cómo realizar la equivalencia. En la siguiente tabla se muestran los campos de ambos orígenes y el estándar que se busca:
+
+|          | Columnas                                             | Unidades                  |
+| -------- | ---------------------------------------------------- | ------------------------- |
+| A        | "id ciudad", "nombre ciudad", "temperatura", "fecha" | Temperatura en Celsius    |
+| B        | "id ciudad", "temperatura", "fecha"                  | Temperatura en Fahrenheit |
+| Objetivo | "id ciudad", "temperatura", "fecha"                  | Temperatura en Celsius    |
+
+Por lo que para la casuística especificada las operaciones a realizar son las siguientes:
+
+| Origen | Operaciones                                      |
+| ------ | ------------------------------------------------ |
+| A      | Eliminación de la columna "nombre ciudad"        |
+| B      | Conversión de la columna "temperatura" a Celsius |
+
+La eliminación de la columna puede hacerse mediante un procesador "ReplaceText", para ello se asignan las diferentes propiedades:
+
+| Propiedad         | Valor                | Significado                                                                                                          |
+| ----------------- | -------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| Search Value      | ^(.*,)(.*,)(.*,)(.*) | Es una expresión regular que separa una fila de 4 columnas con separadores "," en 4 secciones.                       |
+| Replacement Value | $1$3$4               | Significa que la fila será cambiada por las secciones 1,3 y 4 especificadas antes, es decir, todo menos la sección 2 |
+
+Para la modificación de la temperatura es necesario crear un sistema un poco más complejo. Para empezar, es necesario definir un esquema en el RecordReader. Por  lo que se crea un nuevo servicio de este tipo con el siguiente esquema que se corresponde a la estructura del el CSV de tipo B:
+
+{"type": "record",
+
+"name": "TemperaturaB",
+
+"fields": [{"name": "id","type": "string"}, {"name": "temperatura","type": "double"}, {"name": "fecha","type": "string"}]}
+
+Una vez especificado el RecordReader se puede hacer referencia a las columnas, por lo que en las propiedades del procesador UpdateRecord se puede realizar un "Literal value" (Existe el RecordPathValue para actualizar los valores con otros valores de otras entradas del esquema) y realizar la operación de conversión de Fahrenheit a Celsius.
+
+| ${field.value:toDecimal():minus(32):multiply(5):divide(9)} |
+| ---------------------------------------------------------- |
+
+![Procesador UpdateRecord](./imagenes/nifi-procesador-updaterecord.png)
+
+##### Unión
+
+El siguiente paso una vez contamos con registros que son perfectamente compatibles los unos con los otros, el siguiente paso consiste en unirlos para poder consumirlos juntos.
+
+Sería posible concatenarlos seguidos de cada uno de los orígenes, pero ya que ahora sí son perfectamente compatibles se pueden unir registro por registro (en vez de cada archivo todo junto), haciendo que datos de uno y otro puedan entremezclarse. Esto ya se había logrado con los de tipo A, pero también se realizará para los de tipo B
+
+Para ello se utiliza un procesador de tipo "SplitRecord" que separará cada registro, de la misma forma que en el otro caso. Y posteriormente se unirán usando un procesador "MergeContent", de modo que es posible hacer que se vayan guardando los registro por ejemplo de 500 en 500 (para el caso del prototipo, en situaciones reales se manejarían muchos más registros de golpe). De esta forma se realizarán los dos casos: uno que divide en líneas y procesa cada línea, y otro que procesa todo los registros del archivo de golpe y luego divide.
+
+![Procesador Merge](./imagenes/nifi-procesador-merge.png)
+
+##### Guardado
+
+Finalmente se sacarán los resultados del flujo. Para ello se realizan dos pasos. Primero se le asigna un nombre a el archivo que se va a generar, para evitar conflictos se utiliza la fecha-hora actual hasta milisegundos. Se utiliza un procesador de tipo "UpdateAttribute" con la siguiente propiedad.
+
+| Propiedad | Valor                                          |
+| --------- | ---------------------------------------------- |
+| filename  | ${now():format("yyyy-MM-dd-HH-mm-ss.SSS")}.csv |
+
+Y la salida de este procesador se conecta a un procesador de tipo "PutFile", en el que se configura un directorio de salida. Sólo se configura el directorio de salida, y nada más, por lo que utiliza el atributo "filename" del recurso que le llegara, por eso para evitar colisiones era necesario el procesador anterior.
+
+##### Ejecutando el prototipo
+
+Una vez realizado todo el flujo, y comprobado que no queda ningún procesador con errores, se puede comenzar a arrancarlos. Lo correcto en ste caso es dejar todos menos los 3 de entrada funcionando, y ejecutar de forma discreta las entradas para simular entradas de datos. A continuación se muestra el flujo completo:
+
+![Flujo completo](./imagenes/nifi-graficocompleto.png)
+
+Si todo ha ido correctamente, se habrán grabado los resultados en el directorio indicado:
+
+![Flujo completo](./imagenes/nifi-resultados.png)
+
 ### Herramientas de calidad del dato
 
 De cara a utilizar una herramienta para gestionar la calidad del dato, ya que estamos utilizando Apache NiFi como herramienta ETL, optaremos por utilizarla también por sus cualidades de gestión de la calidad del dato para evitar redundancias con 2 herramientas que se solapan. De todas formas también se considerarán otras herramientas por si en algún futuro se decidiera dejar Apache NiFi de lado y se necesitara alguna alternativa.
