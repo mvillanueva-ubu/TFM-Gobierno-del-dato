@@ -982,6 +982,18 @@ Si todo ha ido correctamente, se habrán grabado los resultados en el directorio
 
 De cara a utilizar una herramienta para gestionar la calidad del dato, ya que estamos utilizando Apache NiFi como herramienta ETL, optaremos por utilizarla también por sus cualidades de gestión de la calidad del dato para evitar redundancias con 2 herramientas que se solapan. De todas formas también se considerarán otras herramientas por si en algún futuro se decidiera dejar Apache NiFi de lado y se necesitara alguna alternativa.
 
+#### Alternativas
+
+Las primeras alternativas a considerar serían los ecosistemas de las otras herramientas ETL consideradas. En caso por ejemplo de pivotar a el ecosistema de IBM, también nos ofrecería capacidades de calidad del dato mediante sus propias herramientas. Es también el caso con Oracle Data Integration Cloud Service, que como se ha especificado antes, busca ser una herramienta que cubra todas las necesidades de este ámbito.
+
+Otras alternativas existentes:
+
+- OpenRefine, antes "Google Refine" es una herramienta dedicada exclusivamente a la calidad de la información, con especial énfasis en la eficiencia del análisis. Por lo que es una herramienta que destaca por ejemplo a la hora de identificar patrones en la información. Aunque es más limitada en el aspecto de la gestión de errores.
+
+- Data Ladder, herramienta muy orientada a la limpieza de los datos. Sin embargo su muy limitado alcance y falta de documentación para sus características más avanzadas son un factor grande en su contra.
+
+- Talend es una herramienta que potencia sus cualidades de análisis utilizando machine learning. Cuanta con varias rutinas de limpieza y de-duplicado muy eficientes, aunque su gran desventaja es la complejidad a la hora de usarse por parte de usuarios en perfiles poco técnicos.
+
 #### Apache NiFi y la calidad del dato
 
 Apache NiFi nos ofrece soporte para diferentes acciones clave de cara a la calidad:
@@ -996,17 +1008,17 @@ Apache NiFi nos ofrece soporte para diferentes acciones clave de cara a la calid
 | Monitorización              | Permite monitorizar la salud y rendimiento de todos los aspectos del sistema, mostrando métricas de tasas de error, velocidades de procesamiento...                                                  |
 | Logging                     | Alta customización de los logs del sistema, para poder identificar los fallos y trazar sus puntos de error                                                                                           |
 
-#### Alternativas
+#### Incluyendo calidad del dato en el prototipo
 
-Las primeras alternativas a considerar serían los ecosistemas de las otras herramientas ETL consideradas. En caso por ejemplo de pivotar a el ecosistema de IBM, también nos ofrecería capacidades de calidad del dato mediante sus propias herramientas. Es también el caso con Oracle Data Integration Cloud Service, que como se ha especificado antes, busca ser una herramienta que cubra todas las necesidades de este ámbito.
+En esta sección se mostrarán algunos ejemplo de como es el proceso de incluir algunos procesos de calidad del dato en el anterior prototipo de Apache NiFi.
 
-Otras alternativas existentes:
+En primer lugar se valoran las mejoras a la calidad que se están haciendo ya, ya que el proceso de transformación mismo añade calidad al dato. Por lo tanto hay 3 mejoras que ya se están realizando en el proceso ETL actual
 
-- OpenRefine, antes "Google Refine" es una herramienta dedicada exclusivamente a la calidad de la información, con especial énfasis en la eficiencia del análisis. Por lo que es una herramienta que destaca por ejemplo a la hora de identificar patrones en la información. Aunque es más limitada en el aspecto de la gestión de errores.
+1. Unión de datos equivalentes. De los 3 orígenes simulados se ha pasado a un sólo flujo, mejorando el descubrimiento de los datos, ya no es necesario consultar 3 lugares, sino que uno solo es suficiente
 
-- Data Ladder, herramienta muy orientada a la limpieza de los datos. Sin embargo su muy limitado alcance y falta de documentación para sus características más avanzadas son un factor grande en su contra.
+2. Estandarización del esquema. Anteriormente se trabajaba con dos esquemas diferentes, duplicando el trabajo de quien necesitara consultarlos, añadiendo la posibilidad de causar errores al no aplicar el esquema adecuado a alguno de los orígenes. Después de pasar por el flujo establecido todos los datos tienen la misma estructura.
 
-- Talend es una herramienta que potencia sus cualidades de análisis utilizando machine learning. Cuanta con varias rutinas de limpieza y de-duplicado muy eficientes, aunque su gran desventaja es la complejidad a la hora de usarse por parte de usuarios en perfiles poco técnicos.
+3. Estandarización de unidades. Similar al caso anterior, antes se contaba con dos unidades diferentes para la misma información (en el ejemplo, la temperatura). Causando los mismos problemas, trabajo añadido y posible causa de errores si no se convertían las unidades antes de realizar comparaciones.
 
 ### Catálogo de datos
 
