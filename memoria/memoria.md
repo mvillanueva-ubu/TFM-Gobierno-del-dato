@@ -488,6 +488,87 @@ De cara a realizar una buena auditoría también es necesario definir que pregun
 
 - ¿Se está formando a los trabajadores en el aspecto ético de el gobierno del dato?
 
+## Calidad del dato
+
+De cara a la calidad del dato se tratarán 2 aspectos principales. El primero consiste en el proceso de selección de reglas, es decir las guías que servirán para seleccionar los indicadores de calida del dato. La segunda parte consiste en el proceso de selección de los requisitos, que implica definir qué expectativas se busca cumplir en cada uno de los casos. Estos requisitos se definirán en indicadores.
+
+### Selección de las reglas
+
+Para realizar un buen proceso de selección de reglas, se puede seguir un enfoque orientado a las dimensiones de la calidad [X1], que pueden categorizarse como 60 dimensiones diferentes. Cada una de ellas representa una cualidad específica de los datos, y actua de guía para especificar qué reglas se pueden aplicar en cada caso.
+
+Algunas de las dimensiones son las siguientes:
+
+| Dimensión     | Definición                                                                               |
+| ------------- | ---------------------------------------------------------------------------------------- |
+| Accesibilidad | Facilidad para consultar u obtener el dato                                               |
+| Exactitud     | La cercanía de los valores de los datos a valores reales                                 |
+| Coherencia    | La facilidad con la que dos datasets pueden combinarse                                   |
+| Credibilidad  | El grado en el que se puede confiar en que un dato sea cierto                            |
+| Equivalencia  | El grado en el que dos datos de dos sets de datos diferentes son iguales conceptualmente |
+| Naturalidad   | El grado en el que los datos se alinean con los objetos reales que representan           |
+| Relevancia    | El grado en el que el dato cumple con las expectativas del consumidor del dato           |
+| Redundancia   | Grado en el que cada registro ocurre más de una vez                                      |
+
+Para poder relacionar un dato con sus dimensiones relevantes, se puede seguir un proceso de 3 pasos [X2].
+
+1. Determinar qué dimensiones son relevantes para el dato
+
+   1.  Para la selección de posibles dimensiones (Black, A., Nederpelt, P. van. ,2020) proponen una correlación de dimensiones con categorías de datos a las que son aplicables (Table 4)
+
+   2. Por lo que es buena idea realizar el proceso inverso, analizar qué categoría de dato es con el que se está trabajando, y realizar un listado inicial de las dimensiones que le pueden ser aplicadas
+
+2. Determinar de cada una de las dimensiones, si contribuyen a algún objetivo de negocio
+
+   1. En este paso se prorgesa de una lista inicial de dimensiones que son aplicables a dimensiones que aportan valor. Las dimensiones que se considere contribuyen suficiente serán las que se utilizarán
+
+3. Priorizar las dimensiones
+
+   1. Una vez seleccionadas las dimensiones que se vana  trabajar se priorizan en base a el ratio de coste-beneficio esperado
+
+   2. Toda acción conlleva sus costes, por lo que la prioridad ha de ser con los recursos que se tienen maximizar los beneficios a obtener
+
+Una vez se ha formado la lista de dimensiones, el siguiente paso es la creación de indicadores que nos ayuden a cumplir con los requisitos que se busquen.
+
+### Requisitos
+
+Los requisitos representan el cumplimiento de indicadores, cada indicador está formado por un valor y una unidad, siendo las unidades posibles las siguientes:
+
+| Unidad       | Significado                                                                                            |
+| ------------ | ------------------------------------------------------------------------------------------------------ |
+| Porcentaje   | Representa la fracción de casos que han cumplido cierta condición                                      |
+| Numérico     | Un valor numérico absoluto                                                                             |
+| Calificación | Es la percepción de las personas, en al escala que sea conveniente                                     |
+| Booleano     | Valor binario sí/no                                                                                    |
+| Duración     | Especificada en una unidad de tiempo                                                                   |
+| Historia     | Para valores complejos que no se pueden expresar con un sólo número, sino que que se explican en texto |
+
+De estas unidades, (Black, A., Nederpelt, P. van. ,2020) realizan una vinculación de las diferentes dimensiones con sus unidades (Table $). Siguiendo ese ejemplo las dimensiones de ejemplo anteriores se regirían usando las siguientes unidades:
+
+| Dimensión     | Unidad       |
+| ------------- | ------------ |
+| Accesibilidad | Calificación |
+| Exactitud     | Porcentaje   |
+| Coherencia    | Historia     |
+| Credibilidad  | Calificación |
+| Equivalencia  | Porcentaje   |
+| Naturalidad   | Calificación |
+| Relevancia    | Historia     |
+| Redundancia   | Numérico     |
+
+Algunos ejemplos utilizando estas dimensiones:
+
+- Accesibilidad se podría valorar en qué calificación promedio le dan los consumidores a la facilidad con la que han accedido a la información que buscaban
+
+  - El indicador podría ser si se valor sobre 5, mantener esa calificación igual o por encima del 4/5
+
+- La redundancia se mide en el número de veces que se guardan los mismos registros lógicos en dos lugares de almacenamiento diferente
+
+  - El indicador en este caso puede ser comparar el número obtenido con el número de copias que se quieren tener por seguridad
+
+  - Un valor mayor es incorrecto, ya que se está causando un gasto de recursos innecesario
+
+  - Un valor inferior es incorrecto, ya que hay datos a riesgo de perderse en caso de incidencia
+
 ## Regulaciones
 
 La ley principal en España que regula el dato es la "Ley Orgánica de Protección de Datos Personales y garantía de los derechos digitales"[14], que así mismo se trata de una adaptación al ámbito nacional de la ley de la Unión Europea "Reglamento General de Protección de Datos"[7] (GDPR por sus siglas en inglés).
@@ -1356,6 +1437,10 @@ Algunas recomendaciones para fomentar la buena cultura son las siguientes [26]:
 [12] Baker, E. (2024, September 26). Conducting a data governance audit. DataGovernancePlatforms.com. https://www.datagovernanceplatforms.com/conducting-data-governance-audit/
 
 [13] The Institute of Internal Auditors, Inc (2020). Data Governance - Providing assurance regarding data risk management : https://www.theiia.org/globalassets/site/content/articles/industry-knowledge-brief/2020/data-governance/data-governance.pdf
+
+[X1] Black, A., Nederpelt, P. van. (2020). Dimensions of Data Quality Dimensions.https://dama-nl.org/wp-content/uploads/2020/09/DDQ-Dimensions-of-Data-Quality-Research-Paper-version-1.2-d.d.-3-Sept-2020.pdf
+
+[X2] Black, A., Nederpelt, P. van. (2020). How to Select the RightDimensions of DataQuality. https://dama-nl.org/wp-content/uploads/2020/11/How-to-Select-the-Right-Dimensions-of-Data-Quality-v1.1-d.d.-14-Nov-2020.pdf
 
 [14] BOE-A-2018-16673 Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales. (n.d.). https://www.boe.es/buscar/doc.php?id=BOE-A-2018-16673
 
