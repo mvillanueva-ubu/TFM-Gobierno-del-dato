@@ -1410,6 +1410,16 @@ Algunas recomendaciones para fomentar la buena cultura son las siguientes [28]:
 
 - Realizar formaciones regulares
 
+## Conclusiones y líneas futuras
+
+Quizás la conclusión más clara es la enorme tarea que significa realizar una buena implantación de el gobierno en cualquier organización. No sólo eso sino la necesidad constante de valorar y reajustar procesos y acciones.
+
+Sin ser una gran sorpresa, las regulaciones y su cumplimiento son una de las mayores preocupaciones, aunque también es cierto que las mejoras de eficiencia y rendimiento no son meros términos de marketing, tienen efectos reales y profundos. De esto son prueba la cantidad de herramientas disponibles y su madurez. No es difícil encontrar herramientas con un objetivo limitado como grandes suites que buscan ser la solución a todos los problemas de gobierno del dato. De la misma manera que se pueden encontrar con todo tipo de licencias, soluciones open source, soluciones comerciales, y soluciones orientadas por completo a la nube.
+
+De cara a el aspecto IoT, se ha notado en la prioridad que se le dan a los retos que es necesario superar en este ámbito. Los problemas no son únicos de este ambiente, también se dan en entornos centralizados. Pero no es dificil notar la preocupación que causan aspectos como la heterogeneidad de los datos, que afectan desproporcionadamente a el IoT.
+
+De cara a desarrollos futuros, sería interesante ampliar el prototipo para que cubra todos los aspectos de la gobernanza del dato. Centrado principalmente en el proceso de las herramientas ETL con algo de calidad del dato, hay muchos otros aspectos de la gobernanza a los que se podría expandir o en los que se podría profundizar. Desde el estado actual de la captura de datos de diferentes dispositivos IoT, como una expansión de la implementación de calidad del dato y finalmente la creación de un catálogo de datos.
+
 ## Referencias
 
 [1] ¿Qué es la gobernanza de datos? | Definición, importancia y tipos | SAP. (n.d.). SAP. https://www.sap.com/latinamerica/products/data-cloud/master-data-governance/what-is-data-governance.html
