@@ -1020,11 +1020,11 @@ En primer lugar se valoran las mejoras a la calidad que se están haciendo ya, y
 
 3. Estandarización de unidades. Similar al caso anterior, antes se contaba con dos unidades diferentes para la misma información (en el ejemplo, la temperatura). Causando los mismos problemas, trabajo añadido y posible causa de errores si no se convertían las unidades antes de realizar comparaciones.
 
-Aunque aún hay puntos que pueden ser incluídos para mejorar aún más la calidad. Quizás el caso más claro es en el de la validación de datos. Ya se incluye cierta validación al comprobar las entradas contra el esquema del CSV especificado, pero es posible ir más allá y controlar por ejemplo datos incorrectos. Una opción ya que se está tratando con datos de temperatura por ejemplo podría ser controla datos que son claramente incorrectos, para identificar posibles sensores que estén funcionando incorrectamente. Se pueden establecer valores máximos y mínimos, para identificar datos sospechosos que se salgan de esos valores.
+Aunque aún hay puntos que pueden ser incluidospara mejorar aún más la calidad. Quizás el caso más claro es en el de la validación de datos. Ya se incluye cierta validación al comprobar las entradas contra el esquema del CSV especificado, pero es posible ir más allá y controlar por ejemplo datos incorrectos. Una opción ya que se está tratando con datos de temperatura por ejemplo podría ser controla datos que son claramente incorrectos, para identificar posibles sensores que estén funcionando incorrectamente. Se pueden establecer valores máximos y mínimos, para identificar datos sospechosos que se salgan de esos valores.
 
 Para ello se puede utilizar un procesador de tipo "ValidateCSV", que compruebe que los valores se encuentren entre los que se han especificado. El procesador ha de ser introducido entre el punto en el que las filas han sido separadas y el punto en el que se vuelven a juntar. Es posible validar un conjunto entero, pero esto implicaría que se consideraría válido o inválido en su conjunto. Al realizarlo antes de la unión de los datos es posible validarlos de forma independiente y realizar diferentes acciones sobre cada uno de ellos.
 
-El la siguiente tabla se especifican las columnas que tiene el csv final, y las condiciones que se han de implementar para validar si son correctos o no.
+El la siguiente tabla se especifican las columnas que tiene el CSV final, y las condiciones que se han de implementar para validar si son correctos o no.
 
 | Columna     | Condiciones                                                                                                           |
 | ----------- | --------------------------------------------------------------------------------------------------------------------- |
@@ -1034,7 +1034,7 @@ El la siguiente tabla se especifican las columnas que tiene el csv final, y las 
 
 Es posible evaluar el formato de la fecha en cualquier momento anterior en el que se utilice un RecordReader, especificando el formato que ha de seguir, pero realizándolo en este punto se puede centralizar el control de las validaciones en un solo punto. aunque no hay una sola forma de realizar las validaciones, por lo que se podría utilizar un sistema alternativo que validara la fecha al principio y los otros campos más tarde.
 
-Pra la validación se especifica el siguiente esquema:
+Para la validación se especifica el siguiente esquema:
 
 - NotNull(), DMinMax(-30,55),ParseDate("yyyy-MM-dd")
 
@@ -1050,7 +1050,7 @@ Una vez definida la propiedad del esquema se conectará de la forma especificada
 
 ![Procesador Validatecsv](./imagenes/nifi-procesador-validatecsv.png)
 
-El siguiente paso una vez se ha definido el camino para los registros válidos es definir uno para los inválidos. Estos no deberían gardarse con los registros válidos, por lo que se aprobecha para utilizar otra de las funcionalidades de Apache NiFi, que es el logging. Para ello podemos usar un procesador e tipo "LogAttribute", que automáticamente estribirá en el log de la aplicación los atributos de los registros inválidos y la causa de ser inválidos. Este procesador se conectará a la salida "invalid" del ValidateeCSV.
+El siguiente paso una vez se ha definido el camino para los registros válidos es definir uno para los inválidos. Estos no deberían gardarse con los registros válidos, por lo que se aprovecha para utilizar otra de las funcionalidades de Apache NiFi, que es el logging. Para ello podemos usar un procesador e tipo "LogAttribute", que automáticamente escribirá en el log de la aplicación los atributos de los registros inválidos y la causa de ser inválidos. Este procesador se conectará a la salida "invalid" del ValidateCSV.
 
  ![Procesador Log](./imagenes/nifi-procesador-logattribute.png)
 
@@ -1064,7 +1064,7 @@ Para realizar las pruebas se "esconden" 3 errores en los archivos de entrada, un
 
 Se observa también que el resto de registros llegan correctamente al archivo de salida de registros válidos.
 
-Otro aspecto a contemplar es la monitorización que ofrece NiFi. Una cosa es controlar los errores, pero quizás también se quiere controlar cuando no hay actividad, para saber si ha habido un corte del funcionamiento. Para ello ofrece los procesadores "MonitorActivity" que notifican la falta de actividad. Su funcionamiento consiste en notificar si se ha excedido una cantidad de tiempo desde la última vez que haya habido actividad. Es decir,q ue si se configura ese tiempo de forma adecuada (por ejemplo para datos que fluyen continuamente se puede especificar un tiempo bajo, mientras que para otros que se recojen cada hora se podría especificar un tiempo mayor a una hora para avisar que el flujo ha sido interrumpido por alguna razón). Estos procesadores tienen 2 salidas que son útiles para este prototipo, una es la salida de los datos normales, esta se conectará a el siguiente paso del flujo, mientras que las salida "inactive" es la que saltará cuando se haya cumplido ese periodo sin actividad. Para el caso propuesto, se podría introducir el procesador después de la validación, y en caso de darse esa inactividad conectar esa salida con el procesador de logging. Aunque NiFi ofrece más opciones para notificar estos cambios, como puede ser enviar un email, o guardar registros de todos los errores en una base de datos. Por supuesto ninguna de estas soluciones es excluyente, por lo que se podría enviar un mail y escribir en el log en caso de interrupción.
+Otro aspecto a contemplar es la monitorización que ofrece NiFi. Una cosa es controlar los errores, pero quizás también se quiere controlar cuando no hay actividad, para saber si ha habido un corte del funcionamiento. Para ello ofrece los procesadores "MonitorActivity" que notifican la falta de actividad. Su funcionamiento consiste en notificar si se ha excedido una cantidad de tiempo desde la última vez que haya habido actividad. Es decir, que si se configura ese tiempo de forma adecuada (por ejemplo para datos que fluyen continuamente se puede especificar un tiempo bajo, mientras que para otros que se recogen cada hora se podría especificar un tiempo mayor a una hora para avisar que el flujo ha sido interrumpido por alguna razón). Estos procesadores tienen 2 salidas que son útiles para este prototipo, una es la salida de los datos normales, esta se conectará a el siguiente paso del flujo, mientras que las salida "inactive" es la que saltará cuando se haya cumplido ese periodo sin actividad. Para el caso propuesto, se podría introducir el procesador después de la validación, y en caso de darse esa inactividad conectar esa salida con el procesador de logging. Aunque NiFi ofrece más opciones para notificar estos cambios, como puede ser enviar un email, o guardar registros de todos los errores en una base de datos. Por supuesto ninguna de estas soluciones es excluyente, por lo que se podría enviar un mail y escribir en el log en caso de interrupción.
 
 El final del flujo por lo tanto podría quedar de la siguiente manera:
 
