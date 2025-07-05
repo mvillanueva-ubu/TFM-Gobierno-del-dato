@@ -46,7 +46,7 @@ city_id,city_name,temp,date
 5,Malaga,34,2024-06-01
 5,Malaga,29,2024-06-16
 5,Malaga,18,2024-09-01
-5,Malaga,27,2024-09-26
+,Malaga,27,2024-09-26
 5,Malaga,26,2024-06-19
 5,Malaga,18,2024-03-15
 6,Granada,13,2024-12-16
