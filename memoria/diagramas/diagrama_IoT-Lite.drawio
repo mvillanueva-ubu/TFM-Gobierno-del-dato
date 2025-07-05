@@ -1,0 +1,404 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0" version="27.2.0">
+  <diagram name="Page-1" id="zhWzLkk9HoarZvrdeZ6B">
+    <mxGraphModel dx="2856" dy="1147" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="B_vamv9WvxjfCDU_0sRS-1" target="B_vamv9WvxjfCDU_0sRS-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-93" value="hasSubSystem" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B_vamv9WvxjfCDU_0sRS-92">
+          <mxGeometry x="0.04" y="-4" relative="1" as="geometry">
+            <mxPoint x="-4" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="B_vamv9WvxjfCDU_0sRS-1" target="B_vamv9WvxjfCDU_0sRS-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-108" value="hasSubSystem" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B_vamv9WvxjfCDU_0sRS-107">
+          <mxGeometry x="0.0162" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="B_vamv9WvxjfCDU_0sRS-1" target="B_vamv9WvxjfCDU_0sRS-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-116" value="&lt;div&gt;hasDeployment&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B_vamv9WvxjfCDU_0sRS-110">
+          <mxGeometry x="0.05" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="B_vamv9WvxjfCDU_0sRS-1" target="B_vamv9WvxjfCDU_0sRS-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-117" value="hasCoverage" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B_vamv9WvxjfCDU_0sRS-115">
+          <mxGeometry x="0.0378" y="2" relative="1" as="geometry">
+            <mxPoint x="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-1" value="&lt;div&gt;Netatmo Weather Station (indoors)&lt;/div&gt;iot-lite:device" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="440" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="B_vamv9WvxjfCDU_0sRS-2" target="B_vamv9WvxjfCDU_0sRS-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-127" value="exposedBy" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B_vamv9WvxjfCDU_0sRS-126">
+          <mxGeometry x="0.05" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-2" value="&lt;div&gt;Netatmo home system&lt;/div&gt;&lt;div&gt;ssn:system&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="250" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-5" value="&lt;div&gt;Netatmo Weather Station (outdoor)&lt;/div&gt;iot-lite:device" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="250" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="B_vamv9WvxjfCDU_0sRS-2" target="B_vamv9WvxjfCDU_0sRS-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="610" as="sourcePoint" />
+            <mxPoint x="430" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-8" value="hasSubsystem" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B_vamv9WvxjfCDU_0sRS-6">
+          <mxGeometry x="-0.216" relative="1" as="geometry">
+            <mxPoint x="21" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="B_vamv9WvxjfCDU_0sRS-2" target="B_vamv9WvxjfCDU_0sRS-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="350" as="sourcePoint" />
+            <mxPoint x="310" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-9" value="hasSubsystem" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B_vamv9WvxjfCDU_0sRS-7">
+          <mxGeometry x="0.0769" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-10" value="&lt;div&gt;(no se modela ya que es idéntico&amp;nbsp;&lt;/div&gt;&lt;div&gt;excepto por algunos rangos de unidades)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="465" y="305" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-11" value="Dispositivo de temperatura&lt;br&gt;&lt;div&gt;ssn:SensingDevice&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-12" value="&lt;div&gt;Sensor de temperatura&lt;/div&gt;&lt;div&gt;ssn:Sensor&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-13" value="&lt;div&gt;&lt;div&gt;qu:degree Celsius&lt;/div&gt;&lt;/div&gt;&lt;div&gt;qu:Unit&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-55" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B_vamv9WvxjfCDU_0sRS-1" target="B_vamv9WvxjfCDU_0sRS-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="610" as="sourcePoint" />
+            <mxPoint x="430" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-15" value="hasSubsystem" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B_vamv9WvxjfCDU_0sRS-14">
+          <mxGeometry x="0.0336" y="4" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B_vamv9WvxjfCDU_0sRS-11" target="B_vamv9WvxjfCDU_0sRS-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="610" as="sourcePoint" />
+            <mxPoint x="430" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-17" value="hasSensingDevice" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B_vamv9WvxjfCDU_0sRS-16">
+          <mxGeometry x="0.0274" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-18" value="C" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B_vamv9WvxjfCDU_0sRS-12" target="B_vamv9WvxjfCDU_0sRS-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="610" as="sourcePoint" />
+            <mxPoint x="430" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-22" value="hasUnit" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B_vamv9WvxjfCDU_0sRS-18">
+          <mxGeometry x="0.057" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-19" value="&lt;div&gt;Resolución&lt;/div&gt;&lt;div&gt;iot-lite:Metadata&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-20" value="&lt;div&gt;qu:temperature&lt;/div&gt;&lt;div&gt;qu:QuantityKind&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-21" value="hasMetadata" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B_vamv9WvxjfCDU_0sRS-12" target="B_vamv9WvxjfCDU_0sRS-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="225" y="820" as="sourcePoint" />
+            <mxPoint x="110" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-23" value="hasQuantityKind" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B_vamv9WvxjfCDU_0sRS-12" target="B_vamv9WvxjfCDU_0sRS-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="780" as="sourcePoint" />
+            <mxPoint x="110" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-53" value="Dispositivo de humedad&lt;div&gt;ssn:SensingDevice&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="550.0007291659374" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-54" value="&lt;div&gt;Sensor de humedad&lt;/div&gt;&lt;div&gt;ssn:Sensor&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="680.0007291659374" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-55" value="&lt;div&gt;&lt;div&gt;qu:retative Humidity&lt;/div&gt;&lt;/div&gt;&lt;div&gt;qu:Percentage&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="273" y="862.4907291659374" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-56" value="hasSubsystem" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="472.9261326624496" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-57" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B_vamv9WvxjfCDU_0sRS-53" target="B_vamv9WvxjfCDU_0sRS-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="708" y="642.4907291659374" as="sourcePoint" />
+            <mxPoint x="758" y="592.4907291659374" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-58" value="hasSensingDevice" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B_vamv9WvxjfCDU_0sRS-57">
+          <mxGeometry x="0.0274" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-59" value="C" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B_vamv9WvxjfCDU_0sRS-54" target="B_vamv9WvxjfCDU_0sRS-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="708" y="642.4907291659374" as="sourcePoint" />
+            <mxPoint x="758" y="592.4907291659374" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-60" value="hasUnit" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B_vamv9WvxjfCDU_0sRS-59">
+          <mxGeometry x="0.057" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-61" value="&lt;div&gt;Resolución&lt;/div&gt;&lt;div&gt;iot-lite:Metadata&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="982.4907291659374" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-62" value="&lt;div&gt;qu:humidity&lt;/div&gt;&lt;div&gt;qu:QuantityKind&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="870.0007291659374" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-63" value="hasMetadata" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B_vamv9WvxjfCDU_0sRS-54" target="B_vamv9WvxjfCDU_0sRS-61">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="553" y="852.4907291659374" as="sourcePoint" />
+            <mxPoint x="438" y="942.4907291659374" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-64" value="hasQuantityKind" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B_vamv9WvxjfCDU_0sRS-54" target="B_vamv9WvxjfCDU_0sRS-62">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="478" y="812.4907291659374" as="sourcePoint" />
+            <mxPoint x="438" y="1012.4907291659374" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-65" value="Dispositivo barómetro&lt;div&gt;ssn:SensingDevice&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="368" y="542.4907291659374" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-66" value="&lt;div&gt;Barómetro&lt;/div&gt;&lt;div&gt;ssn:Sensor&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="363" y="672.4907291659374" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-67" value="&lt;div&gt;&lt;div&gt;qu:Pascal&lt;/div&gt;&lt;/div&gt;&lt;div&gt;qu:Unit&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="940.0007291659374" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-69" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B_vamv9WvxjfCDU_0sRS-65" target="B_vamv9WvxjfCDU_0sRS-66">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="683" y="602.4907291659374" as="sourcePoint" />
+            <mxPoint x="733" y="552.4907291659374" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-70" value="hasSensingDevice" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B_vamv9WvxjfCDU_0sRS-69">
+          <mxGeometry x="0.0274" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-71" value="C" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B_vamv9WvxjfCDU_0sRS-66" target="B_vamv9WvxjfCDU_0sRS-67">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1045" y="672.4907291659374" as="sourcePoint" />
+            <mxPoint x="1095" y="622.4907291659374" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-72" value="hasUnit" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B_vamv9WvxjfCDU_0sRS-71">
+          <mxGeometry x="0.057" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-73" value="&lt;div&gt;Resolución&lt;/div&gt;&lt;div&gt;iot-lite:Metadata&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="870.0007291659374" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-74" value="&lt;div&gt;qu:pressure&lt;/div&gt;&lt;div&gt;qu:QuantityKind&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="780.0007291659374" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-75" value="hasMetadata" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B_vamv9WvxjfCDU_0sRS-66" target="B_vamv9WvxjfCDU_0sRS-73">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="890" y="882.4907291659374" as="sourcePoint" />
+            <mxPoint x="775" y="972.4907291659374" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-76" value="hasQuantityKind" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B_vamv9WvxjfCDU_0sRS-66" target="B_vamv9WvxjfCDU_0sRS-74">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="815" y="842.4907291659374" as="sourcePoint" />
+            <mxPoint x="775" y="1042.4907291659374" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-77" value="Dispositivo de calidad de aire&lt;div&gt;ssn:SensingDevice&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="460.0007291659374" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-78" value="&lt;div&gt;Sensor de calidad del aire&lt;/div&gt;&lt;div&gt;ssn:Sensor&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="570.0007291659374" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-79" value="&lt;div&gt;&lt;div&gt;qu:parts Per Million&lt;/div&gt;&lt;/div&gt;&lt;div&gt;qu:Unit&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="672.4907291659374" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-81" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B_vamv9WvxjfCDU_0sRS-77" target="B_vamv9WvxjfCDU_0sRS-78">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1215" y="662.4907291659374" as="sourcePoint" />
+            <mxPoint x="1265" y="612.4907291659374" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-82" value="hasSensingDevice" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B_vamv9WvxjfCDU_0sRS-81">
+          <mxGeometry x="0.0274" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-83" value="C" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B_vamv9WvxjfCDU_0sRS-78" target="B_vamv9WvxjfCDU_0sRS-79">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1215" y="662.4907291659374" as="sourcePoint" />
+            <mxPoint x="1265" y="612.4907291659374" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-84" value="hasUnit" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B_vamv9WvxjfCDU_0sRS-83">
+          <mxGeometry x="0.057" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-85" value="&lt;div&gt;Resolución&lt;/div&gt;&lt;div&gt;iot-lite:Metadata&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="660.0007291659374" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-86" value="&lt;div&gt;qu:CarbonDioxide&lt;/div&gt;&lt;div&gt;qu:QuantityKind&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="680.0007291659374" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-87" value="hasMetadata" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B_vamv9WvxjfCDU_0sRS-78" target="B_vamv9WvxjfCDU_0sRS-85">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1060" y="872.4907291659374" as="sourcePoint" />
+            <mxPoint x="945" y="962.4907291659374" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-88" value="hasQuantityKind" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B_vamv9WvxjfCDU_0sRS-78" target="B_vamv9WvxjfCDU_0sRS-86">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="985" y="832.4907291659374" as="sourcePoint" />
+            <mxPoint x="945" y="1032.4907291659374" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-89" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="B_vamv9WvxjfCDU_0sRS-1" target="B_vamv9WvxjfCDU_0sRS-53">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="750" as="sourcePoint" />
+            <mxPoint x="490" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-90" value="hasSubSystem" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B_vamv9WvxjfCDU_0sRS-89">
+          <mxGeometry x="-0.0942" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.567;entryY=0.042;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="B_vamv9WvxjfCDU_0sRS-1" target="B_vamv9WvxjfCDU_0sRS-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-95" value="hasSubSystem" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B_vamv9WvxjfCDU_0sRS-94">
+          <mxGeometry x="-0.0635" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-96" value="Dispositivo de sensor de sonido&lt;div&gt;ssn:SensingDevice&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-97" value="&lt;div&gt;Sensor de sonido&lt;/div&gt;&lt;div&gt;ssn:Sensor&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-98" value="&lt;div&gt;&lt;div&gt;qu:decibels&lt;/div&gt;&lt;/div&gt;&lt;div&gt;qu:Unit&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-99" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="B_vamv9WvxjfCDU_0sRS-96" target="B_vamv9WvxjfCDU_0sRS-97">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1455" y="462.49" as="sourcePoint" />
+            <mxPoint x="1505" y="412.49" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-100" value="hasSensingDevice" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B_vamv9WvxjfCDU_0sRS-99">
+          <mxGeometry x="0.0274" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-101" value="C" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B_vamv9WvxjfCDU_0sRS-97" target="B_vamv9WvxjfCDU_0sRS-98">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1455" y="462.49" as="sourcePoint" />
+            <mxPoint x="1505" y="412.49" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-102" value="hasUnit" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B_vamv9WvxjfCDU_0sRS-101">
+          <mxGeometry x="0.057" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-103" value="&lt;div&gt;Resolución&lt;/div&gt;&lt;div&gt;iot-lite:Metadata&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="472.49" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-104" value="&lt;div&gt;qu:SoundLevel&lt;/div&gt;&lt;div&gt;qu:QuantityKind&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-105" value="hasMetadata" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B_vamv9WvxjfCDU_0sRS-97" target="B_vamv9WvxjfCDU_0sRS-103">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1300" y="672.49" as="sourcePoint" />
+            <mxPoint x="1185" y="762.49" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-106" value="hasQuantityKind" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B_vamv9WvxjfCDU_0sRS-97" target="B_vamv9WvxjfCDU_0sRS-104">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1225" y="632.49" as="sourcePoint" />
+            <mxPoint x="1185" y="832.49" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="B_vamv9WvxjfCDU_0sRS-109" target="B_vamv9WvxjfCDU_0sRS-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-113" value="hasLoication" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B_vamv9WvxjfCDU_0sRS-112">
+          <mxGeometry x="-0.1" y="-8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-109" value="&lt;div&gt;Despliegue&lt;/div&gt;&lt;div&gt;ssn:deployment&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-111" value="&lt;div&gt;localización del dispositivo&lt;/div&gt;&lt;div&gt;geo:point&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="345" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="B_vamv9WvxjfCDU_0sRS-114" target="B_vamv9WvxjfCDU_0sRS-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-121" value="hasProperty" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B_vamv9WvxjfCDU_0sRS-120">
+          <mxGeometry x="-0.05" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B_vamv9WvxjfCDU_0sRS-114" target="B_vamv9WvxjfCDU_0sRS-118">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-123" value="hasPoint" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B_vamv9WvxjfCDU_0sRS-122">
+          <mxGeometry x="-0.0167" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-114" value="&lt;div&gt;Rango circular&lt;/div&gt;&lt;div&gt;iot-lite:circle&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-118" value="&lt;div&gt;Punto central&lt;/div&gt;&lt;div&gt;geo:point&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-119" value="&lt;div&gt;Radio&lt;/div&gt;&lt;div&gt;iot-lite:DataProperty&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B_vamv9WvxjfCDU_0sRS-125" value="&lt;div&gt;Servicio HomeKit&lt;/div&gt;&lt;div&gt;iot-lite:service&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-55" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

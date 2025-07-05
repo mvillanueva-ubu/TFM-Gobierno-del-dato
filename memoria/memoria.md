@@ -308,6 +308,14 @@ IoT-Lite es una extensión de Semantic Sensor Network Ontology (SSN) y utiliza 
 
 - Servicios, que son proporcionados por dispositivos IoT
 
+### Caso práctico
+
+Para modelar un caso práctico, se ha seleccionado un sistema IoT que muestre bien muschas de las cualidades que IoT-Lite permite modelar. Se ha seleccionado el sistema de sensores para hogar de Netatmo; compuesto por dos dispositivos físicos unidos por el mismo sistema, uno orientado a estar en el interior y el otro a estar en el exterior. Se ha decidido no modelar el dispositivo exterior del todo, ya que es casi idéntico al interior, cuenta con los mismos sensores, sólo que alguno cuenta con un mayor rango. Cada uno de estos dispositivos así mismo tiene varios sistemas con sensores, para la temperatura, humedad, calidad del aire, presión y sonido. Cada uno de los dispositivos obviamente cuenta con una ubicación distinta, pero ambos están expuestos al usuario conjuntamente mediante un servicio ofrecido por HomeKit.
+
+En el siguiente diagrama se modela el sistema:
+
+![Diagrama IoT-Lite](./diagramas/diagrama_iot-lite.png)
+
 ## Políticas
 
 A continuación definimos las políticas que se han definido, organizadas en las siguientes categorías [6]:
