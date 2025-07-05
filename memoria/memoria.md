@@ -1346,6 +1346,59 @@ Algunas de las secciones tratadas en el mismo son las siguientes:
 
   - Creación de propiedades a medida. Además de las propiedades por defecto para cada tipo de recurso, los usuarios podrán crear propiedades a medida para cubrir cualquier caso de uso no contemplado por defecto. Estas propiedades se relacionarán con un tipo de recurso concreto, y estarán disponibles para todos los recursos de dicho tipo.
 
+##### Instalación de la herramienta
+
+En este apartado se documentarán los pasos seguidos para crear un catálogo de datos prototipo, utilizando la herramienta especificada.
+
+###### Problemas encontrados
+
+La solución inicial se ha intentado realizar sobre una máquina virtual. Y aunque sí es posible utilizar herramientas de virtualización como Docker dentro de una máquina virtual, no ha posido realizarse una instalación completa en este caso. Puede que por no contar con recursos suficientes para la ejecución de los contenedores sobre los recursos que una máquina virtual ya consume de por sí.
+
+Después de realizar esta prueba, se ha optado por la instalación directamente en el sistema operativo actual del equipo, siendo este Windows 10. OpenMeetadata cuenta con soporte para la instalación de la herramienta en sistemas Windows que cuenten con el subsistema de Linux para Windows versión 2 (WSL2).
+
+###### Requisitos
+
+OpenMetadata requiere de una instalación de WSL2 en caso de trabajar sobre Windows, por lo que el primer paso es instalar esa herramienta. La distribución recomendada es Ubuntu, pero debería valer con cualquiera. Por lo que el primer paso ha sido instalar WSDL en su última versión y asegurarse de que cuenta con una imagen de Ubuntu.
+
+El segundo paso para los rerequisitos es instalar Docker Desktop, que es un instalador normal para Windows.
+
+Por último, se instalarán python3-pip y python3-venv dentro del entorno WSL.
+
+| mkdir openmetadata-docker && cd openmetadata-docker |
+| --------------------------------------------------- |
+
+###### Instalación
+
+Una vez ya están los requisitos instalados, es el momento de comenzar la instalación. El primer paso consiste en obtener el archivo de Docker Compose, que es el que contiene la configuración del contenedor que se va a ejecutar. Se puede obtener descargándola directamente mediante un comando curl.
+
+| curl -sL -o docker-compose.yml https://github.com/open-metadata/OpenMetadata/releases/download/1.8.0-release/docker-compose.yml |
+| ------------------------------------------------------------------------------------------------------------------------------- |
+
+Y de la misma manera, se puede arrancar el contenedor. Al tener el archivo previamente descargado, ya cuenta con la configuración de qué componentes ha de descargar y como tiene que arrancar.
+
+| docker compose -f docker-compose.yml up --detach |
+| ------------------------------------------------ |
+
+Llegado este momento se ha encontrado un problema, el docker-compose ofrecido por el equipo de OpenMetadata no es capaz de levantar la herramienta en el entorno actual. El script de inicio se encuentra con problemas , posiblemente porque el MySQL integrado no soporta una creación y ejecución en sistemas como puede ser Windows con la capa de compatibilidad de WSL. Inicialmente se ha intentado buscar soluciones modificando la configuración ofrecida, pero no se ha encontrado ninguna solución. Por lo tanto como solución alternativa se ha sugerido utilizar la otra configuración que ofrece OpenMetadata, con PostgreSQL. Dado que se trata de crear un prototipo para mostrar las capacidades de esta herramienta, puede ser una sustitución válida. Por lo que los comandos ejecutados han pasado a ser los siguientes:
+
+| curl -sL -o docker-compose-postgres.yml https://github.com/open-metadata/OpenMetadata/releases/download/1.8.0-release/docker-compose-postgres.yml |
+| ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| docker compose -f docker-compose-postgres.yml up --detach                                                                                         |
+
+Sin embargo no ha sido suficiente con esto, ya que la configuración ofrecida en este caso no ha funcionado de primeras tampoco. Ha sido necesario modificar el parámetro "volumes" del contenedor que corre PostgreSQL, y asignare un directorio del usuario al que se le han podido cambiar los permisos para poder realizar las tareas que requiere la ejecución.
+
+Una vez realizado el cambio y terminada la ejecución estará ya corriendo OpenMetadata en local:
+
+![Inicio OpenMetadata](./imagenes/inicio-openMetadata.png)
+
+Una vez dentro de la aplicación el primer administrador podrá crear el resto de usuarios desde la ventana de gestión de usuarios y equipos como se ha especificado en la sección anterior:
+
+![Panel administración usuarios OpenMetadata](./imagenes/administrador-openMetadata.png)
+
+Y una vez dados de alta los usuarios podrán empezar a explorar las diferentes secciones de la aplicación.
+
+![Panel lateral usuarios OpenMetadata](./imagenes/usuarios-openMetadata.png)
+
 ## Monitorización
 
 ### Retos de la monitorización en el IoT
