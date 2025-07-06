@@ -1,0 +1,106 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0" version="27.2.0">
+  <diagram name="Page-1" id="pDXEUdLwvpOKSuxPbhXi">
+    <mxGraphModel dx="2066" dy="1147" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RJ4eraJ7zcFC_sLHLn1M-29" value="" style="ellipse;whiteSpace=wrap;html=1;rounded=1;strokeColor=#FF0080;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="248" y="490" width="302" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="RJ4eraJ7zcFC_sLHLn1M-28" value="" style="ellipse;whiteSpace=wrap;html=1;rounded=1;strokeColor=#FF0080;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="230" y="489.5" width="302" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="RJ4eraJ7zcFC_sLHLn1M-24" value="" style="ellipse;whiteSpace=wrap;html=1;rounded=1;strokeColor=#FF0080;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="204" y="490" width="302" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="RJ4eraJ7zcFC_sLHLn1M-5" value="" style="ellipse;whiteSpace=wrap;html=1;rounded=1;strokeColor=#FF0080;" vertex="1" parent="1">
+          <mxGeometry x="180" y="490" width="302" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="RJ4eraJ7zcFC_sLHLn1M-3" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;fontColor=#ffffff;strokeColor=#001DBC;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="166" y="306" width="292" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="RJ4eraJ7zcFC_sLHLn1M-6" value="&lt;table data-pm-slice=&quot;1 1 -3 [&amp;quot;table&amp;quot;,null,&amp;quot;tableRow&amp;quot;,null]&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Pat&lt;span class=&quot;&quot;&gt;rocinador ejecutivo&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="256" y="340" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RJ4eraJ7zcFC_sLHLn1M-7" value="&lt;table data-pm-slice=&quot;1 1 -3 [&amp;quot;table&amp;quot;,null,&amp;quot;tableRow&amp;quot;,null]&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;&quot;&gt;Líder de gobierno del dato&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="236" y="392" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RJ4eraJ7zcFC_sLHLn1M-8" value="Propietario del dato" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="438" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RJ4eraJ7zcFC_sLHLn1M-9" value="&lt;table data-pm-slice=&quot;1 1 -3 [&amp;quot;table&amp;quot;,null,&amp;quot;tableRow&amp;quot;,null]&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;&quot;&gt;Personas claves de entre los interesados&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="192" y="415" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RJ4eraJ7zcFC_sLHLn1M-14" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;fontColor=#ffffff;strokeColor=#2D7600;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="157" y="374" width="320" height="188" as="geometry" />
+        </mxCell>
+        <mxCell id="RJ4eraJ7zcFC_sLHLn1M-16" value="&lt;table data-pm-slice=&quot;1 1 -3 [&amp;quot;table&amp;quot;,null,&amp;quot;tableRow&amp;quot;,null]&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Da&lt;span class=&quot;&quot;&gt;ta stewards&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="265.5" y="504" width="111" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="RJ4eraJ7zcFC_sLHLn1M-17" value="&lt;table data-pm-slice=&quot;1 1 -3 [&amp;quot;table&amp;quot;,null,&amp;quot;tableRow&amp;quot;,null]&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;&quot;&gt;Custodios&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="265.5" y="568" width="87" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="RJ4eraJ7zcFC_sLHLn1M-18" value="&lt;table data-pm-slice=&quot;1 1 -3 [&amp;quot;table&amp;quot;,null,&amp;quot;tableRow&amp;quot;,null]&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;&quot;&gt;Interesados&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260.5" y="602" width="97" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="RJ4eraJ7zcFC_sLHLn1M-21" value="&lt;h3 data-pm-slice=&quot;1 1 []&quot;&gt;&lt;span class=&quot;&quot;&gt;Consejo de gobierno del dato&lt;/span&gt;&lt;/h3&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="482" y="344" width="225" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="RJ4eraJ7zcFC_sLHLn1M-22" value="&lt;h3 data-pm-slice=&quot;1 1 []&quot;&gt;&lt;span class=&quot;&quot;&gt;Grupo de coordinación&lt;/span&gt;&lt;/h3&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="488" y="423" width="182" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="RJ4eraJ7zcFC_sLHLn1M-23" value="&lt;h3 data-pm-slice=&quot;1 1 []&quot;&gt;&lt;span class=&quot;&quot;&gt;Grupos de áreas&lt;/span&gt;&lt;/h3&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="488" y="546.5" width="139" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="RJ4eraJ7zcFC_sLHLn1M-30" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="165" y="370" as="sourcePoint" />
+            <mxPoint x="172" y="508" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="99" y="434" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RJ4eraJ7zcFC_sLHLn1M-31" value="Decisiones estratégicas" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="4" y="359" width="145" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RJ4eraJ7zcFC_sLHLn1M-32" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="179" y="513" as="sourcePoint" />
+            <mxPoint x="167" y="602" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="131" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RJ4eraJ7zcFC_sLHLn1M-33" value="&lt;div&gt;Definir acciones&lt;/div&gt;&lt;div&gt;específicas&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="31" y="519" width="103" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="RJ4eraJ7zcFC_sLHLn1M-34" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="683" y="464" as="sourcePoint" />
+            <mxPoint x="687" y="374" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="735" y="422" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RJ4eraJ7zcFC_sLHLn1M-35" value="Transmitir feedback" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="713" y="374" width="123" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RJ4eraJ7zcFC_sLHLn1M-36" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="646" y="573" as="sourcePoint" />
+            <mxPoint x="650" y="483" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="698" y="531" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RJ4eraJ7zcFC_sLHLn1M-37" value="&lt;div&gt;Reportar sobre el&amp;nbsp;&lt;/div&gt;&lt;div&gt;estado&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="687" y="490" width="114" height="41" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
