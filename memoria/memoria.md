@@ -1473,9 +1473,19 @@ Quizás la conclusión más clara es la enorme tarea que significa realizar una 
 
 Sin ser una gran sorpresa, las regulaciones y su cumplimiento son una de las mayores preocupaciones, aunque también es cierto que las mejoras de eficiencia y rendimiento no son meros términos de marketing, tienen efectos reales y profundos. De esto son prueba la cantidad de herramientas disponibles y su madurez. No es difícil encontrar herramientas con un objetivo limitado como grandes suites que buscan ser la solución a todos los problemas de gobierno del dato. De la misma manera que se pueden encontrar con todo tipo de licencias, soluciones open source, soluciones comerciales, y soluciones orientadas por completo a la nube.
 
-De cara a el aspecto IoT, se ha notado en la prioridad que se le dan a los retos que es necesario superar en este ámbito. Los problemas no son únicos de este ambiente, también se dan en entornos centralizados. Pero no es dificil notar la preocupación que causan aspectos como la heterogeneidad de los datos, que afectan desproporcionadamente a el IoT.
+De cara a el aspecto IoT, se ha notado en la prioridad que se le dan a los retos que es necesario superar en este ámbito. Los problemas no son únicos de este ambiente, también se dan en entornos centralizados. Pero no es difícil notar la preocupación que causan aspectos como la heterogeneidad de los datos, que afectan desproporcionadamente a el IoT.
 
-De cara a desarrollos futuros, sería interesante ampliar el prototipo para que cubra todos los aspectos de la gobernanza del dato. Centrado principalmente en el proceso de las herramientas ETL con algo de calidad del dato, hay muchos otros aspectos de la gobernanza a los que se podría expandir o en los que se podría profundizar. Desde el estado actual de la captura de datos de diferentes dispositivos IoT, como una expansión de la implementación de calidad del dato y finalmente la creación de un catálogo de datos.
+Habiendo desarrollado los diferentes aspectos que son necesarios para la implantación de un marco de gobierno del dato, se ha obtenido una buena guía para los procesos y acciones a realizar para una buena implantación, se ha intentado tratar todos los aspectos relevantes. Aunque bien es cierto que la implementación técnica de un prototipo para todos ellos implicaría muchos desarrollos. De cara a hacer frente a este situación se ha optado por definir el marco entero pero prototipar uno de los aspectos, en la siguiente sección se tratará los aspectos principales que sería interesante expandir y desarrollar en el futuro
+
+### Desarrollos futuros
+
+De cara a desarrollos futuros, los más interesante sería continuar con el desarrollo práctico de el marco desarrollado durante este trabajo. El objetivo podría ser desarrollar prototipos de todos los aspectos y finalmente conectarlos todos para un funcionamiento que cubra todo el ámbito técnico del marco.
+
+Por un lado, se podría realizar un estudio exhaustivo de captura de datos. Es decir identificar las estructuras y formatos más comunes en el IoT y observar la facilidad con la que cada uno de ellos puede ser capturado. A ello se le podría sumar  una sección de buenas prácticas para tratar con dad una de ellas.
+
+Otro punto a explorar sería la calidad del dato, considerando más conjuntos de datos de prueba y valorando qué reglas sería correcto aplicar en cada caso y crear requisitos con sus indicadores para cada uno de los casos. Para finalizar esta parte se podrían implementar las comprobaciones y monitorización usando una herramienta de gobierno del dato.
+
+Finalmente, se podría realizar un prototipo de catálogo de datos. Esto implicaría la gestión de diferentes perfiles, roles y grupos simulando usuarios reales que podrían hacer uso de esta herramienta. También se desarrollaría un prototipo glosario, utilizando buenas prácticas para las nomenclaturas y un sistema de etiquetado robusto. De la misma manera se incorporarían diferentes orígenes de datos, incluidos los implementados en los otros prototipos, haciendo que así quede todo el marco plasmado en un ejemplo práctico.
 
 ## Referencias
 
