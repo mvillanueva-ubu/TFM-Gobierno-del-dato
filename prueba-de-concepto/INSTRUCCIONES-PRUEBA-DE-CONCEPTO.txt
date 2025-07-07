@@ -1,0 +1,11 @@
+Es necesario tener Java (versión 8 o superior) instalado y la variable JAVA_HOME bien asignada
+
+navegar al directorio ./bin
+Ejecutar el siguiente comando: .\nifi.cmd start
+
+La herramienta tarda un poco en arrancar, estará funcionando cuando se puede acceder a la siguiente dirección:
+https://localhost:8443/nifi/#/login
+
+Se puede acceder con
+Usuario: b3df5ac3-bd84-403c-b845-9b379b8eb046
+Contraseña: WFkDmFU3v3pZ73amloXELw+VrVwck2lC
